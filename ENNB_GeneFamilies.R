@@ -44,10 +44,8 @@ tic()
 for (i in city) {
   Y <- factors %>% filter(city == i) %>% select(Sample_ID, treatment) %>% as.data.frame
   X <- GF %>% select(ID,pull(Y, Sample_ID)) %>% as.data.frame
-  try({
-    TwoStage_Package(X,Y,paste("sigtest_", city, "_tmm1.csv", sep = ""), 1)
-    TwoStage_Package(X,Y,paste("sigtest_", city, "_tmm2.csv", sep = ""), 2)
-  })
+  TwoStage_Package(X,Y,paste("sigtest_", i, "_tmm1.csv", sep = ""), 1)
+  TwoStage_Package(X,Y,paste("sigtest_", i, "_tmm2.csv", sep = ""), 2)
 }
 print(toc())
 # Y.hf <- factors %>% filter(city == "HF") %>% select(Sample_ID, treatment) %>% as.data.frame
