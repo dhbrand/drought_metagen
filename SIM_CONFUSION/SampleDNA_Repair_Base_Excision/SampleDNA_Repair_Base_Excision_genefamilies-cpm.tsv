@@ -1,0 +1,3350 @@
+# Gene Family	SampleDNA_Repair_Base_Excision_Abundance-CPM
+UNMAPPED	132216
+UniRef50_UPI0003817925: DNA polymerase, partial	11961.4
+UniRef50_UPI0003817925: DNA polymerase, partial|unclassified	11961.4
+UniRef50_P04995: Exodeoxyribonuclease I	9443.28
+UniRef50_P04995: Exodeoxyribonuclease I|unclassified	9443.28
+UniRef50_Q92GH4: Endonuclease III	8007.07
+UniRef50_Q92GH4: Endonuclease III|unclassified	8007.07
+UniRef50_B7NMR0: Endonuclease 8	7187.64
+UniRef50_B7NMR0: Endonuclease 8|unclassified	7187.64
+UniRef50_UPI0002FBA11D: DNA polymerase I	7184.03
+UniRef50_UPI0002FBA11D: DNA polymerase I|unclassified	7184.03
+UniRef50_P04395: DNA-3-methyladenine glycosylase 2	7049.11
+UniRef50_P04395: DNA-3-methyladenine glycosylase 2|unclassified	7049.11
+UniRef50_G4AFE6	7023.15
+UniRef50_G4AFE6|unclassified	7023.15
+UniRef50_Q4UK93: Endonuclease III	6654.23
+UniRef50_Q4UK93: Endonuclease III|unclassified	6654.23
+UniRef50_P21893: Single-stranded-DNA-specific exonuclease RecJ	6627.79
+UniRef50_P21893: Single-stranded-DNA-specific exonuclease RecJ|unclassified	6627.79
+UniRef50_UPI0004638083: endonuclease III	6544.49
+UniRef50_UPI0004638083: endonuclease III|unclassified	6544.49
+UniRef50_O05956: Endonuclease III	6265.02
+UniRef50_O05956: Endonuclease III|unclassified	6265.02
+UniRef50_A0A011NCB6: Endonuclease III	6254.43
+UniRef50_A0A011NCB6: Endonuclease III|unclassified	6254.43
+UniRef50_Q9HT80: DNA polymerase I	6098.58
+UniRef50_Q9HT80: DNA polymerase I|unclassified	6098.58
+UniRef50_Q7MPS3: Formamidopyrimidine-DNA glycosylase	5986.06
+UniRef50_Q7MPS3: Formamidopyrimidine-DNA glycosylase|unclassified	5986.06
+UniRef50_A0A011NQR2: Endonuclease III	5942.37
+UniRef50_A0A011NQR2: Endonuclease III|unclassified	5942.37
+UniRef50_P43741: DNA polymerase I	5620.39
+UniRef50_P43741: DNA polymerase I|unclassified	5620.39
+UniRef50_P73715: Endonuclease III	5515.5
+UniRef50_P73715: Endonuclease III|unclassified	5515.5
+UniRef50_O34996: DNA polymerase I	5074.04
+UniRef50_O34996: DNA polymerase I|unclassified	5074.04
+UniRef50_Q71YR0: DNA ligase	4715.24
+UniRef50_Q71YR0: DNA ligase|unclassified	4715.24
+UniRef50_P39788: Endonuclease III	4693.78
+UniRef50_P39788: Endonuclease III|unclassified	4693.78
+UniRef50_V4R6A6: SsDNA exonuclease RecJ	4673.3
+UniRef50_V4R6A6: SsDNA exonuclease RecJ|unclassified	4673.3
+UniRef50_P05100: DNA-3-methyladenine glycosylase 1	4328.34
+UniRef50_P05100: DNA-3-methyladenine glycosylase 1|unclassified	4328.34
+UniRef50_Q2P8V2: Formamidopyrimidine-DNA glycosylase	4262.86
+UniRef50_Q2P8V2: Formamidopyrimidine-DNA glycosylase|unclassified	4262.86
+UniRef50_UPI00036AA19C: DNA polymerase I, partial	4091.63
+UniRef50_UPI00036AA19C: DNA polymerase I, partial|unclassified	4091.63
+UniRef50_UPI000470CE4D: hypothetical protein	4027.33
+UniRef50_UPI000470CE4D: hypothetical protein|unclassified	4027.33
+UniRef50_Q9CB92: Endonuclease III	4004.67
+UniRef50_Q9CB92: Endonuclease III|unclassified	4004.67
+UniRef50_UPI000255654A: endonuclease III	3970.36
+UniRef50_UPI000255654A: endonuclease III|unclassified	3970.36
+UniRef50_UPI0002375E02: DNA polymerase I, partial	3954.06
+UniRef50_UPI0002375E02: DNA polymerase I, partial|unclassified	3954.06
+UniRef50_Q5F8Z9: Formamidopyrimidine-DNA glycosylase	3945.59
+UniRef50_Q5F8Z9: Formamidopyrimidine-DNA glycosylase|unclassified	3945.59
+UniRef50_Q8KA16: Endonuclease III	3852.73
+UniRef50_Q8KA16: Endonuclease III|unclassified	3852.73
+UniRef50_O32801: DNA polymerase I	3844.67
+UniRef50_O32801: DNA polymerase I|unclassified	3844.67
+UniRef50_U1CNT6	3788.72
+UniRef50_U1CNT6|unclassified	3788.72
+UniRef50_UPI000473A99F: endonuclease III, partial	3575.47
+UniRef50_UPI000473A99F: endonuclease III, partial|unclassified	3575.47
+UniRef50_UPI0003657D3A: endonuclease IV	3518.73
+UniRef50_UPI0003657D3A: endonuclease IV|unclassified	3518.73
+UniRef50_Q8CKY2	3411.35
+UniRef50_Q8CKY2|unclassified	3411.35
+UniRef50_UPI00035E16B4: hypothetical protein, partial	3393.77
+UniRef50_UPI00035E16B4: hypothetical protein, partial|unclassified	3393.77
+UniRef50_A7ZQP2: Flap endonuclease Xni	3365.06
+UniRef50_A7ZQP2: Flap endonuclease Xni|unclassified	3365.06
+UniRef50_P55045: Formamidopyrimidine-DNA glycosylase	3261.61
+UniRef50_P55045: Formamidopyrimidine-DNA glycosylase|unclassified	3261.61
+UniRef50_UPI0003B7357B: excisionase, partial	3260.46
+UniRef50_UPI0003B7357B: excisionase, partial|unclassified	3260.46
+UniRef50_UPI0003EE3A93: hypothetical protein	3156.64
+UniRef50_UPI0003EE3A93: hypothetical protein|unclassified	3156.64
+UniRef50_Q89AW4: Endonuclease III	3114.16
+UniRef50_Q89AW4: Endonuclease III|unclassified	3114.16
+UniRef50_Q1BTH0: Formamidopyrimidine-DNA glycosylase	3113.1
+UniRef50_Q1BTH0: Formamidopyrimidine-DNA glycosylase|unclassified	3113.1
+UniRef50_Q9S1G2: DNA polymerase I	3085.31
+UniRef50_Q9S1G2: DNA polymerase I|unclassified	3085.31
+UniRef50_UPI0002F5AC93: hypothetical protein	3084.14
+UniRef50_UPI0002F5AC93: hypothetical protein|unclassified	3084.14
+UniRef50_UPI00041A4387: DNA polymerase I	2933.44
+UniRef50_UPI00041A4387: DNA polymerase I|unclassified	2933.44
+UniRef50_N3SR52: DHH family protein	2838.62
+UniRef50_N3SR52: DHH family protein|unclassified	2838.62
+UniRef50_G4AFE7	2832.64
+UniRef50_G4AFE7|unclassified	2832.64
+UniRef50_Q73CV5: Putative 3-methyladenine DNA glycosylase	2781
+UniRef50_Q73CV5: Putative 3-methyladenine DNA glycosylase|unclassified	2781
+UniRef50_UPI000344FFF2: DNA polymerase II	2759.42
+UniRef50_UPI000344FFF2: DNA polymerase II|unclassified	2759.42
+UniRef50_UPI0004739F9C: endonuclease III, partial	2735.54
+UniRef50_UPI0004739F9C: endonuclease III, partial|unclassified	2735.54
+UniRef50_Q1BHI7: DNA ligase	2709.4
+UniRef50_Q1BHI7: DNA ligase|unclassified	2709.4
+UniRef50_R6GBI1	2703.32
+UniRef50_R6GBI1|unclassified	2703.32
+UniRef50_P46835: DNA polymerase I	2682.96
+UniRef50_P46835: DNA polymerase I|unclassified	2682.96
+UniRef50_UPI0003C781B5: hypothetical protein	2670.71
+UniRef50_UPI0003C781B5: hypothetical protein|unclassified	2670.71
+UniRef50_X6L0A3	2668.89
+UniRef50_X6L0A3|unclassified	2668.89
+UniRef50_Q837G3: Formamidopyrimidine-DNA glycosylase	2591.45
+UniRef50_Q837G3: Formamidopyrimidine-DNA glycosylase|unclassified	2591.45
+UniRef50_UPI000364433A: hypothetical protein	2572.27
+UniRef50_UPI000364433A: hypothetical protein|unclassified	2572.27
+UniRef50_UPI0002897FE3: DNA polymerase I	2543.33
+UniRef50_UPI0002897FE3: DNA polymerase I|unclassified	2543.33
+UniRef50_UPI00047E27F4: hypothetical protein	2528.21
+UniRef50_UPI00047E27F4: hypothetical protein|unclassified	2528.21
+UniRef50_UPI00037A3B37: hypothetical protein	2504.49
+UniRef50_UPI00037A3B37: hypothetical protein|unclassified	2504.49
+UniRef50_Q5HLQ3: Putative 3-methyladenine DNA glycosylase	2453.57
+UniRef50_Q5HLQ3: Putative 3-methyladenine DNA glycosylase|unclassified	2453.57
+UniRef50_UPI000465B46D: endonuclease	2425.49
+UniRef50_UPI000465B46D: endonuclease|unclassified	2425.49
+UniRef50_Q7VUG7: Formamidopyrimidine-DNA glycosylase	2390.77
+UniRef50_Q7VUG7: Formamidopyrimidine-DNA glycosylase|unclassified	2390.77
+UniRef50_Q83Z33	2382.02
+UniRef50_Q83Z33|unclassified	2382.02
+UniRef50_UPI0001AF2D93: DNA-3-methyladenine glycosylase I protein	2368.85
+UniRef50_UPI0001AF2D93: DNA-3-methyladenine glycosylase I protein|unclassified	2368.85
+UniRef50_P9WNC2: Formamidopyrimidine-DNA glycosylase 1	2354.4
+UniRef50_P9WNC2: Formamidopyrimidine-DNA glycosylase 1|unclassified	2354.4
+UniRef50_A2RIF3: DNA ligase	2340.19
+UniRef50_A2RIF3: DNA ligase|unclassified	2340.19
+UniRef50_UPI00047AAC54: DNA polymerase I	2326.31
+UniRef50_UPI00047AAC54: DNA polymerase I|unclassified	2326.31
+UniRef50_V8ANW6	2260.91
+UniRef50_V8ANW6|unclassified	2260.91
+UniRef50_UPI000360A9AC: hypothetical protein	2259.56
+UniRef50_UPI000360A9AC: hypothetical protein|unclassified	2259.56
+UniRef50_Q71ZA3: Formamidopyrimidine-DNA glycosylase	2244.16
+UniRef50_Q71ZA3: Formamidopyrimidine-DNA glycosylase|unclassified	2244.16
+UniRef50_UPI00047260FA: hypothetical protein	2224.53
+UniRef50_UPI00047260FA: hypothetical protein|unclassified	2224.53
+UniRef50_UPI0002559C58: DNA polymerase II, partial	2216.27
+UniRef50_UPI0002559C58: DNA polymerase II, partial|unclassified	2216.27
+UniRef50_X4Z8E4: DHH family protein	2189
+UniRef50_X4Z8E4: DHH family protein|unclassified	2189
+UniRef50_UPI000365061B: hypothetical protein	2183.26
+UniRef50_UPI000365061B: hypothetical protein|unclassified	2183.26
+UniRef50_A8YTZ3: DNA ligase	2175.43
+UniRef50_A8YTZ3: DNA ligase|unclassified	2175.43
+UniRef50_UPI0004755214: hypothetical protein	2168.51
+UniRef50_UPI0004755214: hypothetical protein|unclassified	2168.51
+UniRef50_K0FBJ9: Ku protein	2166.63
+UniRef50_K0FBJ9: Ku protein|unclassified	2166.63
+UniRef50_A4VKN0: DNA ligase	2146.72
+UniRef50_A4VKN0: DNA ligase|unclassified	2146.72
+UniRef50_C4K4K4: DNA ligase	2128.87
+UniRef50_C4K4K4: DNA ligase|unclassified	2128.87
+UniRef50_G9Z1G6	2116.36
+UniRef50_G9Z1G6|unclassified	2116.36
+UniRef50_Q9WYK0: Endonuclease III	2104.62
+UniRef50_Q9WYK0: Endonuclease III|unclassified	2104.62
+UniRef50_UPI00036A0EC5: hypothetical protein, partial	2098.98
+UniRef50_UPI00036A0EC5: hypothetical protein, partial|unclassified	2098.98
+UniRef50_A0A011Q5C8: DNA polymerase I	2092.35
+UniRef50_A0A011Q5C8: DNA polymerase I|unclassified	2092.35
+UniRef50_Q833H5: Putative 3-methyladenine DNA glycosylase	2091.74
+UniRef50_Q833H5: Putative 3-methyladenine DNA glycosylase|unclassified	2091.74
+UniRef50_UPI0003EE06E2: hypothetical protein	2072.9
+UniRef50_UPI0003EE06E2: hypothetical protein|unclassified	2072.9
+UniRef50_UPI0003C1A3F3	2045.28
+UniRef50_UPI0003C1A3F3|unclassified	2045.28
+UniRef50_UPI00046FBB94: hypothetical protein, partial	2019.2
+UniRef50_UPI00046FBB94: hypothetical protein, partial|unclassified	2019.2
+UniRef50_UPI0003708F2A: hypothetical protein	1968.45
+UniRef50_UPI0003708F2A: hypothetical protein|unclassified	1968.45
+UniRef50_Q47FA0: DNA ligase	1954.6
+UniRef50_Q47FA0: DNA ligase|unclassified	1954.6
+UniRef50_X0YTC3: Marine sediment metagenome DNA, contig: S01H4_L03161 (Fragment)	1947.33
+UniRef50_X0YTC3: Marine sediment metagenome DNA, contig: S01H4_L03161 (Fragment)|unclassified	1947.33
+UniRef50_UPI0004689142: single-stranded DNA exonuclease	1916.53
+UniRef50_UPI0004689142: single-stranded DNA exonuclease|unclassified	1916.53
+UniRef50_UPI0003A20063: DNA-3-methyladenine glycosylase	1899.65
+UniRef50_UPI0003A20063: DNA-3-methyladenine glycosylase|unclassified	1899.65
+UniRef50_V6Z8L1: DNA polymerase LigD domain protein	1894.29
+UniRef50_V6Z8L1: DNA polymerase LigD domain protein|unclassified	1894.29
+UniRef50_W5XAQ0: Lrp family transcriptional regulator	1877.39
+UniRef50_W5XAQ0: Lrp family transcriptional regulator|unclassified	1877.39
+UniRef50_Q0VR01: DNA ligase	1874.9
+UniRef50_Q0VR01: DNA ligase|unclassified	1874.9
+UniRef50_C0Z7Z0: Formamidopyrimidine-DNA glycosylase	1872.12
+UniRef50_C0Z7Z0: Formamidopyrimidine-DNA glycosylase|unclassified	1872.12
+UniRef50_UPI0004679467: hypothetical protein, partial	1867.72
+UniRef50_UPI0004679467: hypothetical protein, partial|unclassified	1867.72
+UniRef50_Q3JAI1: DNA ligase	1839.89
+UniRef50_Q3JAI1: DNA ligase|unclassified	1839.89
+UniRef50_UPI00047CC49C: hypothetical protein	1818.1
+UniRef50_UPI00047CC49C: hypothetical protein|unclassified	1818.1
+UniRef50_A0A011QZB4: Formamidopyrimidine-DNA glycosylase	1813.13
+UniRef50_A0A011QZB4: Formamidopyrimidine-DNA glycosylase|unclassified	1813.13
+UniRef50_UPI0004633DEA: hypothetical protein, partial	1808.39
+UniRef50_UPI0004633DEA: hypothetical protein, partial|unclassified	1808.39
+UniRef50_UPI0002557B2C: exonuclease I	1797.74
+UniRef50_UPI0002557B2C: exonuclease I|unclassified	1797.74
+UniRef50_A8YWE6: Formamidopyrimidine-DNA glycosylase	1794.56
+UniRef50_A8YWE6: Formamidopyrimidine-DNA glycosylase|unclassified	1794.56
+UniRef50_UPI00029AF607: threonine dehydratase	1793.79
+UniRef50_UPI00029AF607: threonine dehydratase|unclassified	1793.79
+UniRef50_UPI000471ED9B: hypothetical protein	1791.28
+UniRef50_UPI000471ED9B: hypothetical protein|unclassified	1791.28
+UniRef50_UPI00036E6417: hypothetical protein	1789.95
+UniRef50_UPI00036E6417: hypothetical protein|unclassified	1789.95
+UniRef50_UPI000474EE11: hypothetical protein	1785.57
+UniRef50_UPI000474EE11: hypothetical protein|unclassified	1785.57
+UniRef50_UPI000466677F: single-stranded DNA exonuclease	1777.23
+UniRef50_UPI000466677F: single-stranded DNA exonuclease|unclassified	1777.23
+UniRef50_UPI0001B42677: hypothetical protein, partial	1760.61
+UniRef50_UPI0001B42677: hypothetical protein, partial|unclassified	1760.61
+UniRef50_UPI00047643D8: endonuclease III	1748.98
+UniRef50_UPI00047643D8: endonuclease III|unclassified	1748.98
+UniRef50_U1D474	1734.77
+UniRef50_U1D474|unclassified	1734.77
+UniRef50_UPI0003B51AD6: DNA-3-methyladenine glycosylase, partial	1673.21
+UniRef50_UPI0003B51AD6: DNA-3-methyladenine glycosylase, partial|unclassified	1673.21
+UniRef50_UPI0004770C2C: 3-methyladenine DNA glycosylase	1671.47
+UniRef50_UPI0004770C2C: 3-methyladenine DNA glycosylase|unclassified	1671.47
+UniRef50_A1IQR7: DNA ligase	1666.83
+UniRef50_A1IQR7: DNA ligase|unclassified	1666.83
+UniRef50_UPI0001851156: single-stranded-DNA-specific exonuclease	1656.42
+UniRef50_UPI0001851156: single-stranded-DNA-specific exonuclease|unclassified	1656.42
+UniRef50_B0VRV3: Formamidopyrimidine-DNA glycosylase	1652.85
+UniRef50_B0VRV3: Formamidopyrimidine-DNA glycosylase|unclassified	1652.85
+UniRef50_A1AW02: Formamidopyrimidine-DNA glycosylase	1651.44
+UniRef50_A1AW02: Formamidopyrimidine-DNA glycosylase|unclassified	1651.44
+UniRef50_O32044: Single-stranded-DNA-specific exonuclease RecJ	1643.21
+UniRef50_O32044: Single-stranded-DNA-specific exonuclease RecJ|unclassified	1643.21
+UniRef50_G2GJB9	1631.47
+UniRef50_G2GJB9|unclassified	1631.47
+UniRef50_X0UJ38: Marine sediment metagenome DNA, contig: S01H1_S06840 (Fragment)	1609.11
+UniRef50_X0UJ38: Marine sediment metagenome DNA, contig: S01H1_S06840 (Fragment)|unclassified	1609.11
+UniRef50_UPI00047ABF4F: 3-methyladenine DNA glycosylase	1608.45
+UniRef50_UPI00047ABF4F: 3-methyladenine DNA glycosylase|unclassified	1608.45
+UniRef50_UPI00029B29D5: exonuclease RecJ	1593.53
+UniRef50_UPI00029B29D5: exonuclease RecJ|unclassified	1593.53
+UniRef50_Q5NGY3: Formamidopyrimidine-DNA glycosylase	1579.49
+UniRef50_Q5NGY3: Formamidopyrimidine-DNA glycosylase|unclassified	1579.49
+UniRef50_UPI0004634557: hypothetical protein, partial	1558.6
+UniRef50_UPI0004634557: hypothetical protein, partial|unclassified	1558.6
+UniRef50_Q180F3: DNA ligase	1553.34
+UniRef50_Q180F3: DNA ligase|unclassified	1553.34
+UniRef50_UPI0003731CCA: hypothetical protein	1548.12
+UniRef50_UPI0003731CCA: hypothetical protein|unclassified	1548.12
+UniRef50_UPI0003723CE0: hypothetical protein	1542.08
+UniRef50_UPI0003723CE0: hypothetical protein|unclassified	1542.08
+UniRef50_A5CX90: Formamidopyrimidine-DNA glycosylase	1539.26
+UniRef50_A5CX90: Formamidopyrimidine-DNA glycosylase|unclassified	1539.26
+UniRef50_Q9KTK4: Flap endonuclease Xni	1534.58
+UniRef50_Q9KTK4: Flap endonuclease Xni|unclassified	1534.58
+UniRef50_UPI00022CA997: PREDICTED: single-stranded-DNA-specific exonuclease recJ-like	1528.07
+UniRef50_UPI00022CA997: PREDICTED: single-stranded-DNA-specific exonuclease recJ-like|unclassified	1528.07
+UniRef50_Q8EPE6: Formamidopyrimidine-DNA glycosylase	1524.82
+UniRef50_Q8EPE6: Formamidopyrimidine-DNA glycosylase|unclassified	1524.82
+UniRef50_B9DLR4: Putative 3-methyladenine DNA glycosylase	1493.83
+UniRef50_B9DLR4: Putative 3-methyladenine DNA glycosylase|unclassified	1493.83
+UniRef50_C3MCY7: Formamidopyrimidine-DNA glycosylase	1466.49
+UniRef50_C3MCY7: Formamidopyrimidine-DNA glycosylase|unclassified	1466.49
+UniRef50_UPI000308CA8C: hypothetical protein	1464.19
+UniRef50_UPI000308CA8C: hypothetical protein|unclassified	1464.19
+UniRef50_UPI00038241DA: hypothetical protein, partial	1461.18
+UniRef50_UPI00038241DA: hypothetical protein, partial|unclassified	1461.18
+UniRef50_Q88WV4: Formamidopyrimidine-DNA glycosylase	1450.35
+UniRef50_Q88WV4: Formamidopyrimidine-DNA glycosylase|unclassified	1450.35
+UniRef50_UPI0004721D44: hypothetical protein	1440.35
+UniRef50_UPI0004721D44: hypothetical protein|unclassified	1440.35
+UniRef50_UPI00040A0384: DNA polymerase I	1433.69
+UniRef50_UPI00040A0384: DNA polymerase I|unclassified	1433.69
+UniRef50_Q9PQ76: Formamidopyrimidine-DNA glycosylase	1410.32
+UniRef50_Q9PQ76: Formamidopyrimidine-DNA glycosylase|unclassified	1410.32
+UniRef50_UPI00036D9AF2: hypothetical protein, partial	1407.86
+UniRef50_UPI00036D9AF2: hypothetical protein, partial|unclassified	1407.86
+UniRef50_B1Y6D4: DNA ligase	1402.11
+UniRef50_B1Y6D4: DNA ligase|unclassified	1402.11
+UniRef50_UPI00030717BC: hypothetical protein	1401.48
+UniRef50_UPI00030717BC: hypothetical protein|unclassified	1401.48
+UniRef50_UPI00037C3586: hypothetical protein, partial	1399.04
+UniRef50_UPI00037C3586: hypothetical protein, partial|unclassified	1399.04
+UniRef50_UPI0004778518: ATP-dependent DNA ligase, partial	1394.19
+UniRef50_UPI0004778518: ATP-dependent DNA ligase, partial|unclassified	1394.19
+UniRef50_UPI00046EAAB5: hypothetical protein	1375.18
+UniRef50_UPI00046EAAB5: hypothetical protein|unclassified	1375.18
+UniRef50_L0TDE1: DNA ligase C	1374.78
+UniRef50_L0TDE1: DNA ligase C|unclassified	1374.78
+UniRef50_P42371: Formamidopyrimidine-DNA glycosylase	1364.5
+UniRef50_P42371: Formamidopyrimidine-DNA glycosylase|unclassified	1364.5
+UniRef50_UPI000407E66E: exonuclease I	1363.18
+UniRef50_UPI000407E66E: exonuclease I|unclassified	1363.18
+UniRef50_D2AK96	1362.71
+UniRef50_D2AK96|unclassified	1362.71
+UniRef50_UPI00030C67CC: hypothetical protein	1359.65
+UniRef50_UPI00030C67CC: hypothetical protein|unclassified	1359.65
+UniRef50_UPI0003B69B19: DNA polymerase I	1357.75
+UniRef50_UPI0003B69B19: DNA polymerase I|unclassified	1357.75
+UniRef50_Q0AHH6: DNA ligase	1356.4
+UniRef50_Q0AHH6: DNA ligase|unclassified	1356.4
+UniRef50_B7R6J1	1353.06
+UniRef50_B7R6J1|unclassified	1353.06
+UniRef50_UPI00036A68EF: hypothetical protein, partial	1344.37
+UniRef50_UPI00036A68EF: hypothetical protein, partial|unclassified	1344.37
+UniRef50_UPI0004647EB6: hypothetical protein, partial	1338.79
+UniRef50_UPI0004647EB6: hypothetical protein, partial|unclassified	1338.79
+UniRef50_UPI00037D3207: hypothetical protein, partial	1328.39
+UniRef50_UPI00037D3207: hypothetical protein, partial|unclassified	1328.39
+UniRef50_A6UB73: DNA ligase	1326.27
+UniRef50_A6UB73: DNA ligase|unclassified	1326.27
+UniRef50_X8ADW9	1309.98
+UniRef50_X8ADW9|unclassified	1309.98
+UniRef50_UPI000408D4F6: hypothetical protein	1308.12
+UniRef50_UPI000408D4F6: hypothetical protein|unclassified	1308.12
+UniRef50_UPI000474AA9A: hypothetical protein	1302.18
+UniRef50_UPI000474AA9A: hypothetical protein|unclassified	1302.18
+UniRef50_UPI000476940B: hypothetical protein	1298.26
+UniRef50_UPI000476940B: hypothetical protein|unclassified	1298.26
+UniRef50_X1U4U4: Marine sediment metagenome DNA, contig: S12H4_S19304 (Fragment)	1282.89
+UniRef50_X1U4U4: Marine sediment metagenome DNA, contig: S12H4_S19304 (Fragment)|unclassified	1282.89
+UniRef50_UPI0001D3151D: formamidopyrimidine-DNA glycosylase	1280.22
+UniRef50_UPI0001D3151D: formamidopyrimidine-DNA glycosylase|unclassified	1280.22
+UniRef50_Q7VG78: Probable GMP synthase [glutamine-hydrolyzing]	1279.75
+UniRef50_Q7VG78: Probable GMP synthase [glutamine-hydrolyzing]|unclassified	1279.75
+UniRef50_B9K734: DNA ligase	1275.48
+UniRef50_B9K734: DNA ligase|unclassified	1275.48
+UniRef50_V7YWA1	1274.29
+UniRef50_V7YWA1|unclassified	1274.29
+UniRef50_UPI000237F073: DNA-3-methyladenine glycosylase	1255.46
+UniRef50_UPI000237F073: DNA-3-methyladenine glycosylase|unclassified	1255.46
+UniRef50_UPI0003B3855E: DNA polymerase I	1239.37
+UniRef50_UPI0003B3855E: DNA polymerase I|unclassified	1239.37
+UniRef50_UPI00047E6AB5: hypothetical protein	1237.2
+UniRef50_UPI00047E6AB5: hypothetical protein|unclassified	1237.2
+UniRef50_O86820: Probable endonuclease 8 2	1236.01
+UniRef50_O86820: Probable endonuclease 8 2|unclassified	1236.01
+UniRef50_UPI0004796418: hypothetical protein	1235.35
+UniRef50_UPI0004796418: hypothetical protein|unclassified	1235.35
+UniRef50_UPI00003937D1: COG0258: 5''''-3'''' exonuclease (including N-terminal domain of PolI)	1234.5
+UniRef50_UPI00003937D1: COG0258: 5''''-3'''' exonuclease (including N-terminal domain of PolI)|unclassified	1234.5
+UniRef50_A6W7S6: Formamidopyrimidine-DNA glycosylase	1230.42
+UniRef50_A6W7S6: Formamidopyrimidine-DNA glycosylase|unclassified	1230.42
+UniRef50_UPI00025598F1: single-stranded-DNA-specific exonuclease RecJ, partial	1227.92
+UniRef50_UPI00025598F1: single-stranded-DNA-specific exonuclease RecJ, partial|unclassified	1227.92
+UniRef50_B3SFA4	1209.69
+UniRef50_B3SFA4|unclassified	1209.69
+UniRef50_UPI00024875A3: DNA polymerase I, partial	1209.15
+UniRef50_UPI00024875A3: DNA polymerase I, partial|unclassified	1209.15
+UniRef50_T0WBU1: DHH family protein	1201.69
+UniRef50_T0WBU1: DHH family protein|unclassified	1201.69
+UniRef50_UPI0004737E5A: hypothetical protein, partial	1199.55
+UniRef50_UPI0004737E5A: hypothetical protein, partial|unclassified	1199.55
+UniRef50_Q1LRP7: Formamidopyrimidine-DNA glycosylase	1196.77
+UniRef50_Q1LRP7: Formamidopyrimidine-DNA glycosylase|unclassified	1196.77
+UniRef50_Q2P334: DNA ligase	1194.6
+UniRef50_Q2P334: DNA ligase|unclassified	1194.6
+UniRef50_Q5FMR0: Putative 3-methyladenine DNA glycosylase	1193.77
+UniRef50_Q5FMR0: Putative 3-methyladenine DNA glycosylase|unclassified	1193.77
+UniRef50_UPI00036711ED: hypothetical protein, partial	1192.01
+UniRef50_UPI00036711ED: hypothetical protein, partial|unclassified	1192.01
+UniRef50_J8V147: Ku family containing protein	1191.49
+UniRef50_J8V147: Ku family containing protein|unclassified	1191.49
+UniRef50_A6CU43	1185.77
+UniRef50_A6CU43|unclassified	1185.77
+UniRef50_UPI000360CD14: 3-methyladenine DNA glycosylase	1167.66
+UniRef50_UPI000360CD14: 3-methyladenine DNA glycosylase|unclassified	1167.66
+UniRef50_UPI000190D3B7: hypothetical protein, partial	1167.07
+UniRef50_UPI000190D3B7: hypothetical protein, partial|unclassified	1167.07
+UniRef50_A6UFF8: Formamidopyrimidine-DNA glycosylase	1166.53
+UniRef50_A6UFF8: Formamidopyrimidine-DNA glycosylase|unclassified	1166.53
+UniRef50_UPI00037C4890: hypothetical protein	1156.99
+UniRef50_UPI00037C4890: hypothetical protein|unclassified	1156.99
+UniRef50_W1X1E9	1146.48
+UniRef50_W1X1E9|unclassified	1146.48
+UniRef50_UPI00046EC3E8: hypothetical protein, partial	1135.3
+UniRef50_UPI00046EC3E8: hypothetical protein, partial|unclassified	1135.3
+UniRef50_UPI000467CDD8: hypothetical protein	1107.29
+UniRef50_UPI000467CDD8: hypothetical protein|unclassified	1107.29
+UniRef50_A0R5T3: DNA ligase C2	1097.77
+UniRef50_A0R5T3: DNA ligase C2|unclassified	1097.77
+UniRef50_UPI0003B652D3: DNA polymerase I	1095.61
+UniRef50_UPI0003B652D3: DNA polymerase I|unclassified	1095.61
+UniRef50_UPI0001FFDA93: NAD-dependent DNA ligase LigA, partial	1089.42
+UniRef50_UPI0001FFDA93: NAD-dependent DNA ligase LigA, partial|unclassified	1089.42
+UniRef50_O51498: DNA polymerase I	1089.38
+UniRef50_O51498: DNA polymerase I|unclassified	1089.38
+UniRef50_UPI00016A478C: AlkA domain protein, partial	1088.66
+UniRef50_UPI00016A478C: AlkA domain protein, partial|unclassified	1088.66
+UniRef50_Q8UIH4: Formamidopyrimidine-DNA glycosylase	1087.74
+UniRef50_Q8UIH4: Formamidopyrimidine-DNA glycosylase|unclassified	1087.74
+UniRef50_P54161: 5'-3' exonuclease	1087.59
+UniRef50_P54161: 5'-3' exonuclease|unclassified	1087.59
+UniRef50_Q0ID97: Putative 3-methyladenine DNA glycosylase	1085.78
+UniRef50_Q0ID97: Putative 3-methyladenine DNA glycosylase|unclassified	1085.78
+UniRef50_UPI000378ACC2: hypothetical protein	1082.97
+UniRef50_UPI000378ACC2: hypothetical protein|unclassified	1082.97
+UniRef50_B5ZAV3: DNA ligase	1080.39
+UniRef50_B5ZAV3: DNA ligase|unclassified	1080.39
+UniRef50_Q14GL3: DNA ligase	1075.95
+UniRef50_Q14GL3: DNA ligase|unclassified	1075.95
+UniRef50_UPI0002D67C37: hypothetical protein	1075.79
+UniRef50_UPI0002D67C37: hypothetical protein|unclassified	1075.79
+UniRef50_UPI0003B30C4D: exonuclease I	1070.51
+UniRef50_UPI0003B30C4D: exonuclease I|unclassified	1070.51
+UniRef50_F7TG67	1068.71
+UniRef50_F7TG67|unclassified	1068.71
+UniRef50_A5EPJ2: DNA ligase	1067.04
+UniRef50_A5EPJ2: DNA ligase|unclassified	1067.04
+UniRef50_A5FE87: DNA ligase	1063.57
+UniRef50_A5FE87: DNA ligase|unclassified	1063.57
+UniRef50_B3E8F8: DNA ligase	1048.27
+UniRef50_B3E8F8: DNA ligase|unclassified	1048.27
+UniRef50_UPI0003656F47: hypothetical protein	1044.91
+UniRef50_UPI0003656F47: hypothetical protein|unclassified	1044.91
+UniRef50_UPI0002E66111: DNA repair protein	1041
+UniRef50_UPI0002E66111: DNA repair protein|unclassified	1041
+UniRef50_UPI0003B5A2EF: hypothetical protein	1035.12
+UniRef50_UPI0003B5A2EF: hypothetical protein|unclassified	1035.12
+UniRef50_V6ZAF7	1033.58
+UniRef50_V6ZAF7|unclassified	1033.58
+UniRef50_UPI0003692DA9: hypothetical protein	1032.63
+UniRef50_UPI0003692DA9: hypothetical protein|unclassified	1032.63
+UniRef50_B2J5G0: Formamidopyrimidine-DNA glycosylase	1027.78
+UniRef50_B2J5G0: Formamidopyrimidine-DNA glycosylase|unclassified	1027.78
+UniRef50_UPI0003B2EAF3: DNA polymerase I	1027.32
+UniRef50_UPI0003B2EAF3: DNA polymerase I|unclassified	1027.32
+UniRef50_A4ZYZ3: Putative RecJ (Fragment)	1024.62
+UniRef50_A4ZYZ3: Putative RecJ (Fragment)|unclassified	1024.62
+UniRef50_UPI0002E27C9E: hypothetical protein	1019.15
+UniRef50_UPI0002E27C9E: hypothetical protein|unclassified	1019.15
+UniRef50_P52028: DNA polymerase I, thermostable	1018.26
+UniRef50_P52028: DNA polymerase I, thermostable|unclassified	1018.26
+UniRef50_X7ZJM7: DNA polymerase LigD family protein	1017.8
+UniRef50_X7ZJM7: DNA polymerase LigD family protein|unclassified	1017.8
+UniRef50_Q92GB7: DNA polymerase I	1017.34
+UniRef50_Q92GB7: DNA polymerase I|unclassified	1017.34
+UniRef50_UPI00047D2C54: DNA-3-methyladenine glycosylase	1013.43
+UniRef50_UPI00047D2C54: DNA-3-methyladenine glycosylase|unclassified	1013.43
+UniRef50_Q6ML45: Formamidopyrimidine-DNA glycosylase	1008.6
+UniRef50_Q6ML45: Formamidopyrimidine-DNA glycosylase|unclassified	1008.6
+UniRef50_A0QUP1: DNA ligase B	1008.31
+UniRef50_A0QUP1: DNA ligase B|unclassified	1008.31
+UniRef50_K1YFQ6	1005.83
+UniRef50_K1YFQ6|unclassified	1005.83
+UniRef50_UPI000412341D: exonuclease I	1003.66
+UniRef50_UPI000412341D: exonuclease I|unclassified	1003.66
+UniRef50_Q7NR81: DNA ligase	1002.63
+UniRef50_Q7NR81: DNA ligase|unclassified	1002.63
+UniRef50_UPI00003937D2: DNA polymerase I	997.871
+UniRef50_UPI00003937D2: DNA polymerase I|unclassified	997.871
+UniRef50_Q9RAA9: DNA polymerase I	991.496
+UniRef50_Q9RAA9: DNA polymerase I|unclassified	991.496
+UniRef50_UPI000472F72C: DNA polymerase I, partial	990.991
+UniRef50_UPI000472F72C: DNA polymerase I, partial|unclassified	990.991
+UniRef50_A5VG06: Formamidopyrimidine-DNA glycosylase	990.806
+UniRef50_A5VG06: Formamidopyrimidine-DNA glycosylase|unclassified	990.806
+UniRef50_UPI000375E10C: hypothetical protein, partial	988.272
+UniRef50_UPI000375E10C: hypothetical protein, partial|unclassified	988.272
+UniRef50_UPI000376F2DA: hypothetical protein	985.336
+UniRef50_UPI000376F2DA: hypothetical protein|unclassified	985.336
+UniRef50_Z7MAQ1: DHH family protein	985.294
+UniRef50_Z7MAQ1: DHH family protein|unclassified	985.294
+UniRef50_Q38Y85: Putative 3-methyladenine DNA glycosylase	981.169
+UniRef50_Q38Y85: Putative 3-methyladenine DNA glycosylase|unclassified	981.169
+UniRef50_A8F2H0: Formamidopyrimidine-DNA glycosylase	980.552
+UniRef50_A8F2H0: Formamidopyrimidine-DNA glycosylase|unclassified	980.552
+UniRef50_A1WY80: DNA ligase	967.271
+UniRef50_A1WY80: DNA ligase|unclassified	967.271
+UniRef50_Q92D89: Putative 3-methyladenine DNA glycosylase	960.721
+UniRef50_Q92D89: Putative 3-methyladenine DNA glycosylase|unclassified	960.721
+UniRef50_UPI00016A478D: AlkA domain protein	956.195
+UniRef50_UPI00016A478D: AlkA domain protein|unclassified	956.195
+UniRef50_UPI000370F20A: DNA polymerase I, partial	953.785
+UniRef50_UPI000370F20A: DNA polymerase I, partial|unclassified	953.785
+UniRef50_Q02SH7: Putative 3-methyladenine DNA glycosylase	946.093
+UniRef50_Q02SH7: Putative 3-methyladenine DNA glycosylase|unclassified	946.093
+UniRef50_A0A011P3X2	945.204
+UniRef50_A0A011P3X2|unclassified	945.204
+UniRef50_B9M5V2: Formamidopyrimidine-DNA glycosylase	944.702
+UniRef50_B9M5V2: Formamidopyrimidine-DNA glycosylase|unclassified	944.702
+UniRef50_UPI000379FF9C: hypothetical protein	943.47
+UniRef50_UPI000379FF9C: hypothetical protein|unclassified	943.47
+UniRef50_Q8XHA9: Putative 3-methyladenine DNA glycosylase	940.686
+UniRef50_Q8XHA9: Putative 3-methyladenine DNA glycosylase|unclassified	940.686
+UniRef50_Q67R59: Formamidopyrimidine-DNA glycosylase	936.634
+UniRef50_Q67R59: Formamidopyrimidine-DNA glycosylase|unclassified	936.634
+UniRef50_A7NBW2: Putative 3-methyladenine DNA glycosylase	934.351
+UniRef50_A7NBW2: Putative 3-methyladenine DNA glycosylase|unclassified	934.351
+UniRef50_UPI00035E2630: hypothetical protein, partial	934.31
+UniRef50_UPI00035E2630: hypothetical protein, partial|unclassified	934.31
+UniRef50_UPI0004786CD4: DNA repair protein	933.05
+UniRef50_UPI0004786CD4: DNA repair protein|unclassified	933.05
+UniRef50_Q55971: DNA polymerase I	928.066
+UniRef50_Q55971: DNA polymerase I|unclassified	928.066
+UniRef50_UPI0004766702: hypothetical protein	918.447
+UniRef50_UPI0004766702: hypothetical protein|unclassified	918.447
+UniRef50_Q211V0: DNA ligase	915.557
+UniRef50_Q211V0: DNA ligase|unclassified	915.557
+UniRef50_Q8K923: Exodeoxyribonuclease I	911.243
+UniRef50_Q8K923: Exodeoxyribonuclease I|unclassified	911.243
+UniRef50_G4AFE4	910.899
+UniRef50_G4AFE4|unclassified	910.899
+UniRef50_A1B9F5: DNA ligase	908.818
+UniRef50_A1B9F5: DNA ligase|unclassified	908.818
+UniRef50_Z5XG98: DNA ligase	901.176
+UniRef50_Z5XG98: DNA ligase|unclassified	901.176
+UniRef50_UPI00035CEC96: hypothetical protein	897.357
+UniRef50_UPI00035CEC96: hypothetical protein|unclassified	897.357
+UniRef50_UPI000255C1EB: DNA-3-methyladenine glycosylase I	896.464
+UniRef50_UPI000255C1EB: DNA-3-methyladenine glycosylase I|unclassified	896.464
+UniRef50_B2TIZ7: DNA ligase	895.751
+UniRef50_B2TIZ7: DNA ligase|unclassified	895.751
+UniRef50_Q73G10: Formamidopyrimidine-DNA glycosylase	891.633
+UniRef50_Q73G10: Formamidopyrimidine-DNA glycosylase|unclassified	891.633
+UniRef50_X7ZI54: DNA polymerase LigD, polymerase domain protein	886.627
+UniRef50_X7ZI54: DNA polymerase LigD, polymerase domain protein|unclassified	886.627
+UniRef50_Q4UN15: DNA ligase	885.095
+UniRef50_Q4UN15: DNA ligase|unclassified	885.095
+UniRef50_Q97FQ5: DNA ligase 2	882.499
+UniRef50_Q97FQ5: DNA ligase 2|unclassified	882.499
+UniRef50_B8I3I1: DNA ligase	881.674
+UniRef50_B8I3I1: DNA ligase|unclassified	881.674
+UniRef50_UPI0004736E8F: DNA polymerase I, partial	871.801
+UniRef50_UPI0004736E8F: DNA polymerase I, partial|unclassified	871.801
+UniRef50_D1YFV1	869.519
+UniRef50_D1YFV1|unclassified	869.519
+UniRef50_Q47SC6: DNA ligase	868.001
+UniRef50_Q47SC6: DNA ligase|unclassified	868.001
+UniRef50_UPI000472B278: hypothetical protein	867.888
+UniRef50_UPI000472B278: hypothetical protein|unclassified	867.888
+UniRef50_A5EXK6: Formamidopyrimidine-DNA glycosylase	866.716
+UniRef50_A5EXK6: Formamidopyrimidine-DNA glycosylase|unclassified	866.716
+UniRef50_C6NRI5: Single-stranded-DNA-specific exonuclease recJ	865.863
+UniRef50_C6NRI5: Single-stranded-DNA-specific exonuclease recJ|unclassified	865.863
+UniRef50_A4ZZ25	864.501
+UniRef50_A4ZZ25|unclassified	864.501
+UniRef50_UPI0004768B16: DNA polymerase I	862.745
+UniRef50_UPI0004768B16: DNA polymerase I|unclassified	862.745
+UniRef50_A5VJA2: Phosphoesterase, RecJ domain protein	860.437
+UniRef50_A5VJA2: Phosphoesterase, RecJ domain protein|unclassified	860.437
+UniRef50_UPI0003B40AA3: endonuclease III	857.385
+UniRef50_UPI0003B40AA3: endonuclease III|unclassified	857.385
+UniRef50_O84148: DNA ligase	855.058
+UniRef50_O84148: DNA ligase|unclassified	855.058
+UniRef50_UPI00046A82C0: 3-methyladenine DNA glycosylase	851.476
+UniRef50_UPI00046A82C0: 3-methyladenine DNA glycosylase|unclassified	851.476
+UniRef50_Q7V8Y5: Formamidopyrimidine-DNA glycosylase	851.246
+UniRef50_Q7V8Y5: Formamidopyrimidine-DNA glycosylase|unclassified	851.246
+UniRef50_Q9I1X7: Multifunctional non-homologous end joining protein LigD	850.447
+UniRef50_Q9I1X7: Multifunctional non-homologous end joining protein LigD|unclassified	850.447
+UniRef50_A9H0L6: DNA ligase	849.269
+UniRef50_A9H0L6: DNA ligase|unclassified	849.269
+UniRef50_UPI000469220A: DNA-3-methyladenine glycosylase	845.397
+UniRef50_UPI000469220A: DNA-3-methyladenine glycosylase|unclassified	845.397
+UniRef50_X1CHN6: Marine sediment metagenome DNA, contig: S01H4_S13860 (Fragment)	844.136
+UniRef50_X1CHN6: Marine sediment metagenome DNA, contig: S01H4_S13860 (Fragment)|unclassified	844.136
+UniRef50_UPI0004079D53: DNA helicase	842.747
+UniRef50_UPI0004079D53: DNA helicase|unclassified	842.747
+UniRef50_UPI0002377A66: DNA ligase, partial	841.455
+UniRef50_UPI0002377A66: DNA ligase, partial|unclassified	841.455
+UniRef50_UPI0003621573: hypothetical protein, partial	840.876
+UniRef50_UPI0003621573: hypothetical protein, partial|unclassified	840.876
+UniRef50_Q1LU20: DNA ligase	839.359
+UniRef50_Q1LU20: DNA ligase|unclassified	839.359
+UniRef50_UPI00036B67A6: hypothetical protein	838.883
+UniRef50_UPI00036B67A6: hypothetical protein|unclassified	838.883
+UniRef50_B8ICE5: DNA ligase	833.401
+UniRef50_B8ICE5: DNA ligase|unclassified	833.401
+UniRef50_UPI0002E14B95: hypothetical protein	831.862
+UniRef50_UPI0002E14B95: hypothetical protein|unclassified	831.862
+UniRef50_UPI0003B34C62: DNA polymerase I	830.891
+UniRef50_UPI0003B34C62: DNA polymerase I|unclassified	830.891
+UniRef50_UPI0004628A54: ATP-dependent DNA ligase, partial	828.732
+UniRef50_UPI0004628A54: ATP-dependent DNA ligase, partial|unclassified	828.732
+UniRef50_UPI0003772A69: hypothetical protein, partial	824.397
+UniRef50_UPI0003772A69: hypothetical protein, partial|unclassified	824.397
+UniRef50_K6E3W4: DNA polymerase I (Fragment)	823.987
+UniRef50_K6E3W4: DNA polymerase I (Fragment)|unclassified	823.987
+UniRef50_UPI0004639322: DNA polymerase I	818.274
+UniRef50_UPI0004639322: DNA polymerase I|unclassified	818.274
+UniRef50_X5RL75	816.166
+UniRef50_X5RL75|unclassified	816.166
+UniRef50_T1U9K2: DHH family protein	814.723
+UniRef50_T1U9K2: DHH family protein|unclassified	814.723
+UniRef50_UPI00016B20B3: ATP-dependent DNA ligase, partial	812.206
+UniRef50_UPI00016B20B3: ATP-dependent DNA ligase, partial|unclassified	812.206
+UniRef50_UPI0001FFDE89: DNA glycosylase	804.818
+UniRef50_UPI0001FFDE89: DNA glycosylase|unclassified	804.818
+UniRef50_A5EVZ5: DNA ligase	804.664
+UniRef50_A5EVZ5: DNA ligase|unclassified	804.664
+UniRef50_S6R4Z0: KU domain protein	800.715
+UniRef50_S6R4Z0: KU domain protein|unclassified	800.715
+UniRef50_W5Z3M6	799.448
+UniRef50_W5Z3M6|unclassified	799.448
+UniRef50_A5GPI9: DNA ligase	798.065
+UniRef50_A5GPI9: DNA ligase|unclassified	798.065
+UniRef50_Q6MRL9: DNA ligase	796.856
+UniRef50_Q6MRL9: DNA ligase|unclassified	796.856
+UniRef50_B0T1N5: DNA ligase	795.624
+UniRef50_B0T1N5: DNA ligase|unclassified	795.624
+UniRef50_UPI00047EDDB1: hypothetical protein	788.237
+UniRef50_UPI00047EDDB1: hypothetical protein|unclassified	788.237
+UniRef50_UPI00046FC8FA: 5-hydroxymethyluracil DNA glycosylase	785.253
+UniRef50_UPI00046FC8FA: 5-hydroxymethyluracil DNA glycosylase|unclassified	785.253
+UniRef50_UPI000289D1C0: DNA polymerase I	785.244
+UniRef50_UPI000289D1C0: DNA polymerase I|unclassified	785.244
+UniRef50_UPI00036B826D: hypothetical protein, partial	782.345
+UniRef50_UPI00036B826D: hypothetical protein, partial|unclassified	782.345
+UniRef50_UPI00031ED78D: hypothetical protein	780.176
+UniRef50_UPI00031ED78D: hypothetical protein|unclassified	780.176
+UniRef50_UPI00047E8BEA: endonuclease	778.013
+UniRef50_UPI00047E8BEA: endonuclease|unclassified	778.013
+UniRef50_G8AL99	771.92
+UniRef50_G8AL99|unclassified	771.92
+UniRef50_Q89AD1: 5'-3' exonuclease	768.798
+UniRef50_Q89AD1: 5'-3' exonuclease|unclassified	768.798
+UniRef50_UPI00037177AA: hypothetical protein	768.414
+UniRef50_UPI00037177AA: hypothetical protein|unclassified	768.414
+UniRef50_UPI00024926A7: DNA-3-methyladenine glycosylase	767.458
+UniRef50_UPI00024926A7: DNA-3-methyladenine glycosylase|unclassified	767.458
+UniRef50_X2MWH7	766.146
+UniRef50_X2MWH7|unclassified	766.146
+UniRef50_UPI0002377A50: DNA ligase, partial	764.985
+UniRef50_UPI0002377A50: DNA ligase, partial|unclassified	764.985
+UniRef50_Q6A7A2: DNA ligase	760.959
+UniRef50_Q6A7A2: DNA ligase|unclassified	760.959
+UniRef50_UPI0003B71EF9: DNA lyase	759.306
+UniRef50_UPI0003B71EF9: DNA lyase|unclassified	759.306
+UniRef50_B5Z6Y6: DNA ligase	757.589
+UniRef50_B5Z6Y6: DNA ligase|unclassified	757.589
+UniRef50_Q117D2: Formamidopyrimidine-DNA glycosylase	753.926
+UniRef50_Q117D2: Formamidopyrimidine-DNA glycosylase|unclassified	753.926
+UniRef50_UPI00023764D8: single-stranded-DNA-specific exonuclease RecJ, partial	751.121
+UniRef50_UPI00023764D8: single-stranded-DNA-specific exonuclease RecJ, partial|unclassified	751.121
+UniRef50_UPI0004715D31: hypothetical protein, partial	749.076
+UniRef50_UPI0004715D31: hypothetical protein, partial|unclassified	749.076
+UniRef50_UPI0003766F6D: MULTISPECIES: hypothetical protein	747.84
+UniRef50_UPI0003766F6D: MULTISPECIES: hypothetical protein|unclassified	747.84
+UniRef50_D2ZSX7	745.73
+UniRef50_D2ZSX7|unclassified	745.73
+UniRef50_Q11VI1: DNA ligase	745.196
+UniRef50_Q11VI1: DNA ligase|unclassified	745.196
+UniRef50_Q4FUW9: DNA ligase	744.11
+UniRef50_Q4FUW9: DNA ligase|unclassified	744.11
+UniRef50_UPI00047C1280: 3-methyladenine DNA glycosylase	737.429
+UniRef50_UPI00047C1280: 3-methyladenine DNA glycosylase|unclassified	737.429
+UniRef50_B8HV17: DNA ligase	736.221
+UniRef50_B8HV17: DNA ligase|unclassified	736.221
+UniRef50_UPI00046F9FD0: hypothetical protein	728.778
+UniRef50_UPI00046F9FD0: hypothetical protein|unclassified	728.778
+UniRef50_UPI00047A3BA1: hypothetical protein	728.229
+UniRef50_UPI00047A3BA1: hypothetical protein|unclassified	728.229
+UniRef50_UPI00030F0951: hypothetical protein	726.789
+UniRef50_UPI00030F0951: hypothetical protein|unclassified	726.789
+UniRef50_A0KHE3: Flap endonuclease Xni	726.211
+UniRef50_A0KHE3: Flap endonuclease Xni|unclassified	726.211
+UniRef50_Q6N6M8: Putative 3-methyladenine DNA glycosylase	725.555
+UniRef50_Q6N6M8: Putative 3-methyladenine DNA glycosylase|unclassified	725.555
+UniRef50_B9E5Q0	722.55
+UniRef50_B9E5Q0|unclassified	722.55
+UniRef50_Q1IHJ4: DNA ligase	720.996
+UniRef50_Q1IHJ4: DNA ligase|unclassified	720.996
+UniRef50_Q9ZJE9: DNA polymerase I	720.678
+UniRef50_Q9ZJE9: DNA polymerase I|unclassified	720.678
+UniRef50_X1MAC9: Marine sediment metagenome DNA, contig: S06H3_L01324 (Fragment)	720.54
+UniRef50_X1MAC9: Marine sediment metagenome DNA, contig: S06H3_L01324 (Fragment)|unclassified	720.54
+UniRef50_Q18C13: Putative 3-methyladenine DNA glycosylase	714.391
+UniRef50_Q18C13: Putative 3-methyladenine DNA glycosylase|unclassified	714.391
+UniRef50_UPI00037AC4B1: hypothetical protein, partial	714.165
+UniRef50_UPI00037AC4B1: hypothetical protein, partial|unclassified	714.165
+UniRef50_UPI0002880575: 5''''-3'''' exonuclease	713.95
+UniRef50_UPI0002880575: 5''''-3'''' exonuclease|unclassified	713.95
+UniRef50_UPI000463BDE2: NAD-dependent DNA ligase LigA	712.791
+UniRef50_UPI000463BDE2: NAD-dependent DNA ligase LigA|unclassified	712.791
+UniRef50_A0R5T2: DNA ligase C1	712.453
+UniRef50_A0R5T2: DNA ligase C1|unclassified	712.453
+UniRef50_UPI0003B69838: DNA polymerase I, partial	708.516
+UniRef50_UPI0003B69838: DNA polymerase I, partial|unclassified	708.516
+UniRef50_F7U0I4: Single-stranded-DNA-specific exonuclease RecJ	707.82
+UniRef50_F7U0I4: Single-stranded-DNA-specific exonuclease RecJ|unclassified	707.82
+UniRef50_Q72JN8: DNA ligase	707.529
+UniRef50_Q72JN8: DNA ligase|unclassified	707.529
+UniRef50_UPI0003124421: hypothetical protein	706.709
+UniRef50_UPI0003124421: hypothetical protein|unclassified	706.709
+UniRef50_UPI00046A7EEB: single-stranded DNA exonuclease	706.279
+UniRef50_UPI00046A7EEB: single-stranded DNA exonuclease|unclassified	706.279
+UniRef50_UPI0004677D66: DNA-3-methyladenine glycosylase	699.177
+UniRef50_UPI0004677D66: DNA-3-methyladenine glycosylase|unclassified	699.177
+UniRef50_B2RKL2: DNA ligase	697.201
+UniRef50_B2RKL2: DNA ligase|unclassified	697.201
+UniRef50_Q112N5: DNA ligase	697.161
+UniRef50_Q112N5: DNA ligase|unclassified	697.161
+UniRef50_B3DWU2: DNA ligase	694.774
+UniRef50_B3DWU2: DNA ligase|unclassified	694.774
+UniRef50_Q8RI94: DNA ligase	692.216
+UniRef50_Q8RI94: DNA ligase|unclassified	692.216
+UniRef50_UPI00036F0981: hypothetical protein, partial	688.5
+UniRef50_UPI00036F0981: hypothetical protein, partial|unclassified	688.5
+UniRef50_UPI00019B35C1: DNA ligase NAD-dependent	686.749
+UniRef50_UPI00019B35C1: DNA ligase NAD-dependent|unclassified	686.749
+UniRef50_UPI00016BFC66: DNA polymerase I	686.059
+UniRef50_UPI00016BFC66: DNA polymerase I|unclassified	686.059
+UniRef50_Q58030: Endonuclease III	685.292
+UniRef50_Q58030: Endonuclease III|unclassified	685.292
+UniRef50_Q0RDH8: DNA ligase	685.123
+UniRef50_Q0RDH8: DNA ligase|unclassified	685.123
+UniRef50_UPI0003B2F63F: ATP-dependent DNA ligase, partial	684.2
+UniRef50_UPI0003B2F63F: ATP-dependent DNA ligase, partial|unclassified	684.2
+UniRef50_O67550: 5'-3' exonuclease	683.748
+UniRef50_O67550: 5'-3' exonuclease|unclassified	683.748
+UniRef50_UPI00036BCA0F: hypothetical protein	679.466
+UniRef50_UPI00036BCA0F: hypothetical protein|unclassified	679.466
+UniRef50_UPI000472A755: hypothetical protein, partial	671.474
+UniRef50_UPI000472A755: hypothetical protein, partial|unclassified	671.474
+UniRef50_B8GAC1: DNA ligase	671.275
+UniRef50_B8GAC1: DNA ligase|unclassified	671.275
+UniRef50_UPI000366F3A5: hypothetical protein	668.593
+UniRef50_UPI000366F3A5: hypothetical protein|unclassified	668.593
+UniRef50_Q5GS47: Formamidopyrimidine-DNA glycosylase	666.82
+UniRef50_Q5GS47: Formamidopyrimidine-DNA glycosylase|unclassified	666.82
+UniRef50_B9L8R4: DNA ligase	663.568
+UniRef50_B9L8R4: DNA ligase|unclassified	663.568
+UniRef50_Q98KC4: DNA ligase	663.136
+UniRef50_Q98KC4: DNA ligase|unclassified	663.136
+UniRef50_T3PRD9: DHH family protein	660.836
+UniRef50_T3PRD9: DHH family protein|unclassified	660.836
+UniRef50_A0LDY1: DNA ligase	659.75
+UniRef50_A0LDY1: DNA ligase|unclassified	659.75
+UniRef50_A0JUH2: DNA ligase	658.132
+UniRef50_A0JUH2: DNA ligase|unclassified	658.132
+UniRef50_T2WDB8: DHH family protein	657.998
+UniRef50_T2WDB8: DHH family protein|unclassified	657.998
+UniRef50_UPI0003B3B05F: DNA polymerase I	657.807
+UniRef50_UPI0003B3B05F: DNA polymerase I|unclassified	657.807
+UniRef50_UPI00029B4937: DNA polymerase I	657.743
+UniRef50_UPI00029B4937: DNA polymerase I|unclassified	657.743
+UniRef50_W4JBX4	657.53
+UniRef50_W4JBX4|unclassified	657.53
+UniRef50_UPI00047D45C5: hypothetical protein, partial	656.768
+UniRef50_UPI00047D45C5: hypothetical protein, partial|unclassified	656.768
+UniRef50_Q2N9V6: DNA ligase	655.294
+UniRef50_Q2N9V6: DNA ligase|unclassified	655.294
+UniRef50_UPI00046E7B17: hypothetical protein	654.102
+UniRef50_UPI00046E7B17: hypothetical protein|unclassified	654.102
+UniRef50_UPI0002D7B27F: hypothetical protein	650.848
+UniRef50_UPI0002D7B27F: hypothetical protein|unclassified	650.848
+UniRef50_Q6AFJ3: Formamidopyrimidine-DNA glycosylase	645.13
+UniRef50_Q6AFJ3: Formamidopyrimidine-DNA glycosylase|unclassified	645.13
+UniRef50_UPI000369C6F6: hypothetical protein	641.791
+UniRef50_UPI000369C6F6: hypothetical protein|unclassified	641.791
+UniRef50_X9H0Y6	641.218
+UniRef50_X9H0Y6|unclassified	641.218
+UniRef50_UPI00031393C6: ATP-dependent DNA ligase	640.709
+UniRef50_UPI00031393C6: ATP-dependent DNA ligase|unclassified	640.709
+UniRef50_UPI0004768634: hypothetical protein	637.645
+UniRef50_UPI0004768634: hypothetical protein|unclassified	637.645
+UniRef50_A5V1U3: DNA ligase	637.534
+UniRef50_A5V1U3: DNA ligase|unclassified	637.534
+UniRef50_UPI000407B29F: 5''-3'' exonuclease	636.587
+UniRef50_UPI000407B29F: 5''-3'' exonuclease|unclassified	636.587
+UniRef50_UPI0003C104A0	633.733
+UniRef50_UPI0003C104A0|unclassified	633.733
+UniRef50_A6Q433: DNA ligase	633.469
+UniRef50_A6Q433: DNA ligase|unclassified	633.469
+UniRef50_UPI000347C768: DNA ligase	630.099
+UniRef50_UPI000347C768: DNA ligase|unclassified	630.099
+UniRef50_X1ICS1: Marine sediment metagenome DNA, contig: S03H2_S01910 (Fragment)	627.994
+UniRef50_X1ICS1: Marine sediment metagenome DNA, contig: S03H2_S01910 (Fragment)|unclassified	627.994
+UniRef50_C1FL61: BRCT domain protein	627.79
+UniRef50_C1FL61: BRCT domain protein|unclassified	627.79
+UniRef50_A1A200: DNA ligase	626.282
+UniRef50_A1A200: DNA ligase|unclassified	626.282
+UniRef50_Q8FPZ7: DNA ligase	623.759
+UniRef50_Q8FPZ7: DNA ligase|unclassified	623.759
+UniRef50_X8CHU6	622.603
+UniRef50_X8CHU6|unclassified	622.603
+UniRef50_X1UDE5: Marine sediment metagenome DNA, contig: S12H4_S14361 (Fragment)	619.171
+UniRef50_X1UDE5: Marine sediment metagenome DNA, contig: S12H4_S14361 (Fragment)|unclassified	619.171
+UniRef50_C3PNJ9	618.293
+UniRef50_C3PNJ9|unclassified	618.293
+UniRef50_Q4FUU7: Formamidopyrimidine-DNA glycosylase	618.196
+UniRef50_Q4FUU7: Formamidopyrimidine-DNA glycosylase|unclassified	618.196
+UniRef50_UPI00035C3D80: hypothetical protein	617.687
+UniRef50_UPI00035C3D80: hypothetical protein|unclassified	617.687
+UniRef50_B6YRR9: DNA ligase	616.857
+UniRef50_B6YRR9: DNA ligase|unclassified	616.857
+UniRef50_UPI00036179A8: hypothetical protein, partial	615.609
+UniRef50_UPI00036179A8: hypothetical protein, partial|unclassified	615.609
+UniRef50_UPI00038101C9: hypothetical protein, partial	614.049
+UniRef50_UPI00038101C9: hypothetical protein, partial|unclassified	614.049
+UniRef50_Q829C5: Putative 3-methyladenine DNA glycosylase	612.68
+UniRef50_Q829C5: Putative 3-methyladenine DNA glycosylase|unclassified	612.68
+UniRef50_B7GPV4: DNA ligase	611.733
+UniRef50_B7GPV4: DNA ligase|unclassified	611.733
+UniRef50_UPI000378F8EE: hypothetical protein	609.677
+UniRef50_UPI000378F8EE: hypothetical protein|unclassified	609.677
+UniRef50_UPI000472E858: hypothetical protein	608.695
+UniRef50_UPI000472E858: hypothetical protein|unclassified	608.695
+UniRef50_UPI0000E0E98F: exodeoxyribonuclease I	608.423
+UniRef50_UPI0000E0E98F: exodeoxyribonuclease I|unclassified	608.423
+UniRef50_Q5WGN4: Putative 3-methyladenine DNA glycosylase	604.852
+UniRef50_Q5WGN4: Putative 3-methyladenine DNA glycosylase|unclassified	604.852
+UniRef50_Q4E741	600.734
+UniRef50_Q4E741|unclassified	600.734
+UniRef50_G5HHD9	600.377
+UniRef50_G5HHD9|unclassified	600.377
+UniRef50_UPI00047E88E4: single-stranded DNA exonuclease	599.931
+UniRef50_UPI00047E88E4: single-stranded DNA exonuclease|unclassified	599.931
+UniRef50_UPI000368EC00: hypothetical protein	597.661
+UniRef50_UPI000368EC00: hypothetical protein|unclassified	597.661
+UniRef50_UPI00037464B1: MULTISPECIES: hypothetical protein	596.909
+UniRef50_UPI00037464B1: MULTISPECIES: hypothetical protein|unclassified	596.909
+UniRef50_Q9S208: Putative 3-methyladenine DNA glycosylase	595.983
+UniRef50_Q9S208: Putative 3-methyladenine DNA glycosylase|unclassified	595.983
+UniRef50_A0A011S3P9	595.562
+UniRef50_A0A011S3P9|unclassified	595.562
+UniRef50_UPI0003B6298D: DNA polymerase I	592.321
+UniRef50_UPI0003B6298D: DNA polymerase I|unclassified	592.321
+UniRef50_Q214R5: Putative 3-methyladenine DNA glycosylase	592.078
+UniRef50_Q214R5: Putative 3-methyladenine DNA glycosylase|unclassified	592.078
+UniRef50_Q2N7Y8: Formamidopyrimidine-DNA glycosylase	589.165
+UniRef50_Q2N7Y8: Formamidopyrimidine-DNA glycosylase|unclassified	589.165
+UniRef50_UPI0002490945: single-stranded-DNA-specific exonuclease RecJ	586.453
+UniRef50_UPI0002490945: single-stranded-DNA-specific exonuclease RecJ|unclassified	586.453
+UniRef50_UPI00035F6B88: hypothetical protein	585.573
+UniRef50_UPI00035F6B88: hypothetical protein|unclassified	585.573
+UniRef50_A6LPI2: Putative 3-methyladenine DNA glycosylase	584.891
+UniRef50_A6LPI2: Putative 3-methyladenine DNA glycosylase|unclassified	584.891
+UniRef50_Q2SRE1: DNA ligase	584.856
+UniRef50_Q2SRE1: DNA ligase|unclassified	584.856
+UniRef50_Z5XI99	584.124
+UniRef50_Z5XI99|unclassified	584.124
+UniRef50_UPI0003FB70C6: hypothetical protein	584.096
+UniRef50_UPI0003FB70C6: hypothetical protein|unclassified	584.096
+UniRef50_UPI0003901BFD: 5''''-3'''' exonuclease	583.427
+UniRef50_UPI0003901BFD: 5''''-3'''' exonuclease|unclassified	583.427
+UniRef50_UPI0003C13169: PREDICTED: DNA-3-methyladenine glycosylase 1-like	583.425
+UniRef50_UPI0003C13169: PREDICTED: DNA-3-methyladenine glycosylase 1-like|unclassified	583.425
+UniRef50_Q9Z847: Putative 3-methyladenine DNA glycosylase	583.134
+UniRef50_Q9Z847: Putative 3-methyladenine DNA glycosylase|unclassified	583.134
+UniRef50_A3CTY6: Putative 3-methyladenine DNA glycosylase	580.935
+UniRef50_A3CTY6: Putative 3-methyladenine DNA glycosylase|unclassified	580.935
+UniRef50_UPI0003C1ADBB	580.699
+UniRef50_UPI0003C1ADBB|unclassified	580.699
+UniRef50_A0A031GLP8	580.278
+UniRef50_A0A031GLP8|unclassified	580.278
+UniRef50_UPI000225AEF4: formamidopyrimidine/5-formyluracil/ 5-hydroxymethyluracil DNA glycosylase	576.732
+UniRef50_UPI000225AEF4: formamidopyrimidine/5-formyluracil/ 5-hydroxymethyluracil DNA glycosylase|unclassified	576.732
+UniRef50_UPI00038224DC: hypothetical protein	576.213
+UniRef50_UPI00038224DC: hypothetical protein|unclassified	576.213
+UniRef50_UPI000376712E: hypothetical protein	575.292
+UniRef50_UPI000376712E: hypothetical protein|unclassified	575.292
+UniRef50_Q9ZD40	573.856
+UniRef50_Q9ZD40|unclassified	573.856
+UniRef50_Q72BM7: DNA ligase	570.597
+UniRef50_Q72BM7: DNA ligase|unclassified	570.597
+UniRef50_UPI00047D31A2: ATP-dependent DNA ligase	570.085
+UniRef50_UPI00047D31A2: ATP-dependent DNA ligase|unclassified	570.085
+UniRef50_UPI0001F8584C: single-strand DNA-specific exonuclease-like protein	570.008
+UniRef50_UPI0001F8584C: single-strand DNA-specific exonuclease-like protein|unclassified	570.008
+UniRef50_UPI0004250A64: formamidopyrimidine-DNA glycosylase	569.017
+UniRef50_UPI0004250A64: formamidopyrimidine-DNA glycosylase|unclassified	569.017
+UniRef50_A7NQM8: Formamidopyrimidine-DNA glycosylase	568.44
+UniRef50_A7NQM8: Formamidopyrimidine-DNA glycosylase|unclassified	568.44
+UniRef50_UPI00034DC1F6: hypothetical protein	568.129
+UniRef50_UPI00034DC1F6: hypothetical protein|unclassified	568.129
+UniRef50_J2DIE9	565.659
+UniRef50_J2DIE9|unclassified	565.659
+UniRef50_UPI000366C6CF: hypothetical protein	565.455
+UniRef50_UPI000366C6CF: hypothetical protein|unclassified	565.455
+UniRef50_UPI0003B3F13D: single-stranded DNA exonuclease RecJ	563.96
+UniRef50_UPI0003B3F13D: single-stranded DNA exonuclease RecJ|unclassified	563.96
+UniRef50_K8DB76	562.986
+UniRef50_K8DB76|unclassified	562.986
+UniRef50_UPI0003B79BBC: NAD-dependent DNA ligase LigA	562.961
+UniRef50_UPI0003B79BBC: NAD-dependent DNA ligase LigA|unclassified	562.961
+UniRef50_UPI00029AD1B5: DNA ligase, NAD-dependent	558.79
+UniRef50_UPI00029AD1B5: DNA ligase, NAD-dependent|unclassified	558.79
+UniRef50_Q7X3I7	558.464
+UniRef50_Q7X3I7|unclassified	558.464
+UniRef50_UPI0003620879: hypothetical protein	557.482
+UniRef50_UPI0003620879: hypothetical protein|unclassified	557.482
+UniRef50_UPI000381B99E: ATP-dependent DNA ligase	553.877
+UniRef50_UPI000381B99E: ATP-dependent DNA ligase|unclassified	553.877
+UniRef50_Q8K9D0: 5'-3' exonuclease	551.808
+UniRef50_Q8K9D0: 5'-3' exonuclease|unclassified	551.808
+UniRef50_A4Y4Y4: Flap endonuclease Xni	550.204
+UniRef50_A4Y4Y4: Flap endonuclease Xni|unclassified	550.204
+UniRef50_UPI00037F0210: hypothetical protein	547.243
+UniRef50_UPI00037F0210: hypothetical protein|unclassified	547.243
+UniRef50_UPI0001C39608: DNA ligase, NAD-dependent, partial	545.955
+UniRef50_UPI0001C39608: DNA ligase, NAD-dependent, partial|unclassified	545.955
+UniRef50_UPI00037C3519: hypothetical protein	541.553
+UniRef50_UPI00037C3519: hypothetical protein|unclassified	541.553
+UniRef50_O66880: DNA ligase	541.113
+UniRef50_O66880: DNA ligase|unclassified	541.113
+UniRef50_E2PHR0	535.11
+UniRef50_E2PHR0|unclassified	535.11
+UniRef50_UPI00037B944A: hypothetical protein	533.854
+UniRef50_UPI00037B944A: hypothetical protein|unclassified	533.854
+UniRef50_C1F7S7: DNA ligase	533.535
+UniRef50_C1F7S7: DNA ligase|unclassified	533.535
+UniRef50_Q8ETG4: Putative 3-methyladenine DNA glycosylase	531.694
+UniRef50_Q8ETG4: Putative 3-methyladenine DNA glycosylase|unclassified	531.694
+UniRef50_UPI00047254ED: hypothetical protein, partial	531.318
+UniRef50_UPI00047254ED: hypothetical protein, partial|unclassified	531.318
+UniRef50_Q8PJT1: Putative 3-methyladenine DNA glycosylase	531.306
+UniRef50_Q8PJT1: Putative 3-methyladenine DNA glycosylase|unclassified	531.306
+UniRef50_A0LI67: DNA ligase	526.458
+UniRef50_A0LI67: DNA ligase|unclassified	526.458
+UniRef50_B3EM49: DNA ligase	519.584
+UniRef50_B3EM49: DNA ligase|unclassified	519.584
+UniRef50_UPI00047E2D6D: hypothetical protein	519.174
+UniRef50_UPI00047E2D6D: hypothetical protein|unclassified	519.174
+UniRef50_UPI000466B149: DNA repair protein	517.535
+UniRef50_UPI000466B149: DNA repair protein|unclassified	517.535
+UniRef50_UPI0003B64FE0: recombinase RecJ	516.837
+UniRef50_UPI0003B64FE0: recombinase RecJ|unclassified	516.837
+UniRef50_UPI00047CE178: NAD-dependent DNA ligase LigA	509.174
+UniRef50_UPI00047CE178: NAD-dependent DNA ligase LigA|unclassified	509.174
+UniRef50_UPI0003C14597	508.892
+UniRef50_UPI0003C14597|unclassified	508.892
+UniRef50_Q89A43: Exodeoxyribonuclease I	504.791
+UniRef50_Q89A43: Exodeoxyribonuclease I|unclassified	504.791
+UniRef50_UPI00016B1B06: DNA ligase, ATP-dependent, partial	504.633
+UniRef50_UPI00016B1B06: DNA ligase, ATP-dependent, partial|unclassified	504.633
+UniRef50_UPI0003630C3D: hypothetical protein	504.6
+UniRef50_UPI0003630C3D: hypothetical protein|unclassified	504.6
+UniRef50_UPI000473C590: hypothetical protein, partial	504.364
+UniRef50_UPI000473C590: hypothetical protein, partial|unclassified	504.364
+UniRef50_X1ANK1: Marine sediment metagenome DNA, contig: S01H4_S02847 (Fragment)	501.327
+UniRef50_X1ANK1: Marine sediment metagenome DNA, contig: S01H4_S02847 (Fragment)|unclassified	501.327
+UniRef50_UPI00037BCF8E: hypothetical protein, partial	500.318
+UniRef50_UPI00037BCF8E: hypothetical protein, partial|unclassified	500.318
+UniRef50_B1W1Y7: Putative 3-methyladenine DNA glycosylase	499.093
+UniRef50_B1W1Y7: Putative 3-methyladenine DNA glycosylase|unclassified	499.093
+UniRef50_UPI0003812BD6: hypothetical protein	498.15
+UniRef50_UPI0003812BD6: hypothetical protein|unclassified	498.15
+UniRef50_UPI00035E6E6C: hypothetical protein	496.974
+UniRef50_UPI00035E6E6C: hypothetical protein|unclassified	496.974
+UniRef50_UPI0004258884: DNA helicase	496.275
+UniRef50_UPI0004258884: DNA helicase|unclassified	496.275
+UniRef50_UPI0002BB5F08: hypothetical protein	494.637
+UniRef50_UPI0002BB5F08: hypothetical protein|unclassified	494.637
+UniRef50_UPI00035ECC31: hypothetical protein	493.984
+UniRef50_UPI00035ECC31: hypothetical protein|unclassified	493.984
+UniRef50_UPI00046F02F1: hypothetical protein, partial	492.524
+UniRef50_UPI00046F02F1: hypothetical protein, partial|unclassified	492.524
+UniRef50_UPI00026C7A12: hypothetical DNA-binding protein	491.402
+UniRef50_UPI00026C7A12: hypothetical DNA-binding protein|unclassified	491.402
+UniRef50_UPI0004753D07: single-stranded DNA exonuclease RecJ	490.282
+UniRef50_UPI0004753D07: single-stranded DNA exonuclease RecJ|unclassified	490.282
+UniRef50_UPI00036FA395: hypothetical protein, partial	488.174
+UniRef50_UPI00036FA395: hypothetical protein, partial|unclassified	488.174
+UniRef50_UPI0004737233: hypothetical protein, partial	486.754
+UniRef50_UPI0004737233: hypothetical protein, partial|unclassified	486.754
+UniRef50_UPI00015B45A4	485.687
+UniRef50_UPI00015B45A4|unclassified	485.687
+UniRef50_UPI000371AE83: hypothetical protein	484.647
+UniRef50_UPI000371AE83: hypothetical protein|unclassified	484.647
+UniRef50_Q13NQ1: Putative 3-methyladenine DNA glycosylase	484.064
+UniRef50_Q13NQ1: Putative 3-methyladenine DNA glycosylase|unclassified	484.064
+UniRef50_Q5X6N6: Putative 3-methyladenine DNA glycosylase	482.104
+UniRef50_Q5X6N6: Putative 3-methyladenine DNA glycosylase|unclassified	482.104
+UniRef50_UPI00034C6036: hypothetical protein	479.6
+UniRef50_UPI00034C6036: hypothetical protein|unclassified	479.6
+UniRef50_P37878: DNA-3-methyladenine glycosylase	478.751
+UniRef50_P37878: DNA-3-methyladenine glycosylase|unclassified	478.751
+UniRef50_UPI0002BAA957: hypothetical protein, partial	478.648
+UniRef50_UPI0002BAA957: hypothetical protein, partial|unclassified	478.648
+UniRef50_B5YIF8: DNA ligase	476.805
+UniRef50_B5YIF8: DNA ligase|unclassified	476.805
+UniRef50_UPI000464393B: recombinase RecJ	474.375
+UniRef50_UPI000464393B: recombinase RecJ|unclassified	474.375
+UniRef50_Q6NGH4: Formamidopyrimidine-DNA glycosylase	472.635
+UniRef50_Q6NGH4: Formamidopyrimidine-DNA glycosylase|unclassified	472.635
+UniRef50_UPI000362CEE2: hypothetical protein	471.16
+UniRef50_UPI000362CEE2: hypothetical protein|unclassified	471.16
+UniRef50_UPI00047AD68F: hypothetical protein	470.625
+UniRef50_UPI00047AD68F: hypothetical protein|unclassified	470.625
+UniRef50_S6X0W1	470.513
+UniRef50_S6X0W1|unclassified	470.513
+UniRef50_UPI00038F8170: DNA ligase	469.978
+UniRef50_UPI00038F8170: DNA ligase|unclassified	469.978
+UniRef50_Q2ESS7: RecJ (Fragment)	469.429
+UniRef50_Q2ESS7: RecJ (Fragment)|unclassified	469.429
+UniRef50_UPI00030E0145: hypothetical protein	468.223
+UniRef50_UPI00030E0145: hypothetical protein|unclassified	468.223
+UniRef50_UPI00037E30EF: hypothetical protein	465.972
+UniRef50_UPI00037E30EF: hypothetical protein|unclassified	465.972
+UniRef50_N0B3Q2: DNA polymerase LigD, polymerase domain-containing protein	465.473
+UniRef50_N0B3Q2: DNA polymerase LigD, polymerase domain-containing protein|unclassified	465.473
+UniRef50_UPI000474B6E2: ATP-dependent DNA ligase	464.441
+UniRef50_UPI000474B6E2: ATP-dependent DNA ligase|unclassified	464.441
+UniRef50_A0A011PB54: Endonuclease III	463.673
+UniRef50_A0A011PB54: Endonuclease III|unclassified	463.673
+UniRef50_UPI00035D7F72: hypothetical protein, partial	463.436
+UniRef50_UPI00035D7F72: hypothetical protein, partial|unclassified	463.436
+UniRef50_A4J4X3: Formamidopyrimidine-DNA glycosylase	460.303
+UniRef50_A4J4X3: Formamidopyrimidine-DNA glycosylase|unclassified	460.303
+UniRef50_Q68X22: Putative 3-methyladenine DNA glycosylase	460.19
+UniRef50_Q68X22: Putative 3-methyladenine DNA glycosylase|unclassified	460.19
+UniRef50_UPI00036ED30A: hypothetical protein	459.832
+UniRef50_UPI00036ED30A: hypothetical protein|unclassified	459.832
+UniRef50_A5FRL4: DNA ligase	458.389
+UniRef50_A5FRL4: DNA ligase|unclassified	458.389
+UniRef50_UPI000368AD99: hypothetical protein	457.405
+UniRef50_UPI000368AD99: hypothetical protein|unclassified	457.405
+UniRef50_UPI000372E285: hypothetical protein	456.558
+UniRef50_UPI000372E285: hypothetical protein|unclassified	456.558
+UniRef50_UPI00047E0E0B: endonuclease	455.867
+UniRef50_UPI00047E0E0B: endonuclease|unclassified	455.867
+UniRef50_X7ZAV1	455.195
+UniRef50_X7ZAV1|unclassified	455.195
+UniRef50_UPI0003B69696: NAD-dependent DNA ligase LigA	454.144
+UniRef50_UPI0003B69696: NAD-dependent DNA ligase LigA|unclassified	454.144
+UniRef50_R6H988	454.01
+UniRef50_R6H988|unclassified	454.01
+UniRef50_UPI0003A248D0: recombination protein RecJ	452.096
+UniRef50_UPI0003A248D0: recombination protein RecJ|unclassified	452.096
+UniRef50_K8C1B4	450.006
+UniRef50_K8C1B4|unclassified	450.006
+UniRef50_UPI000369CE93: hypothetical protein, partial	449.014
+UniRef50_UPI000369CE93: hypothetical protein, partial|unclassified	449.014
+UniRef50_UPI00036EE733: hypothetical protein	448.992
+UniRef50_UPI00036EE733: hypothetical protein|unclassified	448.992
+UniRef50_UPI0003482622: DNA glycosylase	448.41
+UniRef50_UPI0003482622: DNA glycosylase|unclassified	448.41
+UniRef50_A9NHW0: DNA ligase	445.071
+UniRef50_A9NHW0: DNA ligase|unclassified	445.071
+UniRef50_Q0SI65: Putative 3-methyladenine DNA glycosylase	444.7
+UniRef50_Q0SI65: Putative 3-methyladenine DNA glycosylase|unclassified	444.7
+UniRef50_UPI00040198F4: recombinase RecJ	441.775
+UniRef50_UPI00040198F4: recombinase RecJ|unclassified	441.775
+UniRef50_UPI000181707B: probable dna ligase (polydeoxyribonucleotide synthase [nad+]) (partial sequencecentral part) protein	441.221
+UniRef50_UPI000181707B: probable dna ligase (polydeoxyribonucleotide synthase [nad+]) (partial sequencecentral part) protein|unclassified	441.221
+UniRef50_B4U8X0: DNA ligase	441.105
+UniRef50_B4U8X0: DNA ligase|unclassified	441.105
+UniRef50_A7H8A2: DNA ligase	437.319
+UniRef50_A7H8A2: DNA ligase|unclassified	437.319
+UniRef50_UPI00037B9576: hypothetical protein	436.301
+UniRef50_UPI00037B9576: hypothetical protein|unclassified	436.301
+UniRef50_X1B8K4: Marine sediment metagenome DNA, contig: S01H4_C05622 (Fragment)	434.486
+UniRef50_X1B8K4: Marine sediment metagenome DNA, contig: S01H4_C05622 (Fragment)|unclassified	434.486
+UniRef50_Q4LBY8: Putative 3-methyladenine DNA glycosylase	433.118
+UniRef50_Q4LBY8: Putative 3-methyladenine DNA glycosylase|unclassified	433.118
+UniRef50_UPI0003A8338C: hypothetical protein	432.493
+UniRef50_UPI0003A8338C: hypothetical protein|unclassified	432.493
+UniRef50_UPI0004661843: hypothetical protein	432.009
+UniRef50_UPI0004661843: hypothetical protein|unclassified	432.009
+UniRef50_A5CQU5: DNA ligase	431.616
+UniRef50_A5CQU5: DNA ligase|unclassified	431.616
+UniRef50_UPI00036D4A98: hypothetical protein	430.232
+UniRef50_UPI00036D4A98: hypothetical protein|unclassified	430.232
+UniRef50_X1CWT3: Marine sediment metagenome DNA, contig: S01H4_S11351 (Fragment)	429.571
+UniRef50_X1CWT3: Marine sediment metagenome DNA, contig: S01H4_S11351 (Fragment)|unclassified	429.571
+UniRef50_UPI000478FDC2: formamidopyrimidine-DNA glycosylase	429.549
+UniRef50_UPI000478FDC2: formamidopyrimidine-DNA glycosylase|unclassified	429.549
+UniRef50_UPI000255627F: NAD-dependent DNA ligase LigA	428.141
+UniRef50_UPI000255627F: NAD-dependent DNA ligase LigA|unclassified	428.141
+UniRef50_P52027: DNA polymerase I	424.448
+UniRef50_P52027: DNA polymerase I|unclassified	424.448
+UniRef50_E1NRX1	424.272
+UniRef50_E1NRX1|unclassified	424.272
+UniRef50_UPI00047AC2FC: DNA-3-methyladenine glycosylase	423.55
+UniRef50_UPI00047AC2FC: DNA-3-methyladenine glycosylase|unclassified	423.55
+UniRef50_W6RIZ7	423.195
+UniRef50_W6RIZ7|unclassified	423.195
+UniRef50_UPI00021955C3: 3-methyladenine DNA glycosylase	422.552
+UniRef50_UPI00021955C3: 3-methyladenine DNA glycosylase|unclassified	422.552
+UniRef50_X0U9C0: Marine sediment metagenome DNA, contig: S01H1_S03795 (Fragment)	422.494
+UniRef50_X0U9C0: Marine sediment metagenome DNA, contig: S01H1_S03795 (Fragment)|unclassified	422.494
+UniRef50_W5X933: DNA ligase	420.027
+UniRef50_W5X933: DNA ligase|unclassified	420.027
+UniRef50_UPI00037B4B6C: hypothetical protein	417.754
+UniRef50_UPI00037B4B6C: hypothetical protein|unclassified	417.754
+UniRef50_R6FIY6	417.689
+UniRef50_R6FIY6|unclassified	417.689
+UniRef50_UPI000372A054: hypothetical protein	415.599
+UniRef50_UPI000372A054: hypothetical protein|unclassified	415.599
+UniRef50_P55825: Formamidopyrimidine-DNA glycosylase	415.543
+UniRef50_P55825: Formamidopyrimidine-DNA glycosylase|unclassified	415.543
+UniRef50_F9XXB7	415.541
+UniRef50_F9XXB7|unclassified	415.541
+UniRef50_UPI0003738572: hypothetical protein	414.341
+UniRef50_UPI0003738572: hypothetical protein|unclassified	414.341
+UniRef50_Q8KBD5: Putative 3-methyladenine DNA glycosylase	414.307
+UniRef50_Q8KBD5: Putative 3-methyladenine DNA glycosylase|unclassified	414.307
+UniRef50_UPI000473CDA1: ATP-dependent DNA ligase, partial	411.465
+UniRef50_UPI000473CDA1: ATP-dependent DNA ligase, partial|unclassified	411.465
+UniRef50_T0EBK0: DHH family protein	410.929
+UniRef50_T0EBK0: DHH family protein|unclassified	410.929
+UniRef50_UPI00047C3086: 5''-3'' exonuclease	410.874
+UniRef50_UPI00047C3086: 5''-3'' exonuclease|unclassified	410.874
+UniRef50_UPI000262CCCA: DNA ligase, ATP-dependent	410.531
+UniRef50_UPI000262CCCA: DNA ligase, ATP-dependent|unclassified	410.531
+UniRef50_UPI0003B3C1FE: NAD-dependent DNA ligase LigA	410.254
+UniRef50_UPI0003B3C1FE: NAD-dependent DNA ligase LigA|unclassified	410.254
+UniRef50_UPI000473474B: formamidopyrimidine-DNA glycosylase, partial	410.134
+UniRef50_UPI000473474B: formamidopyrimidine-DNA glycosylase, partial|unclassified	410.134
+UniRef50_UPI0004227BD1: hypothetical protein	408.785
+UniRef50_UPI0004227BD1: hypothetical protein|unclassified	408.785
+UniRef50_UPI00037CB268: hypothetical protein	408.549
+UniRef50_UPI00037CB268: hypothetical protein|unclassified	408.549
+UniRef50_O51383: Putative 3-methyladenine DNA glycosylase	408.229
+UniRef50_O51383: Putative 3-methyladenine DNA glycosylase|unclassified	408.229
+UniRef50_Q93IZ8: DNA ligase 2	408.208
+UniRef50_Q93IZ8: DNA ligase 2|unclassified	408.208
+UniRef50_UPI0002E80A9E: hypothetical protein	407.142
+UniRef50_UPI0002E80A9E: hypothetical protein|unclassified	407.142
+UniRef50_UPI0003753AC2: hypothetical protein	406.651
+UniRef50_UPI0003753AC2: hypothetical protein|unclassified	406.651
+UniRef50_UPI000375DA9C: hypothetical protein	406.321
+UniRef50_UPI000375DA9C: hypothetical protein|unclassified	406.321
+UniRef50_P9WNU2: 5'-3' exonuclease	404.181
+UniRef50_P9WNU2: 5'-3' exonuclease|unclassified	404.181
+UniRef50_K1XW56	402.579
+UniRef50_K1XW56|unclassified	402.579
+UniRef50_G2NSR8: DNA polymerase LigD, polymerase domain protein	400.224
+UniRef50_G2NSR8: DNA polymerase LigD, polymerase domain protein|unclassified	400.224
+UniRef50_UPI0003712033: hypothetical protein	399.452
+UniRef50_UPI0003712033: hypothetical protein|unclassified	399.452
+UniRef50_X0Y9H0: Marine sediment metagenome DNA, contig: S01H1_S34711 (Fragment)	398.177
+UniRef50_X0Y9H0: Marine sediment metagenome DNA, contig: S01H1_S34711 (Fragment)|unclassified	398.177
+UniRef50_UPI00041598D1: DNA repair protein	395.836
+UniRef50_UPI00041598D1: DNA repair protein|unclassified	395.836
+UniRef50_A4VRF3: DNA ligase B	394.889
+UniRef50_A4VRF3: DNA ligase B|unclassified	394.889
+UniRef50_A1QZY4: DNA ligase	394.366
+UniRef50_A1QZY4: DNA ligase|unclassified	394.366
+UniRef50_UPI0003B68CA8: endonuclease III	393.18
+UniRef50_UPI0003B68CA8: endonuclease III|unclassified	393.18
+UniRef50_UPI000287C1AC: hypothetical protein	392.576
+UniRef50_UPI000287C1AC: hypothetical protein|unclassified	392.576
+UniRef50_UPI0003698B91: hypothetical protein	391.92
+UniRef50_UPI0003698B91: hypothetical protein|unclassified	391.92
+UniRef50_Q40IQ7	391.538
+UniRef50_Q40IQ7|unclassified	391.538
+UniRef50_UPI00021959FE: single-stranded DNA exonuclease	391.019
+UniRef50_UPI00021959FE: single-stranded DNA exonuclease|unclassified	391.019
+UniRef50_T4FK11: DHH family protein	390.664
+UniRef50_T4FK11: DHH family protein|unclassified	390.664
+UniRef50_UPI0003A8604F: DNA polymerase I	390.061
+UniRef50_UPI0003A8604F: DNA polymerase I|unclassified	390.061
+UniRef50_Q8FUA2: Putative 3-methyladenine DNA glycosylase	388.943
+UniRef50_Q8FUA2: Putative 3-methyladenine DNA glycosylase|unclassified	388.943
+UniRef50_Q73G53: Putative 3-methyladenine DNA glycosylase	388.789
+UniRef50_Q73G53: Putative 3-methyladenine DNA glycosylase|unclassified	388.789
+UniRef50_A2C5E6: DNA ligase	387.678
+UniRef50_A2C5E6: DNA ligase|unclassified	387.678
+UniRef50_A5D0T6: Formamidopyrimidine-DNA glycosylase	386.763
+UniRef50_A5D0T6: Formamidopyrimidine-DNA glycosylase|unclassified	386.763
+UniRef50_UPI000473F0F9: MULTISPECIES: hypothetical protein	385.623
+UniRef50_UPI000473F0F9: MULTISPECIES: hypothetical protein|unclassified	385.623
+UniRef50_F0GHV4: DNA-3-methyladenine glycosylase II (Fragment)	385.096
+UniRef50_F0GHV4: DNA-3-methyladenine glycosylase II (Fragment)|unclassified	385.096
+UniRef50_UPI0003B6BAD3: DNA-3-methyladenine glycosylase	384.795
+UniRef50_UPI0003B6BAD3: DNA-3-methyladenine glycosylase|unclassified	384.795
+UniRef50_Q1CYD8: Putative 3-methyladenine DNA glycosylase	382.083
+UniRef50_Q1CYD8: Putative 3-methyladenine DNA glycosylase|unclassified	382.083
+UniRef50_B9DWM9: DNA ligase	382.058
+UniRef50_B9DWM9: DNA ligase|unclassified	382.058
+UniRef50_W9TJN8	381.606
+UniRef50_W9TJN8|unclassified	381.606
+UniRef50_UPI0003654E00: hypothetical protein	381.336
+UniRef50_UPI0003654E00: hypothetical protein|unclassified	381.336
+UniRef50_W7RF25: DNA-3-methyladenine glycosylase (Fragment)	380.829
+UniRef50_W7RF25: DNA-3-methyladenine glycosylase (Fragment)|unclassified	380.829
+UniRef50_UPI00046EB7D9: ATP-dependent DNA ligase, partial	380.141
+UniRef50_UPI00046EB7D9: ATP-dependent DNA ligase, partial|unclassified	380.141
+UniRef50_A0A038FY88	379.037
+UniRef50_A0A038FY88|unclassified	379.037
+UniRef50_Q2GLI8: DNA ligase	377.977
+UniRef50_Q2GLI8: DNA ligase|unclassified	377.977
+UniRef50_W0YS40	377.937
+UniRef50_W0YS40|unclassified	377.937
+UniRef50_V5SB92: DNA polymerase	377.622
+UniRef50_V5SB92: DNA polymerase|unclassified	377.622
+UniRef50_C0QJ86: DNA ligase	375.827
+UniRef50_C0QJ86: DNA ligase|unclassified	375.827
+UniRef50_Q0W5C8: Putative 3-methyladenine DNA glycosylase	375.365
+UniRef50_Q0W5C8: Putative 3-methyladenine DNA glycosylase|unclassified	375.365
+UniRef50_B5RMA6: DNA ligase	375.351
+UniRef50_B5RMA6: DNA ligase|unclassified	375.351
+UniRef50_UPI000366ED8D: DNA polymerase I	374.824
+UniRef50_UPI000366ED8D: DNA polymerase I|unclassified	374.824
+UniRef50_UPI00036514C7: NAD-dependent DNA ligase LigB, partial	373.445
+UniRef50_UPI00036514C7: NAD-dependent DNA ligase LigB, partial|unclassified	373.445
+UniRef50_UPI00025564E2: DNA polymerase I	373.172
+UniRef50_UPI00025564E2: DNA polymerase I|unclassified	373.172
+UniRef50_UPI0003B34FD3: NAD-dependent DNA ligase LigA	372.883
+UniRef50_UPI0003B34FD3: NAD-dependent DNA ligase LigA|unclassified	372.883
+UniRef50_UPI0002880B8B: NAD-dependent DNA ligase LigA	372.733
+UniRef50_UPI0002880B8B: NAD-dependent DNA ligase LigA|unclassified	372.733
+UniRef50_W5XDD5: DNA polymerase	372.601
+UniRef50_W5XDD5: DNA polymerase|unclassified	372.601
+UniRef50_X1U188: Marine sediment metagenome DNA, contig: S12H4_L03975 (Fragment)	368.985
+UniRef50_X1U188: Marine sediment metagenome DNA, contig: S12H4_L03975 (Fragment)|unclassified	368.985
+UniRef50_UPI000288C547: hypothetical protein	368.922
+UniRef50_UPI000288C547: hypothetical protein|unclassified	368.922
+UniRef50_R6T682	368.399
+UniRef50_R6T682|unclassified	368.399
+UniRef50_X0SA61: Marine sediment metagenome DNA, contig: S01H1_L06202 (Fragment)	367.028
+UniRef50_X0SA61: Marine sediment metagenome DNA, contig: S01H1_L06202 (Fragment)|unclassified	367.028
+UniRef50_Q2S459: DNA ligase	364.105
+UniRef50_Q2S459: DNA ligase|unclassified	364.105
+UniRef50_UPI00029A263F: single-stranded-DNA-specific exonuclease	363.264
+UniRef50_UPI00029A263F: single-stranded-DNA-specific exonuclease|unclassified	363.264
+UniRef50_Q4UVR0: Putative 3-methyladenine DNA glycosylase	362.693
+UniRef50_Q4UVR0: Putative 3-methyladenine DNA glycosylase|unclassified	362.693
+UniRef50_UPI000400E971: DNA ligase	362.347
+UniRef50_UPI000400E971: DNA ligase|unclassified	362.347
+UniRef50_F4BWI7	361.955
+UniRef50_F4BWI7|unclassified	361.955
+UniRef50_X0X8A5: Marine sediment metagenome DNA, contig: S01H1_S33925 (Fragment)	361.424
+UniRef50_X0X8A5: Marine sediment metagenome DNA, contig: S01H1_S33925 (Fragment)|unclassified	361.424
+UniRef50_Q11IE7: Putative 3-methyladenine DNA glycosylase	360.494
+UniRef50_Q11IE7: Putative 3-methyladenine DNA glycosylase|unclassified	360.494
+UniRef50_T0N5B4	359.962
+UniRef50_T0N5B4|unclassified	359.962
+UniRef50_B8D6X9: DNA ligase	359.069
+UniRef50_B8D6X9: DNA ligase|unclassified	359.069
+UniRef50_Q6APT2: Formamidopyrimidine-DNA glycosylase	358.473
+UniRef50_Q6APT2: Formamidopyrimidine-DNA glycosylase|unclassified	358.473
+UniRef50_UPI00037FF51D: single-stranded DNA exonuclease	356.9
+UniRef50_UPI00037FF51D: single-stranded DNA exonuclease|unclassified	356.9
+UniRef50_UPI0003477B14: hypothetical protein	356.875
+UniRef50_UPI0003477B14: hypothetical protein|unclassified	356.875
+UniRef50_UPI0003FBF700: DNA repair protein	356.274
+UniRef50_UPI0003FBF700: DNA repair protein|unclassified	356.274
+UniRef50_UPI000373ED9A: hypothetical protein	353.519
+UniRef50_UPI000373ED9A: hypothetical protein|unclassified	353.519
+UniRef50_UPI00036A2F9A: hypothetical protein	353.07
+UniRef50_UPI00036A2F9A: hypothetical protein|unclassified	353.07
+UniRef50_B0TER7: Formamidopyrimidine-DNA glycosylase	352.739
+UniRef50_B0TER7: Formamidopyrimidine-DNA glycosylase|unclassified	352.739
+UniRef50_A4XAZ5: DNA primase, small subunit	352.25
+UniRef50_A4XAZ5: DNA primase, small subunit|unclassified	352.25
+UniRef50_H2JSI5	349.383
+UniRef50_H2JSI5|unclassified	349.383
+UniRef50_UPI0003B4CECA: endonuclease	346.951
+UniRef50_UPI0003B4CECA: endonuclease|unclassified	346.951
+UniRef50_Q7NFW7: Formamidopyrimidine-DNA glycosylase	346.827
+UniRef50_Q7NFW7: Formamidopyrimidine-DNA glycosylase|unclassified	346.827
+UniRef50_A9BDC5: DNA ligase	345.533
+UniRef50_A9BDC5: DNA ligase|unclassified	345.533
+UniRef50_B4UIZ5: Putative 3-methyladenine DNA glycosylase	341.888
+UniRef50_B4UIZ5: Putative 3-methyladenine DNA glycosylase|unclassified	341.888
+UniRef50_UPI0003B6209F: DNA glycosylase	337.653
+UniRef50_UPI0003B6209F: DNA glycosylase|unclassified	337.653
+UniRef50_UPI00035D55A0: hypothetical protein	337.403
+UniRef50_UPI00035D55A0: hypothetical protein|unclassified	337.403
+UniRef50_C1A6H2: DNA ligase	336.451
+UniRef50_C1A6H2: DNA ligase|unclassified	336.451
+UniRef50_A9GU24: Probable DNA ligase	333.832
+UniRef50_A9GU24: Probable DNA ligase|unclassified	333.832
+UniRef50_UPI0003B47CCB: NAD-dependent DNA ligase LigA	333.552
+UniRef50_UPI0003B47CCB: NAD-dependent DNA ligase LigA|unclassified	333.552
+UniRef50_UPI000473D9E9: ATP-dependent DNA ligase, partial	333.046
+UniRef50_UPI000473D9E9: ATP-dependent DNA ligase, partial|unclassified	333.046
+UniRef50_UPI0004634CC6: ATP-dependent DNA ligase	331.517
+UniRef50_UPI0004634CC6: ATP-dependent DNA ligase|unclassified	331.517
+UniRef50_Q11UN5: Putative 3-methyladenine DNA glycosylase	329.338
+UniRef50_Q11UN5: Putative 3-methyladenine DNA glycosylase|unclassified	329.338
+UniRef50_A0A022H3A8	328.662
+UniRef50_A0A022H3A8|unclassified	328.662
+UniRef50_UPI0003B57751: single-stranded DNA exonuclease	328.601
+UniRef50_UPI0003B57751: single-stranded DNA exonuclease|unclassified	328.601
+UniRef50_UPI00047EC259: DNA ligase, partial	327.961
+UniRef50_UPI00047EC259: DNA ligase, partial|unclassified	327.961
+UniRef50_UPI0003469843: hypothetical protein	327.422
+UniRef50_UPI0003469843: hypothetical protein|unclassified	327.422
+UniRef50_L8E0F7: Acetyl-coenzyme A synthetase	327.183
+UniRef50_L8E0F7: Acetyl-coenzyme A synthetase|unclassified	327.183
+UniRef50_UPI0003780118: hypothetical protein, partial	326.851
+UniRef50_UPI0003780118: hypothetical protein, partial|unclassified	326.851
+UniRef50_X0TEV0: Marine sediment metagenome DNA, contig: S01H1_C01236 (Fragment)	326.733
+UniRef50_X0TEV0: Marine sediment metagenome DNA, contig: S01H1_C01236 (Fragment)|unclassified	326.733
+UniRef50_UPI0001B42A15: 3-methyladenine DNA glycosylase, partial	326.339
+UniRef50_UPI0001B42A15: 3-methyladenine DNA glycosylase, partial|unclassified	326.339
+UniRef50_A8G2Y9: Formamidopyrimidine-DNA glycosylase	326.083
+UniRef50_A8G2Y9: Formamidopyrimidine-DNA glycosylase|unclassified	326.083
+UniRef50_D9UUU5: DNA polymerase LigD, polymerase domain-containing protein	324.921
+UniRef50_D9UUU5: DNA polymerase LigD, polymerase domain-containing protein|unclassified	324.921
+UniRef50_Q89ME4: Blr4249 protein	324.808
+UniRef50_Q89ME4: Blr4249 protein|unclassified	324.808
+UniRef50_B8HCE1: Probable DNA ligase	323.178
+UniRef50_B8HCE1: Probable DNA ligase|unclassified	323.178
+UniRef50_Q8EYU4: DNA ligase	321.632
+UniRef50_Q8EYU4: DNA ligase|unclassified	321.632
+UniRef50_UPI000476BF92: DNA repair protein	319.201
+UniRef50_UPI000476BF92: DNA repair protein|unclassified	319.201
+UniRef50_UPI0003738569: hypothetical protein	319.173
+UniRef50_UPI0003738569: hypothetical protein|unclassified	319.173
+UniRef50_UPI000368B9BE: hypothetical protein	319.109
+UniRef50_UPI000368B9BE: hypothetical protein|unclassified	319.109
+UniRef50_UPI0002E4AFD3: hypothetical protein	317.227
+UniRef50_UPI0002E4AFD3: hypothetical protein|unclassified	317.227
+UniRef50_Q9PQ75: 5'-3' exonuclease	316.644
+UniRef50_Q9PQ75: 5'-3' exonuclease|unclassified	316.644
+UniRef50_Q5GS88: DNA ligase	315.88
+UniRef50_Q5GS88: DNA ligase|unclassified	315.88
+UniRef50_UPI0004051ED0: ATP-dependent DNA ligase	315.86
+UniRef50_UPI0004051ED0: ATP-dependent DNA ligase|unclassified	315.86
+UniRef50_UPI000365AC29: hypothetical protein	315.021
+UniRef50_UPI000365AC29: hypothetical protein|unclassified	315.021
+UniRef50_UPI000469DDCC: hypothetical protein	314.208
+UniRef50_UPI000469DDCC: hypothetical protein|unclassified	314.208
+UniRef50_Q5YNY7: Probable DNA ligase	314.162
+UniRef50_Q5YNY7: Probable DNA ligase|unclassified	314.162
+UniRef50_Q0AVE3: Formamidopyrimidine-DNA glycosylase	310.897
+UniRef50_Q0AVE3: Formamidopyrimidine-DNA glycosylase|unclassified	310.897
+UniRef50_Q1AWF5: Putative 3-methyladenine DNA glycosylase	310.775
+UniRef50_Q1AWF5: Putative 3-methyladenine DNA glycosylase|unclassified	310.775
+UniRef50_UPI0003B4E362: single-stranded DNA exonuclease	308.108
+UniRef50_UPI0003B4E362: single-stranded DNA exonuclease|unclassified	308.108
+UniRef50_UPI0004083EB8: MULTISPECIES: DNA-3-methyladenine glycosidase	307.744
+UniRef50_UPI0004083EB8: MULTISPECIES: DNA-3-methyladenine glycosidase|unclassified	307.744
+UniRef50_UPI00036A7A73: hypothetical protein	307.742
+UniRef50_UPI00036A7A73: hypothetical protein|unclassified	307.742
+UniRef50_UPI000373152C: hypothetical protein, partial	306.884
+UniRef50_UPI000373152C: hypothetical protein, partial|unclassified	306.884
+UniRef50_Q5SJ47: Single-stranded-DNA-specific exonuclease RecJ	306.439
+UniRef50_Q5SJ47: Single-stranded-DNA-specific exonuclease RecJ|unclassified	306.439
+UniRef50_UPI00036E9E93: hypothetical protein	304.668
+UniRef50_UPI00036E9E93: hypothetical protein|unclassified	304.668
+UniRef50_Q2K4W8: Putative 3-methyladenine DNA glycosylase	304.624
+UniRef50_Q2K4W8: Putative 3-methyladenine DNA glycosylase|unclassified	304.624
+UniRef50_UPI00046EC629: hypothetical protein	303.976
+UniRef50_UPI00046EC629: hypothetical protein|unclassified	303.976
+UniRef50_F9N2A3: DHH family protein	303.5
+UniRef50_F9N2A3: DHH family protein|unclassified	303.5
+UniRef50_UPI00016C0C67: DNA ligase	303.198
+UniRef50_UPI00016C0C67: DNA ligase|unclassified	303.198
+UniRef50_UPI00037EF707: 3-methyladenine DNA glycosylase	303.157
+UniRef50_UPI00037EF707: 3-methyladenine DNA glycosylase|unclassified	303.157
+UniRef50_UPI0004727A71: hypothetical protein	302.374
+UniRef50_UPI0004727A71: hypothetical protein|unclassified	302.374
+UniRef50_O34398: Bifunctional non-homologous end joining protein LigD	302.161
+UniRef50_O34398: Bifunctional non-homologous end joining protein LigD|unclassified	302.161
+UniRef50_UPI00035E28E1: hypothetical protein	302.126
+UniRef50_UPI00035E28E1: hypothetical protein|unclassified	302.126
+UniRef50_UPI00046D284F: hypothetical protein	302.094
+UniRef50_UPI00046D284F: hypothetical protein|unclassified	302.094
+UniRef50_UPI00046F71EF: hypothetical protein	302.054
+UniRef50_UPI00046F71EF: hypothetical protein|unclassified	302.054
+UniRef50_B1ZWH2: DNA ligase 1	300.939
+UniRef50_B1ZWH2: DNA ligase 1|unclassified	300.939
+UniRef50_UPI000368964C: hypothetical protein	300.767
+UniRef50_UPI000368964C: hypothetical protein|unclassified	300.767
+UniRef50_Q98QQ1: Formamidopyrimidine-DNA glycosylase	299.354
+UniRef50_Q98QQ1: Formamidopyrimidine-DNA glycosylase|unclassified	299.354
+UniRef50_UPI000248DAAE: 3-methyladenine DNA glycosylase	298.92
+UniRef50_UPI000248DAAE: 3-methyladenine DNA glycosylase|unclassified	298.92
+UniRef50_UPI000262825E: 3''''-5'''' exonuclease	298.294
+UniRef50_UPI000262825E: 3''''-5'''' exonuclease|unclassified	298.294
+UniRef50_A0A024HX54	296.457
+UniRef50_A0A024HX54|unclassified	296.457
+UniRef50_UPI0003B407F9: single-stranded DNA exonuclease RecJ	296.302
+UniRef50_UPI0003B407F9: single-stranded DNA exonuclease RecJ|unclassified	296.302
+UniRef50_UPI000366D553: hypothetical protein	296.095
+UniRef50_UPI000366D553: hypothetical protein|unclassified	296.095
+UniRef50_UPI00047CCD4A: ATP-dependent DNA ligase	295.532
+UniRef50_UPI00047CCD4A: ATP-dependent DNA ligase|unclassified	295.532
+UniRef50_UPI00035C6898: hypothetical protein, partial	295.079
+UniRef50_UPI00035C6898: hypothetical protein, partial|unclassified	295.079
+UniRef50_UPI00036D43D9: hypothetical protein	293.017
+UniRef50_UPI00036D43D9: hypothetical protein|unclassified	293.017
+UniRef50_I0GXU1	292.418
+UniRef50_I0GXU1|unclassified	292.418
+UniRef50_UPI0003B38C76: DNA polymerase I	291.248
+UniRef50_UPI0003B38C76: DNA polymerase I|unclassified	291.248
+UniRef50_Q4JYA4: Putative 3-methyladenine DNA glycosylase	290.855
+UniRef50_Q4JYA4: Putative 3-methyladenine DNA glycosylase|unclassified	290.855
+UniRef50_G7TCL7	287.403
+UniRef50_G7TCL7|unclassified	287.403
+UniRef50_Q6YQD6: DNA ligase	286.58
+UniRef50_Q6YQD6: DNA ligase|unclassified	286.58
+UniRef50_UPI0003745418: hypothetical protein	286.004
+UniRef50_UPI0003745418: hypothetical protein|unclassified	286.004
+UniRef50_UPI0003794506: hypothetical protein	283.471
+UniRef50_UPI0003794506: hypothetical protein|unclassified	283.471
+UniRef50_UPI0003700F10: hypothetical protein	281.721
+UniRef50_UPI0003700F10: hypothetical protein|unclassified	281.721
+UniRef50_H8EM94: Phosphoesterase RecJ domain protein	281.485
+UniRef50_H8EM94: Phosphoesterase RecJ domain protein|unclassified	281.485
+UniRef50_W7WIF9	280.244
+UniRef50_W7WIF9|unclassified	280.244
+UniRef50_Q6A5L3: Putative 3-methyladenine DNA glycosylase	277.887
+UniRef50_Q6A5L3: Putative 3-methyladenine DNA glycosylase|unclassified	277.887
+UniRef50_UPI0003B65B98: 5-hydroxymethyluracil DNA glycosylase, partial	276.827
+UniRef50_UPI0003B65B98: 5-hydroxymethyluracil DNA glycosylase, partial|unclassified	276.827
+UniRef50_U1ZVU3	275.562
+UniRef50_U1ZVU3|unclassified	275.562
+UniRef50_UPI000349C4A2: hypothetical protein	275.418
+UniRef50_UPI000349C4A2: hypothetical protein|unclassified	275.418
+UniRef50_UPI000255F8EC: 5''''-3'''' exonuclease	274.297
+UniRef50_UPI000255F8EC: 5''''-3'''' exonuclease|unclassified	274.297
+UniRef50_UPI00036223A0: hypothetical protein, partial	273.602
+UniRef50_UPI00036223A0: hypothetical protein, partial|unclassified	273.602
+UniRef50_B2IGT3: DNA polymerase LigD, polymerase domain protein	273.032
+UniRef50_B2IGT3: DNA polymerase LigD, polymerase domain protein|unclassified	273.032
+UniRef50_Q2JXG4: Putative 3-methyladenine DNA glycosylase	272.627
+UniRef50_Q2JXG4: Putative 3-methyladenine DNA glycosylase|unclassified	272.627
+UniRef50_UPI000262A4D1: ATP-dependent DNA ligase, partial	272.324
+UniRef50_UPI000262A4D1: ATP-dependent DNA ligase, partial|unclassified	272.324
+UniRef50_A1ATJ6: DNA ligase	272.285
+UniRef50_A1ATJ6: DNA ligase|unclassified	272.285
+UniRef50_B9L1Z5: Formamidopyrimidine-DNA glycosylase	272.126
+UniRef50_B9L1Z5: Formamidopyrimidine-DNA glycosylase|unclassified	272.126
+UniRef50_UPI000424D40C: recombinase RecJ	271.097
+UniRef50_UPI000424D40C: recombinase RecJ|unclassified	271.097
+UniRef50_UPI000472BB84: hypothetical protein	269.508
+UniRef50_UPI000472BB84: hypothetical protein|unclassified	269.508
+UniRef50_UPI00047C7000: recombinase RecJ	268.97
+UniRef50_UPI00047C7000: recombinase RecJ|unclassified	268.97
+UniRef50_UPI00036CD76E: hypothetical protein, partial	268.848
+UniRef50_UPI00036CD76E: hypothetical protein, partial|unclassified	268.848
+UniRef50_B9XZ65	268.534
+UniRef50_B9XZ65|unclassified	268.534
+UniRef50_K2AVB7	267.928
+UniRef50_K2AVB7|unclassified	267.928
+UniRef50_C0QVE5: DNA ligase	267.246
+UniRef50_C0QVE5: DNA ligase|unclassified	267.246
+UniRef50_B2UL69: DNA ligase	267.086
+UniRef50_B2UL69: DNA ligase|unclassified	267.086
+UniRef50_Q8EWL9: DNA ligase	266.826
+UniRef50_Q8EWL9: DNA ligase|unclassified	266.826
+UniRef50_UPI0004663BDD: DNA polymerase LigD	266.797
+UniRef50_UPI0004663BDD: DNA polymerase LigD|unclassified	266.797
+UniRef50_UPI00036F8A8D: hypothetical protein, partial	266.271
+UniRef50_UPI00036F8A8D: hypothetical protein, partial|unclassified	266.271
+UniRef50_UPI00016B21E8: DNA polymerase I, partial	266.16
+UniRef50_UPI00016B21E8: DNA polymerase I, partial|unclassified	266.16
+UniRef50_UPI0003F51622: DNA repair protein	264.771
+UniRef50_UPI0003F51622: DNA repair protein|unclassified	264.771
+UniRef50_UPI00037F292D: hypothetical protein	264.662
+UniRef50_UPI00037F292D: hypothetical protein|unclassified	264.662
+UniRef50_UPI00035DBB03: hypothetical protein	264.504
+UniRef50_UPI00035DBB03: hypothetical protein|unclassified	264.504
+UniRef50_X1SB70: Marine sediment metagenome DNA, contig: S12H4_C01290 (Fragment)	264.385
+UniRef50_X1SB70: Marine sediment metagenome DNA, contig: S12H4_C01290 (Fragment)|unclassified	264.385
+UniRef50_Q47YA8: Flap endonuclease Xni	263.919
+UniRef50_Q47YA8: Flap endonuclease Xni|unclassified	263.919
+UniRef50_S2M9U8	263.843
+UniRef50_S2M9U8|unclassified	263.843
+UniRef50_C3L496: DNA ligase	263.751
+UniRef50_C3L496: DNA ligase|unclassified	263.751
+UniRef50_W5XDI3: Non-homologous end joining protein Ku	263.445
+UniRef50_W5XDI3: Non-homologous end joining protein Ku|unclassified	263.445
+UniRef50_Q83G99: DNA ligase	263.419
+UniRef50_Q83G99: DNA ligase|unclassified	263.419
+UniRef50_Q5YVN7: DNA ligase 1	262.811
+UniRef50_Q5YVN7: DNA ligase 1|unclassified	262.811
+UniRef50_P47496: DNA ligase	262.345
+UniRef50_P47496: DNA ligase|unclassified	262.345
+UniRef50_UPI0003B6C946: hypothetical protein, partial	262.155
+UniRef50_UPI0003B6C946: hypothetical protein, partial|unclassified	262.155
+UniRef50_X0UQ31: Marine sediment metagenome DNA, contig: S01H1_S12312 (Fragment)	262.105
+UniRef50_X0UQ31: Marine sediment metagenome DNA, contig: S01H1_S12312 (Fragment)|unclassified	262.105
+UniRef50_UPI00021949C7: endonuclease III, partial	261.834
+UniRef50_UPI00021949C7: endonuclease III, partial|unclassified	261.834
+UniRef50_G7TCQ3: DNA polymerase LigD, polymerase domain protein	260.47
+UniRef50_G7TCQ3: DNA polymerase LigD, polymerase domain protein|unclassified	260.47
+UniRef50_UPI000478EF0E: delta(24)-sterol C-methyltransferase	260.094
+UniRef50_UPI000478EF0E: delta(24)-sterol C-methyltransferase|unclassified	260.094
+UniRef50_UPI000473BE51: NAD-dependent DNA ligase, partial	259.648
+UniRef50_UPI000473BE51: NAD-dependent DNA ligase, partial|unclassified	259.648
+UniRef50_UPI000381FE96: hypothetical protein	259.314
+UniRef50_UPI000381FE96: hypothetical protein|unclassified	259.314
+UniRef50_Q726D5: Formamidopyrimidine-DNA glycosylase	258.698
+UniRef50_Q726D5: Formamidopyrimidine-DNA glycosylase|unclassified	258.698
+UniRef50_O67779: DNA polymerase I	258.112
+UniRef50_O67779: DNA polymerase I|unclassified	258.112
+UniRef50_UPI0004762186: 3''-5'' exonuclease, partial	257.491
+UniRef50_UPI0004762186: 3''-5'' exonuclease, partial|unclassified	257.491
+UniRef50_Q9RX22: Formamidopyrimidine-DNA glycosylase	257.249
+UniRef50_Q9RX22: Formamidopyrimidine-DNA glycosylase|unclassified	257.249
+UniRef50_UPI0004711055: hypothetical protein, partial	255.187
+UniRef50_UPI0004711055: hypothetical protein, partial|unclassified	255.187
+UniRef50_UPI00046D7C55: hypothetical protein	254.082
+UniRef50_UPI00046D7C55: hypothetical protein|unclassified	254.082
+UniRef50_UPI0003753718: hypothetical protein	253.032
+UniRef50_UPI0003753718: hypothetical protein|unclassified	253.032
+UniRef50_UPI0002555E2A: single-stranded-DNA-specific exonuclease RecJ	252.903
+UniRef50_UPI0002555E2A: single-stranded-DNA-specific exonuclease RecJ|unclassified	252.903
+UniRef50_UPI0003777070: hypothetical protein	252.164
+UniRef50_UPI0003777070: hypothetical protein|unclassified	252.164
+UniRef50_UPI0003B4370A: DNA polymerase I	252.148
+UniRef50_UPI0003B4370A: DNA polymerase I|unclassified	252.148
+UniRef50_UPI000477B9DB: hypothetical protein	252.121
+UniRef50_UPI000477B9DB: hypothetical protein|unclassified	252.121
+UniRef50_UPI00016C36AE: formamidopyrimidine-DNA glycosylase	250.58
+UniRef50_UPI00016C36AE: formamidopyrimidine-DNA glycosylase|unclassified	250.58
+UniRef50_UPI0003722824: hypothetical protein	250.391
+UniRef50_UPI0003722824: hypothetical protein|unclassified	250.391
+UniRef50_UPI00047C5351: ATP-dependent DNA ligase	250.277
+UniRef50_UPI00047C5351: ATP-dependent DNA ligase|unclassified	250.277
+UniRef50_UPI0003B73930: DNA polymerase I	249.472
+UniRef50_UPI0003B73930: DNA polymerase I|unclassified	249.472
+UniRef50_UPI00047C12E5: formamidopyrimidine-DNA glycosylase	248.372
+UniRef50_UPI00047C12E5: formamidopyrimidine-DNA glycosylase|unclassified	248.372
+UniRef50_X0TSD5: Marine sediment metagenome DNA, contig: S01H1_S01172 (Fragment)	247.296
+UniRef50_X0TSD5: Marine sediment metagenome DNA, contig: S01H1_S01172 (Fragment)|unclassified	247.296
+UniRef50_Q1IHD8: Putative 3-methyladenine DNA glycosylase	247.207
+UniRef50_Q1IHD8: Putative 3-methyladenine DNA glycosylase|unclassified	247.207
+UniRef50_UPI000374A741: hypothetical protein	246.137
+UniRef50_UPI000374A741: hypothetical protein|unclassified	246.137
+UniRef50_Q9RSQ5: DNA ligase	242.204
+UniRef50_Q9RSQ5: DNA ligase|unclassified	242.204
+UniRef50_UPI000377A923: hypothetical protein	241.03
+UniRef50_UPI000377A923: hypothetical protein|unclassified	241.03
+UniRef50_X1Q3T5: Marine sediment metagenome DNA, contig: S06H3_S16937 (Fragment)	240.843
+UniRef50_X1Q3T5: Marine sediment metagenome DNA, contig: S06H3_S16937 (Fragment)|unclassified	240.843
+UniRef50_UPI0002EA7AC8: hypothetical protein	239.985
+UniRef50_UPI0002EA7AC8: hypothetical protein|unclassified	239.985
+UniRef50_UPI0002882B7C: ATP-dependent DNA ligase	239.38
+UniRef50_UPI0002882B7C: ATP-dependent DNA ligase|unclassified	239.38
+UniRef50_UPI0003619DA9: hypothetical protein, partial	236.923
+UniRef50_UPI0003619DA9: hypothetical protein, partial|unclassified	236.923
+UniRef50_UPI000376FCDC: hypothetical protein	235.367
+UniRef50_UPI000376FCDC: hypothetical protein|unclassified	235.367
+UniRef50_U4VHH5	234.969
+UniRef50_U4VHH5|unclassified	234.969
+UniRef50_UPI0004751913: hypothetical protein	234.775
+UniRef50_UPI0004751913: hypothetical protein|unclassified	234.775
+UniRef50_Q51360: Clone EM34 protein PolB/DinA-like (Fragment)	234.528
+UniRef50_Q51360: Clone EM34 protein PolB/DinA-like (Fragment)|unclassified	234.528
+UniRef50_UPI0002EC303D: ATP-dependent DNA ligase	233.406
+UniRef50_UPI0002EC303D: ATP-dependent DNA ligase|unclassified	233.406
+UniRef50_UPI00037EB511: hypothetical protein	233.382
+UniRef50_UPI00037EB511: hypothetical protein|unclassified	233.382
+UniRef50_K1XGI1	231.794
+UniRef50_K1XGI1|unclassified	231.794
+UniRef50_UPI00035EB73E: hypothetical protein	231.438
+UniRef50_UPI00035EB73E: hypothetical protein|unclassified	231.438
+UniRef50_X0SVI2: Marine sediment metagenome DNA, contig: S01H1_L00201 (Fragment)	230.059
+UniRef50_X0SVI2: Marine sediment metagenome DNA, contig: S01H1_L00201 (Fragment)|unclassified	230.059
+UniRef50_UPI0003B30931: 3''''-5'''' exonuclease	230.033
+UniRef50_UPI0003B30931: 3''''-5'''' exonuclease|unclassified	230.033
+UniRef50_Q4A899: DNA ligase	228.879
+UniRef50_Q4A899: DNA ligase|unclassified	228.879
+UniRef50_UPI000262580B: NAD-dependent DNA ligase, partial	228.403
+UniRef50_UPI000262580B: NAD-dependent DNA ligase, partial|unclassified	228.403
+UniRef50_Q492G5: DNA ligase	226.425
+UniRef50_Q492G5: DNA ligase|unclassified	226.425
+UniRef50_Q6MAB5: DNA ligase	225.689
+UniRef50_Q6MAB5: DNA ligase|unclassified	225.689
+UniRef50_T1BJV5: BRCT domain protein	224.805
+UniRef50_T1BJV5: BRCT domain protein|unclassified	224.805
+UniRef50_W6TX79	224.249
+UniRef50_W6TX79|unclassified	224.249
+UniRef50_UPI000470B48D: hypothetical protein	222.996
+UniRef50_UPI000470B48D: hypothetical protein|unclassified	222.996
+UniRef50_Q5N3S0: Putative 3-methyladenine DNA glycosylase	222.316
+UniRef50_Q5N3S0: Putative 3-methyladenine DNA glycosylase|unclassified	222.316
+UniRef50_UPI0003B3EA78: 5''''-3'''' exonuclease	222.229
+UniRef50_UPI0003B3EA78: 5''''-3'''' exonuclease|unclassified	222.229
+UniRef50_UPI00034750CE: hypothetical protein	221.782
+UniRef50_UPI00034750CE: hypothetical protein|unclassified	221.782
+UniRef50_UPI00018509D2: YfjP	221.745
+UniRef50_UPI00018509D2: YfjP|unclassified	221.745
+UniRef50_UPI00016BFB11: single-stranded-DNA-specific exonuclease RecJ	221.481
+UniRef50_UPI00016BFB11: single-stranded-DNA-specific exonuclease RecJ|unclassified	221.481
+UniRef50_UPI00034B8351: hypothetical protein	220.431
+UniRef50_UPI00034B8351: hypothetical protein|unclassified	220.431
+UniRef50_UPI0003806843: hypothetical protein	218.805
+UniRef50_UPI0003806843: hypothetical protein|unclassified	218.805
+UniRef50_UPI00029AFE98: bifunctional DNA-(apurinic or apyrimidinic site) lyase/formamidopyrimidine-DNA glycosylase	217.851
+UniRef50_UPI00029AFE98: bifunctional DNA-(apurinic or apyrimidinic site) lyase/formamidopyrimidine-DNA glycosylase|unclassified	217.851
+UniRef50_UPI000381AE83: hypothetical protein	217.805
+UniRef50_UPI000381AE83: hypothetical protein|unclassified	217.805
+UniRef50_UPI00016C45C0: NAD-dependent DNA ligase	217.321
+UniRef50_UPI00016C45C0: NAD-dependent DNA ligase|unclassified	217.321
+UniRef50_UPI00047243E6: hypothetical protein, partial	216.373
+UniRef50_UPI00047243E6: hypothetical protein, partial|unclassified	216.373
+UniRef50_UPI000287AD7C: HhH-GPD family protein	216.185
+UniRef50_UPI000287AD7C: HhH-GPD family protein|unclassified	216.185
+UniRef50_UPI0003787340: hypothetical protein	216.05
+UniRef50_UPI0003787340: hypothetical protein|unclassified	216.05
+UniRef50_UPI0003B54E8E: DNA repair protein	215.463
+UniRef50_UPI0003B54E8E: DNA repair protein|unclassified	215.463
+UniRef50_UPI0003B769B3: DNA glycosylase	214.729
+UniRef50_UPI0003B769B3: DNA glycosylase|unclassified	214.729
+UniRef50_X1AX26: Marine sediment metagenome DNA, contig: S01H4_L08565 (Fragment)	214.415
+UniRef50_X1AX26: Marine sediment metagenome DNA, contig: S01H4_L08565 (Fragment)|unclassified	214.415
+UniRef50_C9MWT7: DHH family protein	213.973
+UniRef50_C9MWT7: DHH family protein|unclassified	213.973
+UniRef50_Q1MCQ8: Putative 3-methyladenine DNA glycosylase	213.044
+UniRef50_Q1MCQ8: Putative 3-methyladenine DNA glycosylase|unclassified	213.044
+UniRef50_Q2S2B5: Putative 3-methyladenine DNA glycosylase	212.349
+UniRef50_Q2S2B5: Putative 3-methyladenine DNA glycosylase|unclassified	212.349
+UniRef50_UPI00035F089C: hypothetical protein, partial	211.858
+UniRef50_UPI00035F089C: hypothetical protein, partial|unclassified	211.858
+UniRef50_UPI0002003A1A: formamidopyrimidine-DNA glycosylase, partial	211.854
+UniRef50_UPI0002003A1A: formamidopyrimidine-DNA glycosylase, partial|unclassified	211.854
+UniRef50_Q113S1: Putative 3-methyladenine DNA glycosylase	210.327
+UniRef50_Q113S1: Putative 3-methyladenine DNA glycosylase|unclassified	210.327
+UniRef50_J0P750	209.558
+UniRef50_J0P750|unclassified	209.558
+UniRef50_UPI0003B35BD6: DNA glycosylase	209.271
+UniRef50_UPI0003B35BD6: DNA glycosylase|unclassified	209.271
+UniRef50_UPI00046914B4: hypothetical protein	209.161
+UniRef50_UPI00046914B4: hypothetical protein|unclassified	209.161
+UniRef50_Q5UY84: DNA ligase	206.269
+UniRef50_Q5UY84: DNA ligase|unclassified	206.269
+UniRef50_UPI00034A61CE: 3''''-5'''' exonuclease	205.74
+UniRef50_UPI00034A61CE: 3''''-5'''' exonuclease|unclassified	205.74
+UniRef50_UPI000474402B: hypothetical protein, partial	205.727
+UniRef50_UPI000474402B: hypothetical protein, partial|unclassified	205.727
+UniRef50_R6P8V6	205.529
+UniRef50_R6P8V6|unclassified	205.529
+UniRef50_UPI000368E438: hypothetical protein	205.263
+UniRef50_UPI000368E438: hypothetical protein|unclassified	205.263
+UniRef50_UPI000467338F: DNA polymerase LigD, polymerase domain protein	205.155
+UniRef50_UPI000467338F: DNA polymerase LigD, polymerase domain protein|unclassified	205.155
+UniRef50_UPI0003B727D3: 5-hydroxymethyluracil DNA glycosylase	204.341
+UniRef50_UPI0003B727D3: 5-hydroxymethyluracil DNA glycosylase|unclassified	204.341
+UniRef50_A7JIT6: Predicted protein	204.055
+UniRef50_A7JIT6: Predicted protein|unclassified	204.055
+UniRef50_UPI0002DC7DE7: hypothetical protein	203.316
+UniRef50_UPI0002DC7DE7: hypothetical protein|unclassified	203.316
+UniRef50_UPI0004078971: hypothetical protein	203.005
+UniRef50_UPI0004078971: hypothetical protein|unclassified	203.005
+UniRef50_UPI00047EBC14: hypothetical protein	201.787
+UniRef50_UPI00047EBC14: hypothetical protein|unclassified	201.787
+UniRef50_UPI00035D06F8: hypothetical protein	200.445
+UniRef50_UPI00035D06F8: hypothetical protein|unclassified	200.445
+UniRef50_UPI00046A8D4C: ATP-dependent DNA ligase	199.577
+UniRef50_UPI00046A8D4C: ATP-dependent DNA ligase|unclassified	199.577
+UniRef50_UPI0003C7E401: ATP-dependent DNA ligase	198.013
+UniRef50_UPI0003C7E401: ATP-dependent DNA ligase|unclassified	198.013
+UniRef50_UPI0003B37EAE: hypothetical protein	197.998
+UniRef50_UPI0003B37EAE: hypothetical protein|unclassified	197.998
+UniRef50_C9N163	197.759
+UniRef50_C9N163|unclassified	197.759
+UniRef50_Q92383: DNA-3-methyladenine glycosylase 1	197.347
+UniRef50_Q92383: DNA-3-methyladenine glycosylase 1|unclassified	197.347
+UniRef50_D9SMV0: Phosphoesterase RecJ domain protein	197.03
+UniRef50_D9SMV0: Phosphoesterase RecJ domain protein|unclassified	197.03
+UniRef50_UPI0003781D54: hypothetical protein	196.09
+UniRef50_UPI0003781D54: hypothetical protein|unclassified	196.09
+UniRef50_G5P363	195.898
+UniRef50_G5P363|unclassified	195.898
+UniRef50_UPI00035DE328: hypothetical protein	195.525
+UniRef50_UPI00035DE328: hypothetical protein|unclassified	195.525
+UniRef50_U3P8I4	195.242
+UniRef50_U3P8I4|unclassified	195.242
+UniRef50_UPI00036A33BB: hypothetical protein	193.98
+UniRef50_UPI00036A33BB: hypothetical protein|unclassified	193.98
+UniRef50_X0YQG7: Marine sediment metagenome DNA, contig: S01H4_C00901 (Fragment)	193.31
+UniRef50_X0YQG7: Marine sediment metagenome DNA, contig: S01H4_C00901 (Fragment)|unclassified	193.31
+UniRef50_I4ETY2: DNA primase, small subunit	193.307
+UniRef50_I4ETY2: DNA primase, small subunit|unclassified	193.307
+UniRef50_UPI0003B2E335: DNA ligase	193.126
+UniRef50_UPI0003B2E335: DNA ligase|unclassified	193.126
+UniRef50_UPI00016C3887: DNA polymerase I, partial	192.667
+UniRef50_UPI00016C3887: DNA polymerase I, partial|unclassified	192.667
+UniRef50_UPI0003B49296: 5-hydroxymethyluracil DNA glycosylase	192.302
+UniRef50_UPI0003B49296: 5-hydroxymethyluracil DNA glycosylase|unclassified	192.302
+UniRef50_UPI000477944E: hypothetical protein	191.796
+UniRef50_UPI000477944E: hypothetical protein|unclassified	191.796
+UniRef50_UPI0004672EE3: hypothetical protein	191.666
+UniRef50_UPI0004672EE3: hypothetical protein|unclassified	191.666
+UniRef50_UPI00021949C6: endonuclease III, partial	191.403
+UniRef50_UPI00021949C6: endonuclease III, partial|unclassified	191.403
+UniRef50_UPI0004665912: hypothetical protein	191.359
+UniRef50_UPI0004665912: hypothetical protein|unclassified	191.359
+UniRef50_Q4FPL3: DNA ligase	190.325
+UniRef50_Q4FPL3: DNA ligase|unclassified	190.325
+UniRef50_H2JMJ7: Putative Ku70/Ku80 protein	189.483
+UniRef50_H2JMJ7: Putative Ku70/Ku80 protein|unclassified	189.483
+UniRef50_X0WL22: Marine sediment metagenome DNA, contig: S01H1_S25265 (Fragment)	187.848
+UniRef50_X0WL22: Marine sediment metagenome DNA, contig: S01H1_S25265 (Fragment)|unclassified	187.848
+UniRef50_Q9KAV6: 5'-3' exonuclease	187.733
+UniRef50_Q9KAV6: 5'-3' exonuclease|unclassified	187.733
+UniRef50_UPI000237A088: exodeoxyribonuclease I	187.685
+UniRef50_UPI000237A088: exodeoxyribonuclease I|unclassified	187.685
+UniRef50_UPI0004729365: hypothetical protein	187.435
+UniRef50_UPI0004729365: hypothetical protein|unclassified	187.435
+UniRef50_UPI00037ABF29: hypothetical protein	187.178
+UniRef50_UPI00037ABF29: hypothetical protein|unclassified	187.178
+UniRef50_UPI00035CE1F9: hypothetical protein, partial	186.469
+UniRef50_UPI00035CE1F9: hypothetical protein, partial|unclassified	186.469
+UniRef50_UPI000478E9D4: hypothetical protein	185.837
+UniRef50_UPI000478E9D4: hypothetical protein|unclassified	185.837
+UniRef50_UPI0004704207: hypothetical protein	185.643
+UniRef50_UPI0004704207: hypothetical protein|unclassified	185.643
+UniRef50_UPI00037ED16C: hypothetical protein	185.41
+UniRef50_UPI00037ED16C: hypothetical protein|unclassified	185.41
+UniRef50_UPI0002E8925E: hypothetical protein	185.316
+UniRef50_UPI0002E8925E: hypothetical protein|unclassified	185.316
+UniRef50_A3D5Y2: DNA ligase	184.973
+UniRef50_A3D5Y2: DNA ligase|unclassified	184.973
+UniRef50_Q8SQI1: Probable DNA-3-methyladenine glycosylase	184.806
+UniRef50_Q8SQI1: Probable DNA-3-methyladenine glycosylase|unclassified	184.806
+UniRef50_Q01WD4	184.8
+UniRef50_Q01WD4|unclassified	184.8
+UniRef50_UPI000289FD7E: formamidopyrimidine/5-formyluracil/ 5-hydroxymethyluracil DNA glycosylase	184.684
+UniRef50_UPI000289FD7E: formamidopyrimidine/5-formyluracil/ 5-hydroxymethyluracil DNA glycosylase|unclassified	184.684
+UniRef50_UPI000469BD51: 3''-5'' exonuclease	184.415
+UniRef50_UPI000469BD51: 3''-5'' exonuclease|unclassified	184.415
+UniRef50_UPI0003B5D73F: DNA glycosylase, partial	183.489
+UniRef50_UPI0003B5D73F: DNA glycosylase, partial|unclassified	183.489
+UniRef50_UPI0003B5366A: iron-sulfur cluster assembly protein HesB	183.448
+UniRef50_UPI0003B5366A: iron-sulfur cluster assembly protein HesB|unclassified	183.448
+UniRef50_P06225: DNA polymerase	183.423
+UniRef50_P06225: DNA polymerase|unclassified	183.423
+UniRef50_UPI00040E827D: hypothetical protein	182.746
+UniRef50_UPI00040E827D: hypothetical protein|unclassified	182.746
+UniRef50_F8XQF9	180.44
+UniRef50_F8XQF9|unclassified	180.44
+UniRef50_UPI000361E414: MULTISPECIES: hypothetical protein	180.148
+UniRef50_UPI000361E414: MULTISPECIES: hypothetical protein|unclassified	180.148
+UniRef50_G5K5J5	179.5
+UniRef50_G5K5J5|unclassified	179.5
+UniRef50_L8FSQ9	179.412
+UniRef50_L8FSQ9|unclassified	179.412
+UniRef50_UPI0004737581: hypothetical protein	178.5
+UniRef50_UPI0004737581: hypothetical protein|unclassified	178.5
+UniRef50_UPI000369A7C5: hypothetical protein	177.576
+UniRef50_UPI000369A7C5: hypothetical protein|unclassified	177.576
+UniRef50_UPI0002D29488: hypothetical protein	175.979
+UniRef50_UPI0002D29488: hypothetical protein|unclassified	175.979
+UniRef50_X1GPL2: Marine sediment metagenome DNA, contig: S03H2_L05540 (Fragment)	175.183
+UniRef50_X1GPL2: Marine sediment metagenome DNA, contig: S03H2_L05540 (Fragment)|unclassified	175.183
+UniRef50_Q2GDR2: DNA ligase	174.81
+UniRef50_Q2GDR2: DNA ligase|unclassified	174.81
+UniRef50_X5RBW9	174.131
+UniRef50_X5RBW9|unclassified	174.131
+UniRef50_B5YD88: Probable DNA ligase	173.996
+UniRef50_B5YD88: Probable DNA ligase|unclassified	173.996
+UniRef50_Q7N9N4: DNA ligase B	173.72
+UniRef50_Q7N9N4: DNA ligase B|unclassified	173.72
+UniRef50_I0HFQ8	173.588
+UniRef50_I0HFQ8|unclassified	173.588
+UniRef50_UPI0001BF5FAD: hypothetical protein SMAC_10553	172.128
+UniRef50_UPI0001BF5FAD: hypothetical protein SMAC_10553|unclassified	172.128
+UniRef50_UPI00039A3B03: hypothetical protein	171.984
+UniRef50_UPI00039A3B03: hypothetical protein|unclassified	171.984
+UniRef50_UPI0004729E6B: hypothetical protein, partial	171.613
+UniRef50_UPI0004729E6B: hypothetical protein, partial|unclassified	171.613
+UniRef50_UPI00035CE714: hypothetical protein	171.586
+UniRef50_UPI00035CE714: hypothetical protein|unclassified	171.586
+UniRef50_UPI0002492629: 3-methyladenine DNA glycosylase	171.535
+UniRef50_UPI0002492629: 3-methyladenine DNA glycosylase|unclassified	171.535
+UniRef50_UPI00017452AB: single-stranded-DNA-specific exonuclease RecJ	171.238
+UniRef50_UPI00017452AB: single-stranded-DNA-specific exonuclease RecJ|unclassified	171.238
+UniRef50_T0H709	170.839
+UniRef50_T0H709|unclassified	170.839
+UniRef50_UPI0003721A46: hypothetical protein	170.649
+UniRef50_UPI0003721A46: hypothetical protein|unclassified	170.649
+UniRef50_D8FCY6: DHH family protein (Fragment)	170.634
+UniRef50_D8FCY6: DHH family protein (Fragment)|unclassified	170.634
+UniRef50_UPI00037FEACF: hypothetical protein	169.598
+UniRef50_UPI00037FEACF: hypothetical protein|unclassified	169.598
+UniRef50_UPI00029AFC82: putative 3-methyladenine DNA glycosylase	169.079
+UniRef50_UPI00029AFC82: putative 3-methyladenine DNA glycosylase|unclassified	169.079
+UniRef50_UPI0003B4BACB: recombination protein RecJ	168.403
+UniRef50_UPI0003B4BACB: recombination protein RecJ|unclassified	168.403
+UniRef50_V7Z4N1	167.896
+UniRef50_V7Z4N1|unclassified	167.896
+UniRef50_UPI00037FD556: hypothetical protein	167.796
+UniRef50_UPI00037FD556: hypothetical protein|unclassified	167.796
+UniRef50_Z5XJI4	166.971
+UniRef50_Z5XJI4|unclassified	166.971
+UniRef50_E3IUU9: DNA polymerase LigD, polymerase domain protein	166.882
+UniRef50_E3IUU9: DNA polymerase LigD, polymerase domain protein|unclassified	166.882
+UniRef50_X0SAS8: Marine sediment metagenome DNA, contig: S01H1_L06568 (Fragment)	166.53
+UniRef50_X0SAS8: Marine sediment metagenome DNA, contig: S01H1_L06568 (Fragment)|unclassified	166.53
+UniRef50_UPI00035F3FC8: hypothetical protein	166.403
+UniRef50_UPI00035F3FC8: hypothetical protein|unclassified	166.403
+UniRef50_UPI0003B73A05: NAD-dependent DNA ligase LigA	165.696
+UniRef50_UPI0003B73A05: NAD-dependent DNA ligase LigA|unclassified	165.696
+UniRef50_UPI00047351C3: hypothetical protein, partial	165.347
+UniRef50_UPI00047351C3: hypothetical protein, partial|unclassified	165.347
+UniRef50_A5IY71: DNA ligase	164.517
+UniRef50_A5IY71: DNA ligase|unclassified	164.517
+UniRef50_Q50096: U650i	164.499
+UniRef50_Q50096: U650i|unclassified	164.499
+UniRef50_UPI0002D6696C: hypothetical protein	164.318
+UniRef50_UPI0002D6696C: hypothetical protein|unclassified	164.318
+UniRef50_A5IEV4	163.746
+UniRef50_A5IEV4|unclassified	163.746
+UniRef50_UPI00034D578E: hypothetical protein	163.558
+UniRef50_UPI00034D578E: hypothetical protein|unclassified	163.558
+UniRef50_UPI00046D3AA4: hypothetical protein	163.45
+UniRef50_UPI00046D3AA4: hypothetical protein|unclassified	163.45
+UniRef50_V6JF06	162.25
+UniRef50_V6JF06|unclassified	162.25
+UniRef50_UPI00037DE738: hypothetical protein	161.95
+UniRef50_UPI00037DE738: hypothetical protein|unclassified	161.95
+UniRef50_Q7NAF8: DNA ligase	161.617
+UniRef50_Q7NAF8: DNA ligase|unclassified	161.617
+UniRef50_UPI000362E665: hypothetical protein	161.213
+UniRef50_UPI000362E665: hypothetical protein|unclassified	161.213
+UniRef50_UPI00047240A4: hypothetical protein	160.997
+UniRef50_UPI00047240A4: hypothetical protein|unclassified	160.997
+UniRef50_UPI00037AA31A: hypothetical protein	160.954
+UniRef50_UPI00037AA31A: hypothetical protein|unclassified	160.954
+UniRef50_B1H072: DNA ligase	160.247
+UniRef50_B1H072: DNA ligase|unclassified	160.247
+UniRef50_UPI00047860CF: hypothetical protein	159.694
+UniRef50_UPI00047860CF: hypothetical protein|unclassified	159.694
+UniRef50_F7Z6Q4	159.576
+UniRef50_F7Z6Q4|unclassified	159.576
+UniRef50_Q6MGX6: Putative 3-methyladenine DNA glycosylase	159.128
+UniRef50_Q6MGX6: Putative 3-methyladenine DNA glycosylase|unclassified	159.128
+UniRef50_UPI0004736F5B: hypothetical protein, partial	159.042
+UniRef50_UPI0004736F5B: hypothetical protein, partial|unclassified	159.042
+UniRef50_UPI00037B3242: MULTISPECIES: hypothetical protein	158.655
+UniRef50_UPI00037B3242: MULTISPECIES: hypothetical protein|unclassified	158.655
+UniRef50_Q3JEY0: Putative 3-methyladenine DNA glycosylase	158.299
+UniRef50_Q3JEY0: Putative 3-methyladenine DNA glycosylase|unclassified	158.299
+UniRef50_Q01RU9: Formamidopyrimidine-DNA glycosylase	157.677
+UniRef50_Q01RU9: Formamidopyrimidine-DNA glycosylase|unclassified	157.677
+UniRef50_UPI00037D8CCB: hypothetical protein	156.423
+UniRef50_UPI00037D8CCB: hypothetical protein|unclassified	156.423
+UniRef50_UPI00047224A9: DNA ligase	156.357
+UniRef50_UPI00047224A9: DNA ligase|unclassified	156.357
+UniRef50_C6NRI4: Single-stranded-DNA-specific exonuclease recJ	155.534
+UniRef50_C6NRI4: Single-stranded-DNA-specific exonuclease recJ|unclassified	155.534
+UniRef50_UPI0003B4EF7E: DNA glycosylase	155.403
+UniRef50_UPI0003B4EF7E: DNA glycosylase|unclassified	155.403
+UniRef50_X1S9G8: Marine sediment metagenome DNA, contig: S12H4_L07088 (Fragment)	155.016
+UniRef50_X1S9G8: Marine sediment metagenome DNA, contig: S12H4_L07088 (Fragment)|unclassified	155.016
+UniRef50_Q7UKD1: DNA ligase	154.938
+UniRef50_Q7UKD1: DNA ligase|unclassified	154.938
+UniRef50_UPI00024933F1: single-stranded DNA-binding protein	154.785
+UniRef50_UPI00024933F1: single-stranded DNA-binding protein|unclassified	154.785
+UniRef50_UPI0002F49063: hypothetical protein	153.806
+UniRef50_UPI0002F49063: hypothetical protein|unclassified	153.806
+UniRef50_UPI0003B6CA2F: hypothetical protein	153.785
+UniRef50_UPI0003B6CA2F: hypothetical protein|unclassified	153.785
+UniRef50_UPI00047883C5: hypothetical protein	152.771
+UniRef50_UPI00047883C5: hypothetical protein|unclassified	152.771
+UniRef50_B0H019	152.743
+UniRef50_B0H019|unclassified	152.743
+UniRef50_UPI000344EB01: DNA-cytosine methyltransferase	152.41
+UniRef50_UPI000344EB01: DNA-cytosine methyltransferase|unclassified	152.41
+UniRef50_O83642: DNA ligase	151.887
+UniRef50_O83642: DNA ligase|unclassified	151.887
+UniRef50_B3PMJ0: DNA ligase	151.487
+UniRef50_B3PMJ0: DNA ligase|unclassified	151.487
+UniRef50_UPI00037C07C2: hypothetical protein, partial	151.448
+UniRef50_UPI00037C07C2: hypothetical protein, partial|unclassified	151.448
+UniRef50_UPI000364AD23: hypothetical protein, partial	151.034
+UniRef50_UPI000364AD23: hypothetical protein, partial|unclassified	151.034
+UniRef50_UPI00036B8518: hypothetical protein	151.027
+UniRef50_UPI00036B8518: hypothetical protein|unclassified	151.027
+UniRef50_Q5NYD7	150.994
+UniRef50_Q5NYD7|unclassified	150.994
+UniRef50_UPI00035DA3C4: hypothetical protein	150.737
+UniRef50_UPI00035DA3C4: hypothetical protein|unclassified	150.737
+UniRef50_G9EP19	149.806
+UniRef50_G9EP19|unclassified	149.806
+UniRef50_W6RWP2	149.614
+UniRef50_W6RWP2|unclassified	149.614
+UniRef50_UPI00029A398A: DNA-3-methyladenine glycosylase	149.246
+UniRef50_UPI00029A398A: DNA-3-methyladenine glycosylase|unclassified	149.246
+UniRef50_C6BUX8: Formamidopyrimidine-DNA glycosylase	149.242
+UniRef50_C6BUX8: Formamidopyrimidine-DNA glycosylase|unclassified	149.242
+UniRef50_UPI00016C4908: single-strand DNA-specific exonuclease	148.869
+UniRef50_UPI00016C4908: single-strand DNA-specific exonuclease|unclassified	148.869
+UniRef50_B8FKD5: DNA ligase	148.787
+UniRef50_B8FKD5: DNA ligase|unclassified	148.787
+UniRef50_UPI000472CA5C: hypothetical protein	148.594
+UniRef50_UPI000472CA5C: hypothetical protein|unclassified	148.594
+UniRef50_UPI00029AFB14: DNA ligase D	147.807
+UniRef50_UPI00029AFB14: DNA ligase D|unclassified	147.807
+UniRef50_UPI0004772ADB: hypothetical protein	147.46
+UniRef50_UPI0004772ADB: hypothetical protein|unclassified	147.46
+UniRef50_UPI000473810E: hypothetical protein, partial	146.485
+UniRef50_UPI000473810E: hypothetical protein, partial|unclassified	146.485
+UniRef50_UPI0001745069: ATP-dependent DNA ligase	146.236
+UniRef50_UPI0001745069: ATP-dependent DNA ligase|unclassified	146.236
+UniRef50_W4SUY4	144.833
+UniRef50_W4SUY4|unclassified	144.833
+UniRef50_UPI0003696A36: hypothetical protein	144.571
+UniRef50_UPI0003696A36: hypothetical protein|unclassified	144.571
+UniRef50_UPI0003B556B9: NAD-dependent DNA ligase LigA	144.384
+UniRef50_UPI0003B556B9: NAD-dependent DNA ligase LigA|unclassified	144.384
+UniRef50_X8BGJ7: DNA polymerase LigD domain protein	144.383
+UniRef50_X8BGJ7: DNA polymerase LigD domain protein|unclassified	144.383
+UniRef50_D9W4V4: Secreted protein	144.343
+UniRef50_D9W4V4: Secreted protein|unclassified	144.343
+UniRef50_UPI00047529F7: hypothetical protein, partial	144.19
+UniRef50_UPI00047529F7: hypothetical protein, partial|unclassified	144.19
+UniRef50_A7NMJ5	143.489
+UniRef50_A7NMJ5|unclassified	143.489
+UniRef50_Q1IXS9: Putative 3-methyladenine DNA glycosylase	142.911
+UniRef50_Q1IXS9: Putative 3-methyladenine DNA glycosylase|unclassified	142.911
+UniRef50_UPI00036505A6: ATP-dependent DNA ligase	142.776
+UniRef50_UPI00036505A6: ATP-dependent DNA ligase|unclassified	142.776
+UniRef50_R6J5D3	141.931
+UniRef50_R6J5D3|unclassified	141.931
+UniRef50_UPI00040AF6C9: hypothetical protein	141.572
+UniRef50_UPI00040AF6C9: hypothetical protein|unclassified	141.572
+UniRef50_UPI0004188562: hypothetical protein	141.017
+UniRef50_UPI0004188562: hypothetical protein|unclassified	141.017
+UniRef50_X1L3Z2: Marine sediment metagenome DNA, contig: S06H3_L02148 (Fragment)	140.784
+UniRef50_X1L3Z2: Marine sediment metagenome DNA, contig: S06H3_L02148 (Fragment)|unclassified	140.784
+UniRef50_H4EPV0	140.55
+UniRef50_H4EPV0|unclassified	140.55
+UniRef50_UPI00036635B8: hypothetical protein	140.011
+UniRef50_UPI00036635B8: hypothetical protein|unclassified	140.011
+UniRef50_U2RVN9	139.321
+UniRef50_U2RVN9|unclassified	139.321
+UniRef50_UPI0002002B64: methylpurine-DNA glycosylase (MPG)	138.757
+UniRef50_UPI0002002B64: methylpurine-DNA glycosylase (MPG)|unclassified	138.757
+UniRef50_A5CXB8: DNA ligase	138.326
+UniRef50_A5CXB8: DNA ligase|unclassified	138.326
+UniRef50_R9IEI0	137.856
+UniRef50_R9IEI0|unclassified	137.856
+UniRef50_UPI0004781178: hypothetical protein, partial	137.721
+UniRef50_UPI0004781178: hypothetical protein, partial|unclassified	137.721
+UniRef50_UPI000370B151: MULTISPECIES: hypothetical protein	137.701
+UniRef50_UPI000370B151: MULTISPECIES: hypothetical protein|unclassified	137.701
+UniRef50_D4DPF6	137.125
+UniRef50_D4DPF6|unclassified	137.125
+UniRef50_UPI00037E6AA0: hypothetical protein	137.125
+UniRef50_UPI00037E6AA0: hypothetical protein|unclassified	137.125
+UniRef50_UPI0004705827: hypothetical protein	137.122
+UniRef50_UPI0004705827: hypothetical protein|unclassified	137.122
+UniRef50_UPI0004677C47: DNA lyase	136.903
+UniRef50_UPI0004677C47: DNA lyase|unclassified	136.903
+UniRef50_UPI000375BEB0: hypothetical protein, partial	135.754
+UniRef50_UPI000375BEB0: hypothetical protein, partial|unclassified	135.754
+UniRef50_U3PA22	135.734
+UniRef50_U3PA22|unclassified	135.734
+UniRef50_UPI00036DAE0D: hypothetical protein	135.713
+UniRef50_UPI00036DAE0D: hypothetical protein|unclassified	135.713
+UniRef50_A9B1N9: Putative 3-methyladenine DNA glycosylase	135.389
+UniRef50_A9B1N9: Putative 3-methyladenine DNA glycosylase|unclassified	135.389
+UniRef50_UPI0002D49382: hypothetical protein	134.615
+UniRef50_UPI0002D49382: hypothetical protein|unclassified	134.615
+UniRef50_Q98QH2: DNA ligase	134.365
+UniRef50_Q98QH2: DNA ligase|unclassified	134.365
+UniRef50_UPI000380DA08: hypothetical protein	134.122
+UniRef50_UPI000380DA08: hypothetical protein|unclassified	134.122
+UniRef50_B4CTM4: Phosphoesterase RecJ domain protein	134.068
+UniRef50_B4CTM4: Phosphoesterase RecJ domain protein|unclassified	134.068
+UniRef50_UPI000465BEC1: hypothetical protein	133.939
+UniRef50_UPI000465BEC1: hypothetical protein|unclassified	133.939
+UniRef50_UPI0004781296: DNA-3-methyladenine glycosidase	133.74
+UniRef50_UPI0004781296: DNA-3-methyladenine glycosidase|unclassified	133.74
+UniRef50_UPI000364A579: hypothetical protein	133.547
+UniRef50_UPI000364A579: hypothetical protein|unclassified	133.547
+UniRef50_UPI00037E757E: hypothetical protein	133.2
+UniRef50_UPI00037E757E: hypothetical protein|unclassified	133.2
+UniRef50_F8A5P5: DNA polymerase LigD, polymerase domain protein	132.201
+UniRef50_F8A5P5: DNA polymerase LigD, polymerase domain protein|unclassified	132.201
+UniRef50_UPI0003460289: DNA polymerase	132.044
+UniRef50_UPI0003460289: DNA polymerase|unclassified	132.044
+UniRef50_UPI00035DF41E: hypothetical protein, partial	131.633
+UniRef50_UPI00035DF41E: hypothetical protein, partial|unclassified	131.633
+UniRef50_UPI00047239DC: hypothetical protein, partial	131.555
+UniRef50_UPI00047239DC: hypothetical protein, partial|unclassified	131.555
+UniRef50_UPI0003B4F917: DNA-3-methyladenine glycosylase	129.88
+UniRef50_UPI0003B4F917: DNA-3-methyladenine glycosylase|unclassified	129.88
+UniRef50_X7ZBK4: DNA polymerase LigD domain protein	129.668
+UniRef50_X7ZBK4: DNA polymerase LigD domain protein|unclassified	129.668
+UniRef50_F0BDZ5	128.897
+UniRef50_F0BDZ5|unclassified	128.897
+UniRef50_UPI00046EEAF8: hypothetical protein	128.757
+UniRef50_UPI00046EEAF8: hypothetical protein|unclassified	128.757
+UniRef50_UPI00046D5EB5: hypothetical protein	128.641
+UniRef50_UPI00046D5EB5: hypothetical protein|unclassified	128.641
+UniRef50_UPI0003711182: hypothetical protein	128.338
+UniRef50_UPI0003711182: hypothetical protein|unclassified	128.338
+UniRef50_Q1QEF7: Putative 3-methyladenine DNA glycosylase	128.11
+UniRef50_Q1QEF7: Putative 3-methyladenine DNA glycosylase|unclassified	128.11
+UniRef50_UPI00046A7E69: acetyltransferase	127.834
+UniRef50_UPI00046A7E69: acetyltransferase|unclassified	127.834
+UniRef50_D7CNI8: DNA polymerase LigD, polymerase domain protein	127.729
+UniRef50_D7CNI8: DNA polymerase LigD, polymerase domain protein|unclassified	127.729
+UniRef50_UPI00047B5F74: DNA ligase	127.356
+UniRef50_UPI00047B5F74: DNA ligase|unclassified	127.356
+UniRef50_UPI000470CCA1: hypothetical protein, partial	126.48
+UniRef50_UPI000470CCA1: hypothetical protein, partial|unclassified	126.48
+UniRef50_E7GEF4	125.74
+UniRef50_E7GEF4|unclassified	125.74
+UniRef50_UPI00037832AD: hypothetical protein	125.482
+UniRef50_UPI00037832AD: hypothetical protein|unclassified	125.482
+UniRef50_F4CVX7: DNA polymerase LigD, polymerase domain protein	124.745
+UniRef50_F4CVX7: DNA polymerase LigD, polymerase domain protein|unclassified	124.745
+UniRef50_Q49406: 5'-3' exonuclease	124.385
+UniRef50_Q49406: 5'-3' exonuclease|unclassified	124.385
+UniRef50_UPI0003F9DEE4: 3-methyladenine DNA glycosylase	124.329
+UniRef50_UPI0003F9DEE4: 3-methyladenine DNA glycosylase|unclassified	124.329
+UniRef50_UPI00047DE0C5: hypothetical protein	124.237
+UniRef50_UPI00047DE0C5: hypothetical protein|unclassified	124.237
+UniRef50_Q8D2B9: DNA ligase	124.114
+UniRef50_Q8D2B9: DNA ligase|unclassified	124.114
+UniRef50_Q0A9S2	123.939
+UniRef50_Q0A9S2|unclassified	123.939
+UniRef50_UPI00036366A9: hypothetical protein	123.514
+UniRef50_UPI00036366A9: hypothetical protein|unclassified	123.514
+UniRef50_UPI0003B5F6E9: 3-methyladenine DNA glycosylase	123.235
+UniRef50_UPI0003B5F6E9: 3-methyladenine DNA glycosylase|unclassified	123.235
+UniRef50_UPI0003758B1C: hypothetical protein	123.188
+UniRef50_UPI0003758B1C: hypothetical protein|unclassified	123.188
+UniRef50_UPI000470242F: hypothetical protein, partial	123.078
+UniRef50_UPI000470242F: hypothetical protein, partial|unclassified	123.078
+UniRef50_Q6API9: DNA ligase	121.614
+UniRef50_Q6API9: DNA ligase|unclassified	121.614
+UniRef50_UPI000474840D: hypothetical protein	121.034
+UniRef50_UPI000474840D: hypothetical protein|unclassified	121.034
+UniRef50_UPI0002EB9B73: hypothetical protein	120.498
+UniRef50_UPI0002EB9B73: hypothetical protein|unclassified	120.498
+UniRef50_UPI0002DF4EB8: hypothetical protein	120.228
+UniRef50_UPI0002DF4EB8: hypothetical protein|unclassified	120.228
+UniRef50_N1VFT1: DHH family protein	119.655
+UniRef50_N1VFT1: DHH family protein|unclassified	119.655
+UniRef50_UPI00047BFBE8: hypothetical protein	119.408
+UniRef50_UPI00047BFBE8: hypothetical protein|unclassified	119.408
+UniRef50_E6S9Y2: DNA polymerase LigD, polymerase domain protein	118.652
+UniRef50_E6S9Y2: DNA polymerase LigD, polymerase domain protein|unclassified	118.652
+UniRef50_UPI00041F92A0: DNA polymerase I	118.62
+UniRef50_UPI00041F92A0: DNA polymerase I|unclassified	118.62
+UniRef50_UPI0003B676D8: DNA ligase	117.694
+UniRef50_UPI0003B676D8: DNA ligase|unclassified	117.694
+UniRef50_C6W6G0: DNA polymerase LigD, polymerase domain protein	117.442
+UniRef50_C6W6G0: DNA polymerase LigD, polymerase domain protein|unclassified	117.442
+UniRef50_UPI00005102DC: ATP-dependent DNA ligase	117.333
+UniRef50_UPI00005102DC: ATP-dependent DNA ligase|unclassified	117.333
+UniRef50_UPI00035FD355: hypothetical protein	116.183
+UniRef50_UPI00035FD355: hypothetical protein|unclassified	116.183
+UniRef50_UPI00037F7523: hypothetical protein	115.878
+UniRef50_UPI00037F7523: hypothetical protein|unclassified	115.878
+UniRef50_UPI0003FE9D80: Fe-S cluster assembly protein HesB	115.391
+UniRef50_UPI0003FE9D80: Fe-S cluster assembly protein HesB|unclassified	115.391
+UniRef50_UPI00036DEE79: hypothetical protein	115.12
+UniRef50_UPI00036DEE79: hypothetical protein|unclassified	115.12
+UniRef50_UPI00037B4156: hypothetical protein	114.956
+UniRef50_UPI00037B4156: hypothetical protein|unclassified	114.956
+UniRef50_UPI0001FFDB87: DNA ligase (ATP), partial	114.469
+UniRef50_UPI0001FFDB87: DNA ligase (ATP), partial|unclassified	114.469
+UniRef50_UPI0003755901: hypothetical protein	114.006
+UniRef50_UPI0003755901: hypothetical protein|unclassified	114.006
+UniRef50_UPI0004774D53: hypothetical protein, partial	113.727
+UniRef50_UPI0004774D53: hypothetical protein, partial|unclassified	113.727
+UniRef50_UPI00047CBDA9: hypothetical protein	113.25
+UniRef50_UPI00047CBDA9: hypothetical protein|unclassified	113.25
+UniRef50_UPI0003722287: hypothetical protein	113.082
+UniRef50_UPI0003722287: hypothetical protein|unclassified	113.082
+UniRef50_UPI00037F5B66: hypothetical protein	112.903
+UniRef50_UPI00037F5B66: hypothetical protein|unclassified	112.903
+UniRef50_UPI000471DBA5: hypothetical protein, partial	112.787
+UniRef50_UPI000471DBA5: hypothetical protein, partial|unclassified	112.787
+UniRef50_C0QSL7: Probable DNA ligase	112.415
+UniRef50_C0QSL7: Probable DNA ligase|unclassified	112.415
+UniRef50_UPI0003B6398D: Ada	112.251
+UniRef50_UPI0003B6398D: Ada|unclassified	112.251
+UniRef50_UPI000474C4DC: hypothetical protein	112.112
+UniRef50_UPI000474C4DC: hypothetical protein|unclassified	112.112
+UniRef50_UPI0002DC5F50: hypothetical protein	112.078
+UniRef50_UPI0002DC5F50: hypothetical protein|unclassified	112.078
+UniRef50_UPI00036E92AD: hypothetical protein	112.017
+UniRef50_UPI00036E92AD: hypothetical protein|unclassified	112.017
+UniRef50_UPI0003A2FC62: NAD-dependent DNA ligase LigA	111.644
+UniRef50_UPI0003A2FC62: NAD-dependent DNA ligase LigA|unclassified	111.644
+UniRef50_A1SYB8: Flap endonuclease Xni	111.216
+UniRef50_A1SYB8: Flap endonuclease Xni|unclassified	111.216
+UniRef50_UPI0003A80A1D: hypothetical protein	110.883
+UniRef50_UPI0003A80A1D: hypothetical protein|unclassified	110.883
+UniRef50_Q1QXD7: DNA ligase B	110.746
+UniRef50_Q1QXD7: DNA ligase B|unclassified	110.746
+UniRef50_UPI0004771438: ATP-dependent DNA ligase	109.916
+UniRef50_UPI0004771438: ATP-dependent DNA ligase|unclassified	109.916
+UniRef50_UPI0003A11470: DNA-3-methyladenine glycosylase	109.844
+UniRef50_UPI0003A11470: DNA-3-methyladenine glycosylase|unclassified	109.844
+UniRef50_UPI0003793D81: hypothetical protein	109.32
+UniRef50_UPI0003793D81: hypothetical protein|unclassified	109.32
+UniRef50_C0Z6X8	109.187
+UniRef50_C0Z6X8|unclassified	109.187
+UniRef50_UPI0003B6185D: DNA ligase D	108.778
+UniRef50_UPI0003B6185D: DNA ligase D|unclassified	108.778
+UniRef50_UPI00035ED6AC: hypothetical protein	108.314
+UniRef50_UPI00035ED6AC: hypothetical protein|unclassified	108.314
+UniRef50_UPI0002D5F837: hypothetical protein	108.243
+UniRef50_UPI0002D5F837: hypothetical protein|unclassified	108.243
+UniRef50_UPI00036BFA00: hypothetical protein	107.985
+UniRef50_UPI00036BFA00: hypothetical protein|unclassified	107.985
+UniRef50_Q7R734	107.446
+UniRef50_Q7R734|unclassified	107.446
+UniRef50_UPI00047760DF: hypothetical protein, partial	107.193
+UniRef50_UPI00047760DF: hypothetical protein, partial|unclassified	107.193
+UniRef50_UPI0001BC2AF6: 5''''-3'''' exonuclease (including N-terminal domain of PolI)	107.088
+UniRef50_UPI0001BC2AF6: 5''''-3'''' exonuclease (including N-terminal domain of PolI)|unclassified	107.088
+UniRef50_UPI0003D04350: hypothetical protein	106.889
+UniRef50_UPI0003D04350: hypothetical protein|unclassified	106.889
+UniRef50_UPI00036D0955: hypothetical protein	106.655
+UniRef50_UPI00036D0955: hypothetical protein|unclassified	106.655
+UniRef50_Q1II25: Probable DNA ligase	106.354
+UniRef50_Q1II25: Probable DNA ligase|unclassified	106.354
+UniRef50_UPI00047B2921: hypothetical protein	105.832
+UniRef50_UPI00047B2921: hypothetical protein|unclassified	105.832
+UniRef50_Q6KI95: DNA ligase	105.415
+UniRef50_Q6KI95: DNA ligase|unclassified	105.415
+UniRef50_T2RDT9: BRCA1 C Terminus domain protein	105.237
+UniRef50_T2RDT9: BRCA1 C Terminus domain protein|unclassified	105.237
+UniRef50_UPI0004785CA7: DNA ligase	105.164
+UniRef50_UPI0004785CA7: DNA ligase|unclassified	105.164
+UniRef50_A0LVI2: DNA primase-like protein	104.995
+UniRef50_A0LVI2: DNA primase-like protein|unclassified	104.995
+UniRef50_UPI00047296E4: hypothetical protein, partial	104.557
+UniRef50_UPI00047296E4: hypothetical protein, partial|unclassified	104.557
+UniRef50_D1C6Z2: DNA polymerase LigD, polymerase domain protein	104.202
+UniRef50_D1C6Z2: DNA polymerase LigD, polymerase domain protein|unclassified	104.202
+UniRef50_UPI000308A8CE: hypothetical protein	103.876
+UniRef50_UPI000308A8CE: hypothetical protein|unclassified	103.876
+UniRef50_UPI000289FF71: single-stranded-DNA-specific exonuclease RecJ	103.076
+UniRef50_UPI000289FF71: single-stranded-DNA-specific exonuclease RecJ|unclassified	103.076
+UniRef50_A1WW37	102.325
+UniRef50_A1WW37|unclassified	102.325
+UniRef50_UPI00036908E2: hypothetical protein	102.111
+UniRef50_UPI00036908E2: hypothetical protein|unclassified	102.111
+UniRef50_UPI000464F76B: hypothetical protein	101.947
+UniRef50_UPI000464F76B: hypothetical protein|unclassified	101.947
+UniRef50_UPI0003B62DA7: recombination protein RecJ	101.905
+UniRef50_UPI0003B62DA7: recombination protein RecJ|unclassified	101.905
+UniRef50_D4LPH2	101.675
+UniRef50_D4LPH2|unclassified	101.675
+UniRef50_UPI00036A8075: hypothetical protein	101.155
+UniRef50_UPI00036A8075: hypothetical protein|unclassified	101.155
+UniRef50_UPI00047EC040: DNA repair protein	100.983
+UniRef50_UPI00047EC040: DNA repair protein|unclassified	100.983
+UniRef50_A7HFE5: DNA polymerase LigD polymerase domain	100.849
+UniRef50_A7HFE5: DNA polymerase LigD polymerase domain|unclassified	100.849
+UniRef50_E3ZBM9: DNA polymerase (Fragment)	100.618
+UniRef50_E3ZBM9: DNA polymerase (Fragment)|unclassified	100.618
+UniRef50_UPI00036D9377: hypothetical protein	100.123
+UniRef50_UPI00036D9377: hypothetical protein|unclassified	100.123
+UniRef50_UPI0004753EAC: hypothetical protein	99.9636
+UniRef50_UPI0004753EAC: hypothetical protein|unclassified	99.9636
+UniRef50_F8IJW4: DNA polymerase LigD, polymerase domain protein	99.3868
+UniRef50_F8IJW4: DNA polymerase LigD, polymerase domain protein|unclassified	99.3868
+UniRef50_UPI00047E74F3: hypothetical protein	99.3374
+UniRef50_UPI00047E74F3: hypothetical protein|unclassified	99.3374
+UniRef50_J9E256: DNA polymerase LigD, polymerase domain-containing protein	99.132
+UniRef50_J9E256: DNA polymerase LigD, polymerase domain-containing protein|unclassified	99.132
+UniRef50_UPI000425F88D: 3-methyladenine DNA glycosylase	98.9911
+UniRef50_UPI000425F88D: 3-methyladenine DNA glycosylase|unclassified	98.9911
+UniRef50_M6YPF4	98.8459
+UniRef50_M6YPF4|unclassified	98.8459
+UniRef50_V7FSN9	98.3207
+UniRef50_V7FSN9|unclassified	98.3207
+UniRef50_Q73MH0: DNA ligase	97.9061
+UniRef50_Q73MH0: DNA ligase|unclassified	97.9061
+UniRef50_X8FFG8: DNA polymerase LigD domain protein	97.8913
+UniRef50_X8FFG8: DNA polymerase LigD domain protein|unclassified	97.8913
+UniRef50_Q058C9: DNA ligase	97.8115
+UniRef50_Q058C9: DNA ligase|unclassified	97.8115
+UniRef50_UPI00041A9303: hypothetical protein	97.7329
+UniRef50_UPI00041A9303: hypothetical protein|unclassified	97.7329
+UniRef50_UPI000479B7F6: hypothetical protein	97.5807
+UniRef50_UPI000479B7F6: hypothetical protein|unclassified	97.5807
+UniRef50_UPI0002F5D5F7: hypothetical protein	97.5784
+UniRef50_UPI0002F5D5F7: hypothetical protein|unclassified	97.5784
+UniRef50_G0ANU7: Borrelia burgdorferi BBR25 lipofamily protein	97.2389
+UniRef50_G0ANU7: Borrelia burgdorferi BBR25 lipofamily protein|unclassified	97.2389
+UniRef50_F2ABF3	96.5576
+UniRef50_F2ABF3|unclassified	96.5576
+UniRef50_S9Q5P5	96.2163
+UniRef50_S9Q5P5|unclassified	96.2163
+UniRef50_Q89B02: DNA ligase	96.0104
+UniRef50_Q89B02: DNA ligase|unclassified	96.0104
+UniRef50_U2V4F4	95.7367
+UniRef50_U2V4F4|unclassified	95.7367
+UniRef50_UPI0004626431: hypothetical protein, partial	95.6807
+UniRef50_UPI0004626431: hypothetical protein, partial|unclassified	95.6807
+UniRef50_A9F3W3: DNA ligase	95.3645
+UniRef50_A9F3W3: DNA ligase|unclassified	95.3645
+UniRef50_UPI000371A860: hypothetical protein	94.9329
+UniRef50_UPI000371A860: hypothetical protein|unclassified	94.9329
+UniRef50_UPI000374BF1F: hypothetical protein	94.7154
+UniRef50_UPI000374BF1F: hypothetical protein|unclassified	94.7154
+UniRef50_UPI00037C355A: hypothetical protein	94.6569
+UniRef50_UPI00037C355A: hypothetical protein|unclassified	94.6569
+UniRef50_F5L6D6: DNA polymerase LigD, polymerase domain protein	94.5651
+UniRef50_F5L6D6: DNA polymerase LigD, polymerase domain protein|unclassified	94.5651
+UniRef50_UPI00035D4685: hypothetical protein	94.3926
+UniRef50_UPI00035D4685: hypothetical protein|unclassified	94.3926
+UniRef50_UPI0003714EA9: hypothetical protein	94.1848
+UniRef50_UPI0003714EA9: hypothetical protein|unclassified	94.1848
+UniRef50_A0A022H2X2	93.6133
+UniRef50_A0A022H2X2|unclassified	93.6133
+UniRef50_UPI00029A0492: AraC family transcriptional regulator	93.5405
+UniRef50_UPI00029A0492: AraC family transcriptional regulator|unclassified	93.5405
+UniRef50_A5D2W2: Predicted eukaryotic-type DNA primase	93.4761
+UniRef50_A5D2W2: Predicted eukaryotic-type DNA primase|unclassified	93.4761
+UniRef50_UPI00046FB9C3: formamidopyrimidine-DNA glycosylase	92.7484
+UniRef50_UPI00046FB9C3: formamidopyrimidine-DNA glycosylase|unclassified	92.7484
+UniRef50_UPI00046369DE: hypothetical protein	92.0216
+UniRef50_UPI00046369DE: hypothetical protein|unclassified	92.0216
+UniRef50_UPI0003786E65: hypothetical protein	91.9153
+UniRef50_UPI0003786E65: hypothetical protein|unclassified	91.9153
+UniRef50_X0UCL2: Marine sediment metagenome DNA, contig: S01H1_S05224 (Fragment)	91.9015
+UniRef50_X0UCL2: Marine sediment metagenome DNA, contig: S01H1_S05224 (Fragment)|unclassified	91.9015
+UniRef50_Q9Y9P1: Putative 3-methyladenine DNA glycosylase	91.3303
+UniRef50_Q9Y9P1: Putative 3-methyladenine DNA glycosylase|unclassified	91.3303
+UniRef50_UPI000371DD49: hypothetical protein	91.1854
+UniRef50_UPI000371DD49: hypothetical protein|unclassified	91.1854
+UniRef50_UPI00036D5B88: hypothetical protein	90.6823
+UniRef50_UPI00036D5B88: hypothetical protein|unclassified	90.6823
+UniRef50_UPI000476DF40: ATP-dependent DNA ligase	90.5547
+UniRef50_UPI000476DF40: ATP-dependent DNA ligase|unclassified	90.5547
+UniRef50_B8G8U9	89.9172
+UniRef50_B8G8U9|unclassified	89.9172
+UniRef50_Q7UG12: Putative 3-methyladenine DNA glycosylase	89.8106
+UniRef50_Q7UG12: Putative 3-methyladenine DNA glycosylase|unclassified	89.8106
+UniRef50_UPI00036D82E0: MULTISPECIES: hypothetical protein	89.1474
+UniRef50_UPI00036D82E0: MULTISPECIES: hypothetical protein|unclassified	89.1474
+UniRef50_UPI000472CD81: hypothetical protein	88.9808
+UniRef50_UPI000472CD81: hypothetical protein|unclassified	88.9808
+UniRef50_I8T081: DNA-directed DNA polymerase (Fragment)	88.6168
+UniRef50_I8T081: DNA-directed DNA polymerase (Fragment)|unclassified	88.6168
+UniRef50_B8I5T4: DNA polymerase LigD, polymerase domain protein	88.609
+UniRef50_B8I5T4: DNA polymerase LigD, polymerase domain protein|unclassified	88.609
+UniRef50_UPI000303ECB2: hypothetical protein	88.5258
+UniRef50_UPI000303ECB2: hypothetical protein|unclassified	88.5258
+UniRef50_UPI00037863B1: hypothetical protein	88.3913
+UniRef50_UPI00037863B1: hypothetical protein|unclassified	88.3913
+UniRef50_UPI00016C4CA8: DNA polymerase I, partial	88.347
+UniRef50_UPI00016C4CA8: DNA polymerase I, partial|unclassified	88.347
+UniRef50_UPI00036466CA: hypothetical protein	87.7227
+UniRef50_UPI00036466CA: hypothetical protein|unclassified	87.7227
+UniRef50_UPI000380E10D: hypothetical protein	87.6234
+UniRef50_UPI000380E10D: hypothetical protein|unclassified	87.6234
+UniRef50_UPI000262BEA4: DNA ligase D, partial	87.606
+UniRef50_UPI000262BEA4: DNA ligase D, partial|unclassified	87.606
+UniRef50_UPI0002E952BE: hypothetical protein	87.5239
+UniRef50_UPI0002E952BE: hypothetical protein|unclassified	87.5239
+UniRef50_A0L8M2	87.1659
+UniRef50_A0L8M2|unclassified	87.1659
+UniRef50_UPI00047852F1: hypothetical protein	87.0335
+UniRef50_UPI00047852F1: hypothetical protein|unclassified	87.0335
+UniRef50_UPI00047D8F55: hypothetical protein	86.5675
+UniRef50_UPI00047D8F55: hypothetical protein|unclassified	86.5675
+UniRef50_M3GLJ2	86.2382
+UniRef50_M3GLJ2|unclassified	86.2382
+UniRef50_UPI0003771E2E: Ada, partial	86.1671
+UniRef50_UPI0003771E2E: Ada, partial|unclassified	86.1671
+UniRef50_UPI0002E24E39: hypothetical protein	85.9165
+UniRef50_UPI0002E24E39: hypothetical protein|unclassified	85.9165
+UniRef50_E6SKN2: DNA polymerase LigD, polymerase domain protein	85.2358
+UniRef50_E6SKN2: DNA polymerase LigD, polymerase domain protein|unclassified	85.2358
+UniRef50_UPI000423D4A6: 3-methyladenine DNA glycosylase	84.6036
+UniRef50_UPI000423D4A6: 3-methyladenine DNA glycosylase|unclassified	84.6036
+UniRef50_UPI0003B405BF: hypothetical protein	84.4096
+UniRef50_UPI0003B405BF: hypothetical protein|unclassified	84.4096
+UniRef50_Q7NHP4: Putative 3-methyladenine DNA glycosylase	84.3894
+UniRef50_Q7NHP4: Putative 3-methyladenine DNA glycosylase|unclassified	84.3894
+UniRef50_A4ALS0	83.9533
+UniRef50_A4ALS0|unclassified	83.9533
+UniRef50_N2AY92	83.4518
+UniRef50_N2AY92|unclassified	83.4518
+UniRef50_UPI000288C7C8: formamidopyrimidine-DNA glycosylase	83.2186
+UniRef50_UPI000288C7C8: formamidopyrimidine-DNA glycosylase|unclassified	83.2186
+UniRef50_UPI000361795B: hypothetical protein	83.1009
+UniRef50_UPI000361795B: hypothetical protein|unclassified	83.1009
+UniRef50_UPI00035FE1C0: hypothetical protein	82.6072
+UniRef50_UPI00035FE1C0: hypothetical protein|unclassified	82.6072
+UniRef50_X1BN72: Marine sediment metagenome DNA, contig: S01H4_L04379 (Fragment)	82.4461
+UniRef50_X1BN72: Marine sediment metagenome DNA, contig: S01H4_L04379 (Fragment)|unclassified	82.4461
+UniRef50_Q4A5J6: DNA ligase	81.7885
+UniRef50_Q4A5J6: DNA ligase|unclassified	81.7885
+UniRef50_UPI00047B0D95: hypothetical protein, partial	81.7781
+UniRef50_UPI00047B0D95: hypothetical protein, partial|unclassified	81.7781
+UniRef50_UPI00041E75FC: hypothetical protein	81.589
+UniRef50_UPI00041E75FC: hypothetical protein|unclassified	81.589
+UniRef50_Q18E49: DNA ligase	81.5284
+UniRef50_Q18E49: DNA ligase|unclassified	81.5284
+UniRef50_UPI00024875BB: formamidopyrimidine-DNA glycosylase, partial	81.1602
+UniRef50_UPI00024875BB: formamidopyrimidine-DNA glycosylase, partial|unclassified	81.1602
+UniRef50_Q0A9U6	80.8325
+UniRef50_Q0A9U6|unclassified	80.8325
+UniRef50_UPI0003FB8F5C: hypothetical protein	80.5202
+UniRef50_UPI0003FB8F5C: hypothetical protein|unclassified	80.5202
+UniRef50_UPI00036887F4: hypothetical protein	80.393
+UniRef50_UPI00036887F4: hypothetical protein|unclassified	80.393
+UniRef50_UPI00016C4062: hypothetical protein	80.3832
+UniRef50_UPI00016C4062: hypothetical protein|unclassified	80.3832
+UniRef50_UPI0003B3D9E3: DNA ligase	80.1253
+UniRef50_UPI0003B3D9E3: DNA ligase|unclassified	80.1253
+UniRef50_UPI000467683A: hypothetical protein	80.1046
+UniRef50_UPI000467683A: hypothetical protein|unclassified	80.1046
+UniRef50_J7LBG3: DNA polymerase LigD, polymerase domain protein	79.5995
+UniRef50_J7LBG3: DNA polymerase LigD, polymerase domain protein|unclassified	79.5995
+UniRef50_Q7V437	79.1996
+UniRef50_Q7V437|unclassified	79.1996
+UniRef50_M5EWU4	78.6599
+UniRef50_M5EWU4|unclassified	78.6599
+UniRef50_UPI00046EC6EE: endonuclease III	78.3529
+UniRef50_UPI00046EC6EE: endonuclease III|unclassified	78.3529
+UniRef50_C9MW03	78.3255
+UniRef50_C9MW03|unclassified	78.3255
+UniRef50_UPI00036559DB: hypothetical protein	78.147
+UniRef50_UPI00036559DB: hypothetical protein|unclassified	78.147
+UniRef50_UPI000470F32D: hypothetical protein	77.4742
+UniRef50_UPI000470F32D: hypothetical protein|unclassified	77.4742
+UniRef50_UPI000248D803: 5''''-3'''' exonuclease, partial	77.0342
+UniRef50_UPI000248D803: 5''''-3'''' exonuclease, partial|unclassified	77.0342
+UniRef50_E6U0J1: DNA polymerase LigD, polymerase domain protein	76.864
+UniRef50_E6U0J1: DNA polymerase LigD, polymerase domain protein|unclassified	76.864
+UniRef50_UPI0003B34C2A: formamidopyrimidine-DNA glycosylase	76.642
+UniRef50_UPI0003B34C2A: formamidopyrimidine-DNA glycosylase|unclassified	76.642
+UniRef50_X5PZ02	76.0587
+UniRef50_X5PZ02|unclassified	76.0587
+UniRef50_UPI0003639C08: hypothetical protein, partial	75.898
+UniRef50_UPI0003639C08: hypothetical protein, partial|unclassified	75.898
+UniRef50_B2A484: DNA polymerase LigD, polymerase domain protein	75.656
+UniRef50_B2A484: DNA polymerase LigD, polymerase domain protein|unclassified	75.656
+UniRef50_H8GF10	75.3919
+UniRef50_H8GF10|unclassified	75.3919
+UniRef50_UPI0004785BAC: hypothetical protein	75.3251
+UniRef50_UPI0004785BAC: hypothetical protein|unclassified	75.3251
+UniRef50_Q6MCT3: Formamidopyrimidine-DNA glycosylase	75.0599
+UniRef50_Q6MCT3: Formamidopyrimidine-DNA glycosylase|unclassified	75.0599
+UniRef50_A0A024HYB8	74.6355
+UniRef50_A0A024HYB8|unclassified	74.6355
+UniRef50_UPI0004118C2E: DNA lyase	74.5204
+UniRef50_UPI0004118C2E: DNA lyase|unclassified	74.5204
+UniRef50_UPI000382597F: hypothetical protein	74.4369
+UniRef50_UPI000382597F: hypothetical protein|unclassified	74.4369
+UniRef50_A9LCF3: DNA polymerase (Fragment)	74.1079
+UniRef50_A9LCF3: DNA polymerase (Fragment)|unclassified	74.1079
+UniRef50_UPI0003652A21: hypothetical protein, partial	73.4713
+UniRef50_UPI0003652A21: hypothetical protein, partial|unclassified	73.4713
+UniRef50_UPI000372FEB1: hypothetical protein	72.6253
+UniRef50_UPI000372FEB1: hypothetical protein|unclassified	72.6253
+UniRef50_UPI00035D3CF9: hypothetical protein	72.436
+UniRef50_UPI00035D3CF9: hypothetical protein|unclassified	72.436
+UniRef50_UPI0003809FC1: hypothetical protein	72.2666
+UniRef50_UPI0003809FC1: hypothetical protein|unclassified	72.2666
+UniRef50_UPI00016B2556: single-stranded-DNA-specific exonuclease RecJ, partial	72.2081
+UniRef50_UPI00016B2556: single-stranded-DNA-specific exonuclease RecJ, partial|unclassified	72.2081
+UniRef50_UPI00047AC814: hypothetical protein	71.7825
+UniRef50_UPI00047AC814: hypothetical protein|unclassified	71.7825
+UniRef50_UPI0003B79C23: DNA ligase	71.1769
+UniRef50_UPI0003B79C23: DNA ligase|unclassified	71.1769
+UniRef50_T0T613: DHH family protein	70.821
+UniRef50_T0T613: DHH family protein|unclassified	70.821
+UniRef50_K2D599	70.3
+UniRef50_K2D599|unclassified	70.3
+UniRef50_T0G6H5	70.0158
+UniRef50_T0G6H5|unclassified	70.0158
+UniRef50_B8GU94	70.0015
+UniRef50_B8GU94|unclassified	70.0015
+UniRef50_UPI0003B70210: ATP-dependent DNA ligase	69.5629
+UniRef50_UPI0003B70210: ATP-dependent DNA ligase|unclassified	69.5629
+UniRef50_UPI000476FA71: hypothetical protein	69.2417
+UniRef50_UPI000476FA71: hypothetical protein|unclassified	69.2417
+UniRef50_UPI0004732934: hypothetical protein, partial	69.1217
+UniRef50_UPI0004732934: hypothetical protein, partial|unclassified	69.1217
+UniRef50_B1KR26: BRCT domain protein	69.0813
+UniRef50_B1KR26: BRCT domain protein|unclassified	69.0813
+UniRef50_UPI0001E4E295: hypothetical protein	69.0288
+UniRef50_UPI0001E4E295: hypothetical protein|unclassified	69.0288
+UniRef50_A0A016QKS4	68.4868
+UniRef50_A0A016QKS4|unclassified	68.4868
+UniRef50_Q44807: 2.9-3 locus, ORF-C protein (Fragment)	68.197
+UniRef50_Q44807: 2.9-3 locus, ORF-C protein (Fragment)|unclassified	68.197
+UniRef50_UPI000262B250: 3-methyladenine-DNA glycosylase II	68.1699
+UniRef50_UPI000262B250: 3-methyladenine-DNA glycosylase II|unclassified	68.1699
+UniRef50_UPI00046EB4D4: ATP-dependent DNA ligase, partial	68.0717
+UniRef50_UPI00046EB4D4: ATP-dependent DNA ligase, partial|unclassified	68.0717
+UniRef50_UPI0003AA07CB: ATP-dependent DNA ligase	68.0355
+UniRef50_UPI0003AA07CB: ATP-dependent DNA ligase|unclassified	68.0355
+UniRef50_UPI0002193DB3: single-stranded-DNA-specific exonuclease RecJ, partial	67.4263
+UniRef50_UPI0002193DB3: single-stranded-DNA-specific exonuclease RecJ, partial|unclassified	67.4263
+UniRef50_UPI00046FC627: hypothetical protein	67.2981
+UniRef50_UPI00046FC627: hypothetical protein|unclassified	67.2981
+UniRef50_X1H0L9: Marine sediment metagenome DNA, contig: S03H2_S02827 (Fragment)	66.9836
+UniRef50_X1H0L9: Marine sediment metagenome DNA, contig: S03H2_S02827 (Fragment)|unclassified	66.9836
+UniRef50_E3CUY2: Phosphoesterase RecJ domain protein	66.3424
+UniRef50_E3CUY2: Phosphoesterase RecJ domain protein|unclassified	66.3424
+UniRef50_Q6DB58: DNA ligase B	65.8403
+UniRef50_Q6DB58: DNA ligase B|unclassified	65.8403
+UniRef50_A7MQB5: DNA ligase B	65.5114
+UniRef50_A7MQB5: DNA ligase B|unclassified	65.5114
+UniRef50_UPI00040D72AF: ATP-dependent DNA ligase	65.1981
+UniRef50_UPI00040D72AF: ATP-dependent DNA ligase|unclassified	65.1981
+UniRef50_W0WVV5	64.5709
+UniRef50_W0WVV5|unclassified	64.5709
+UniRef50_UPI000464F4EA: hypothetical protein	64.5277
+UniRef50_UPI000464F4EA: hypothetical protein|unclassified	64.5277
+UniRef50_UPI00047D1D58: formamidopyrimidine-DNA glycosylase	64.4247
+UniRef50_UPI00047D1D58: formamidopyrimidine-DNA glycosylase|unclassified	64.4247
+UniRef50_UPI00036D3C63: hypothetical protein	64.2866
+UniRef50_UPI00036D3C63: hypothetical protein|unclassified	64.2866
+UniRef50_Q7R768	64.1372
+UniRef50_Q7R768|unclassified	64.1372
+UniRef50_UPI00029AEBB0: DNA polymerase I	63.6773
+UniRef50_UPI00029AEBB0: DNA polymerase I|unclassified	63.6773
+UniRef50_F5XLE2	62.7592
+UniRef50_F5XLE2|unclassified	62.7592
+UniRef50_U5WXR5	62.6427
+UniRef50_U5WXR5|unclassified	62.6427
+UniRef50_W6TR70	62.6225
+UniRef50_W6TR70|unclassified	62.6225
+UniRef50_UPI00035F4CB0: hypothetical protein	62.4978
+UniRef50_UPI00035F4CB0: hypothetical protein|unclassified	62.4978
+UniRef50_UPI000475FFE7: hypothetical protein	62.1891
+UniRef50_UPI000475FFE7: hypothetical protein|unclassified	62.1891
+UniRef50_UPI00036A1AB2: hypothetical protein	62.0831
+UniRef50_UPI00036A1AB2: hypothetical protein|unclassified	62.0831
+UniRef50_UPI0003B72053: DNA repair protein	62.017
+UniRef50_UPI0003B72053: DNA repair protein|unclassified	62.017
+UniRef50_K1YEK9	61.6277
+UniRef50_K1YEK9|unclassified	61.6277
+UniRef50_X1RBG5: Marine sediment metagenome DNA, contig: S06H3_S24465 (Fragment)	61.509
+UniRef50_X1RBG5: Marine sediment metagenome DNA, contig: S06H3_S24465 (Fragment)|unclassified	61.509
+UniRef50_D7DJE9: Phosphoesterase RecJ domain protein	61.0322
+UniRef50_D7DJE9: Phosphoesterase RecJ domain protein|unclassified	61.0322
+UniRef50_E1NRW9	60.2223
+UniRef50_E1NRW9|unclassified	60.2223
+UniRef50_X1FM96: Marine sediment metagenome DNA, contig: S03H2_L06758 (Fragment)	60.1095
+UniRef50_X1FM96: Marine sediment metagenome DNA, contig: S03H2_L06758 (Fragment)|unclassified	60.1095
+UniRef50_UPI00036E8DD9: hypothetical protein	59.8022
+UniRef50_UPI00036E8DD9: hypothetical protein|unclassified	59.8022
+UniRef50_F4H399: DNA primase small subunit	59.6221
+UniRef50_F4H399: DNA primase small subunit|unclassified	59.6221
+UniRef50_UPI0004669D32: hypothetical protein	59.4442
+UniRef50_UPI0004669D32: hypothetical protein|unclassified	59.4442
+UniRef50_UPI0003657495: hypothetical protein	59.2549
+UniRef50_UPI0003657495: hypothetical protein|unclassified	59.2549
+UniRef50_UPI0004197AFC: hypothetical protein	59.1066
+UniRef50_UPI0004197AFC: hypothetical protein|unclassified	59.1066
+UniRef50_X1U2V3: Marine sediment metagenome DNA, contig: S12H4_S06265 (Fragment)	59.0509
+UniRef50_X1U2V3: Marine sediment metagenome DNA, contig: S12H4_S06265 (Fragment)|unclassified	59.0509
+UniRef50_UPI00036F2FBC: hypothetical protein, partial	58.8885
+UniRef50_UPI00036F2FBC: hypothetical protein, partial|unclassified	58.8885
+UniRef50_K2B8J1	58.5629
+UniRef50_K2B8J1|unclassified	58.5629
+UniRef50_UPI0003788A06: hypothetical protein	58.4885
+UniRef50_UPI0003788A06: hypothetical protein|unclassified	58.4885
+UniRef50_UPI00037BEB27: formamidopyrimidine-DNA glycosylase	58.3197
+UniRef50_UPI00037BEB27: formamidopyrimidine-DNA glycosylase|unclassified	58.3197
+UniRef50_D5MJG2	58.1949
+UniRef50_D5MJG2|unclassified	58.1949
+UniRef50_M2ZKM4	58.0596
+UniRef50_M2ZKM4|unclassified	58.0596
+UniRef50_A7HAP2: DNA polymerase LigD polymerase domain	57.8454
+UniRef50_A7HAP2: DNA polymerase LigD polymerase domain|unclassified	57.8454
+UniRef50_UPI000318C868: hypothetical protein	57.4774
+UniRef50_UPI000318C868: hypothetical protein|unclassified	57.4774
+UniRef50_X1MD82: Marine sediment metagenome DNA, contig: S06H3_L06742 (Fragment)	57.1148
+UniRef50_X1MD82: Marine sediment metagenome DNA, contig: S06H3_L06742 (Fragment)|unclassified	57.1148
+UniRef50_UPI00046F9062: hypothetical protein, partial	57.0368
+UniRef50_UPI00046F9062: hypothetical protein, partial|unclassified	57.0368
+UniRef50_UPI00028853A6: ATP-dependent DNA ligase	56.9616
+UniRef50_UPI00028853A6: ATP-dependent DNA ligase|unclassified	56.9616
+UniRef50_A0A011R4X5: DNA polymerase I	56.469
+UniRef50_A0A011R4X5: DNA polymerase I|unclassified	56.469
+UniRef50_UPI00036FD20F: hypothetical protein	56.3487
+UniRef50_UPI00036FD20F: hypothetical protein|unclassified	56.3487
+UniRef50_UPI00046F930E: hypothetical protein	56.0774
+UniRef50_UPI00046F930E: hypothetical protein|unclassified	56.0774
+UniRef50_UPI00047C36CC: ATP-dependent DNA ligase	55.6835
+UniRef50_UPI00047C36CC: ATP-dependent DNA ligase|unclassified	55.6835
+UniRef50_UPI00046F610F: DNA polymerase LigD, polymerase domain-containing protein	55.4634
+UniRef50_UPI00046F610F: DNA polymerase LigD, polymerase domain-containing protein|unclassified	55.4634
+UniRef50_D8FHX0	55.3903
+UniRef50_D8FHX0|unclassified	55.3903
+UniRef50_UPI00035D4FF9: hypothetical protein	55.3355
+UniRef50_UPI00035D4FF9: hypothetical protein|unclassified	55.3355
+UniRef50_UPI00046431BD: hypothetical protein	55.2117
+UniRef50_UPI00046431BD: hypothetical protein|unclassified	55.2117
+UniRef50_UPI000368B0E5: DNA ligase	54.5971
+UniRef50_UPI000368B0E5: DNA ligase|unclassified	54.5971
+UniRef50_UPI000373FB92: hypothetical protein	54.5455
+UniRef50_UPI000373FB92: hypothetical protein|unclassified	54.5455
+UniRef50_UPI0003C4C2DD: PREDICTED: endonuclease III-like protein 1 isoform X4	54.5038
+UniRef50_UPI0003C4C2DD: PREDICTED: endonuclease III-like protein 1 isoform X4|unclassified	54.5038
+UniRef50_X6D974	53.7316
+UniRef50_X6D974|unclassified	53.7316
+UniRef50_M6T4P3	53.6724
+UniRef50_M6T4P3|unclassified	53.6724
+UniRef50_A0PP46	53.6097
+UniRef50_A0PP46|unclassified	53.6097
+UniRef50_UPI000378B649: hypothetical protein	53.5141
+UniRef50_UPI000378B649: hypothetical protein|unclassified	53.5141
+UniRef50_UPI00037210EB: hypothetical protein	53.4251
+UniRef50_UPI00037210EB: hypothetical protein|unclassified	53.4251
+UniRef50_M6R366	53.3975
+UniRef50_M6R366|unclassified	53.3975
+UniRef50_W0DRQ7: Phosphoesterase RecJ	53.3042
+UniRef50_W0DRQ7: Phosphoesterase RecJ|unclassified	53.3042
+UniRef50_Q1NHJ1: Ku protein	53.2595
+UniRef50_Q1NHJ1: Ku protein|unclassified	53.2595
+UniRef50_UPI0002FF8C25: hypothetical protein	53.2576
+UniRef50_UPI0002FF8C25: hypothetical protein|unclassified	53.2576
+UniRef50_UPI0001E894AB: ATP-dependent DNA ligase	53.1141
+UniRef50_UPI0001E894AB: ATP-dependent DNA ligase|unclassified	53.1141
+UniRef50_W5X4R4: 5-carboxymethyl-2-hydroxymuconate delta-isomerase	52.9754
+UniRef50_W5X4R4: 5-carboxymethyl-2-hydroxymuconate delta-isomerase|unclassified	52.9754
+UniRef50_UPI00047107E6: hypothetical protein, partial	52.8545
+UniRef50_UPI00047107E6: hypothetical protein, partial|unclassified	52.8545
+UniRef50_UPI00035E18CF: hypothetical protein	52.646
+UniRef50_UPI00035E18CF: hypothetical protein|unclassified	52.646
+UniRef50_UPI000237B10D: ATP-dependent DNA ligase	52.4195
+UniRef50_UPI000237B10D: ATP-dependent DNA ligase|unclassified	52.4195
+UniRef50_B7J4E2: Ribonuclease H	52.1307
+UniRef50_B7J4E2: Ribonuclease H|unclassified	52.1307
+UniRef50_D3L0M5	51.9389
+UniRef50_D3L0M5|unclassified	51.9389
+UniRef50_UPI00031377E0: hypothetical protein	51.5885
+UniRef50_UPI00031377E0: hypothetical protein|unclassified	51.5885
+UniRef50_J2P3M3: DNA polymerase LigD	51.3895
+UniRef50_J2P3M3: DNA polymerase LigD|unclassified	51.3895
+UniRef50_UPI00047946CE: ATP-dependent DNA ligase	51.3656
+UniRef50_UPI00047946CE: ATP-dependent DNA ligase|unclassified	51.3656
+UniRef50_UPI000288CF44: DNA ligase	51.3246
+UniRef50_UPI000288CF44: DNA ligase|unclassified	51.3246
+UniRef50_Q1YSA0	51.1789
+UniRef50_Q1YSA0|unclassified	51.1789
+UniRef50_UPI0003B5FACF: DNA-3-methyladenine glycosylase	50.9983
+UniRef50_UPI0003B5FACF: DNA-3-methyladenine glycosylase|unclassified	50.9983
+UniRef50_U7FJK6	50.9675
+UniRef50_U7FJK6|unclassified	50.9675
+UniRef50_K2F5I3	50.6039
+UniRef50_K2F5I3|unclassified	50.6039
+UniRef50_B3DVC8: Putative 3-methyladenine DNA glycosylase	50.172
+UniRef50_B3DVC8: Putative 3-methyladenine DNA glycosylase|unclassified	50.172
+UniRef50_UPI00047E7DB4: hypothetical protein	49.9291
+UniRef50_UPI00047E7DB4: hypothetical protein|unclassified	49.9291
+UniRef50_UPI00037A653B: hypothetical protein	49.9225
+UniRef50_UPI00037A653B: hypothetical protein|unclassified	49.9225
+UniRef50_UPI00016C4648: hypothetical protein	49.7231
+UniRef50_UPI00016C4648: hypothetical protein|unclassified	49.7231
+UniRef50_Q1C259: DNA ligase B	49.6969
+UniRef50_Q1C259: DNA ligase B|unclassified	49.6969
+UniRef50_UPI00037F47BC: hypothetical protein	49.6796
+UniRef50_UPI00037F47BC: hypothetical protein|unclassified	49.6796
+UniRef50_UPI0001BCEB8A: hypothetical protein	49.608
+UniRef50_UPI0001BCEB8A: hypothetical protein|unclassified	49.608
+UniRef50_UPI000419568D: hypothetical protein	49.5922
+UniRef50_UPI000419568D: hypothetical protein|unclassified	49.5922
+UniRef50_UPI0002DC48EE: hypothetical protein	49.1535
+UniRef50_UPI0002DC48EE: hypothetical protein|unclassified	49.1535
+UniRef50_UPI0003B611E2: hypothetical protein	49.13
+UniRef50_UPI0003B611E2: hypothetical protein|unclassified	49.13
+UniRef50_X0VLG4: Marine sediment metagenome DNA, contig: S01H1_S13046 (Fragment)	47.6415
+UniRef50_X0VLG4: Marine sediment metagenome DNA, contig: S01H1_S13046 (Fragment)|unclassified	47.6415
+UniRef50_UPI0003686987: hypothetical protein	47.1949
+UniRef50_UPI0003686987: hypothetical protein|unclassified	47.1949
+UniRef50_Q39147: DNA-3-methyladenine glycosylase	47.0753
+UniRef50_Q39147: DNA-3-methyladenine glycosylase|unclassified	47.0753
+UniRef50_UPI000200312F: DNA-3-methyladenine glycosylase	46.989
+UniRef50_UPI000200312F: DNA-3-methyladenine glycosylase|unclassified	46.989
+UniRef50_UPI0003744588: hypothetical protein	46.8004
+UniRef50_UPI0003744588: hypothetical protein|unclassified	46.8004
+UniRef50_UPI000375EF2F: hypothetical protein	46.6049
+UniRef50_UPI000375EF2F: hypothetical protein|unclassified	46.6049
+UniRef50_UPI00036DFA9A: hypothetical protein	46.4168
+UniRef50_UPI00036DFA9A: hypothetical protein|unclassified	46.4168
+UniRef50_UPI00046A91E7: hypothetical protein	46.2692
+UniRef50_UPI00046A91E7: hypothetical protein|unclassified	46.2692
+UniRef50_G2TGH2	46.1583
+UniRef50_G2TGH2|unclassified	46.1583
+UniRef50_UPI0004633DFC: hypothetical protein, partial	46.0315
+UniRef50_UPI0004633DFC: hypothetical protein, partial|unclassified	46.0315
+UniRef50_UPI0004053508: hypothetical protein	45.5993
+UniRef50_UPI0004053508: hypothetical protein|unclassified	45.5993
+UniRef50_UPI00047A31F1: hypothetical protein	45.5141
+UniRef50_UPI00047A31F1: hypothetical protein|unclassified	45.5141
+UniRef50_UPI0003EF6572: DNA polymerase, partial	45.4976
+UniRef50_UPI0003EF6572: DNA polymerase, partial|unclassified	45.4976
+UniRef50_I7TXA1	45.4865
+UniRef50_I7TXA1|unclassified	45.4865
+UniRef50_Q2FNA4	45.4849
+UniRef50_Q2FNA4|unclassified	45.4849
+UniRef50_UPI0003B462BB: deoxyribonuclease I	45.3952
+UniRef50_UPI0003B462BB: deoxyribonuclease I|unclassified	45.3952
+UniRef50_UPI0002628E64: single-stranded-DNA-specific exonuclease RecJ	45.3152
+UniRef50_UPI0002628E64: single-stranded-DNA-specific exonuclease RecJ|unclassified	45.3152
+UniRef50_UPI0002DE162D: hypothetical protein	45.0128
+UniRef50_UPI0002DE162D: hypothetical protein|unclassified	45.0128
+UniRef50_UPI0001850E45: DNA-(apurinic or apyrimidinic site) lyase	44.7317
+UniRef50_UPI0001850E45: DNA-(apurinic or apyrimidinic site) lyase|unclassified	44.7317
+UniRef50_B8D120	44.6098
+UniRef50_B8D120|unclassified	44.6098
+UniRef50_E1IEQ5	44.5787
+UniRef50_E1IEQ5|unclassified	44.5787
+UniRef50_UPI0003665D22: hypothetical protein, partial	43.6774
+UniRef50_UPI0003665D22: hypothetical protein, partial|unclassified	43.6774
+UniRef50_UPI0004746270: hypothetical protein, partial	43.5915
+UniRef50_UPI0004746270: hypothetical protein, partial|unclassified	43.5915
+UniRef50_B8HIQ9: DNA ligase 2	43.1661
+UniRef50_B8HIQ9: DNA ligase 2|unclassified	43.1661
+UniRef50_UPI0002627FBE: DNA polymerase I, partial	43.0232
+UniRef50_UPI0002627FBE: DNA polymerase I, partial|unclassified	43.0232
+UniRef50_A4E8P6	42.9295
+UniRef50_A4E8P6|unclassified	42.9295
+UniRef50_W5X5H8: Putative 3-methyladenine DNA glycosylase	42.8039
+UniRef50_W5X5H8: Putative 3-methyladenine DNA glycosylase|unclassified	42.8039
+UniRef50_UPI000174699D: formamidopyrimidine-DNA glycosylase	42.6437
+UniRef50_UPI000174699D: formamidopyrimidine-DNA glycosylase|unclassified	42.6437
+UniRef50_UPI00047C2ECD: hypothetical protein	42.6115
+UniRef50_UPI00047C2ECD: hypothetical protein|unclassified	42.6115
+UniRef50_UPI000190292F: hypothetical protein	42.4884
+UniRef50_UPI000190292F: hypothetical protein|unclassified	42.4884
+UniRef50_UPI0003B6EA33: DNA lyase	42.4873
+UniRef50_UPI0003B6EA33: DNA lyase|unclassified	42.4873
+UniRef50_UPI000255B845: transcriptional regulator Ada / DNA-3-methyladenine glycosylase II / DNA-O6-methylguanine--protein-cysteine S-methyltransferase	42.3499
+UniRef50_UPI000255B845: transcriptional regulator Ada / DNA-3-methyladenine glycosylase II / DNA-O6-methylguanine--protein-cysteine S-methyltransferase|unclassified	42.3499
+UniRef50_F2KN43	42.1999
+UniRef50_F2KN43|unclassified	42.1999
+UniRef50_UPI00038086AA: hypothetical protein	41.9405
+UniRef50_UPI00038086AA: hypothetical protein|unclassified	41.9405
+UniRef50_S2EIM7: DHH family protein	41.5902
+UniRef50_S2EIM7: DHH family protein|unclassified	41.5902
+UniRef50_A0LL02	41.4221
+UniRef50_A0LL02|unclassified	41.4221
+UniRef50_UPI0001F8584D: single-strand DNA-specific exonuclease-like protein	41.291
+UniRef50_UPI0001F8584D: single-strand DNA-specific exonuclease-like protein|unclassified	41.291
+UniRef50_UPI00037D4A0F: hypothetical protein	41.2281
+UniRef50_UPI00037D4A0F: hypothetical protein|unclassified	41.2281
+UniRef50_UPI000375D61E: hypothetical protein	41.1824
+UniRef50_UPI000375D61E: hypothetical protein|unclassified	41.1824
+UniRef50_X6C990	41.1023
+UniRef50_X6C990|unclassified	41.1023
+UniRef50_UPI0003B6E4D2: ATP-dependent DNA ligase	40.8413
+UniRef50_UPI0003B6E4D2: ATP-dependent DNA ligase|unclassified	40.8413
+UniRef50_W0TQ71	40.7951
+UniRef50_W0TQ71|unclassified	40.7951
+UniRef50_I7H422	40.6981
+UniRef50_I7H422|unclassified	40.6981
+UniRef50_UPI000378B6AA: hypothetical protein	40.5458
+UniRef50_UPI000378B6AA: hypothetical protein|unclassified	40.5458
+UniRef50_UPI000347ACC9: hypothetical protein	40.3912
+UniRef50_UPI000347ACC9: hypothetical protein|unclassified	40.3912
+UniRef50_UPI0003807B48: hypothetical protein	40.3097
+UniRef50_UPI0003807B48: hypothetical protein|unclassified	40.3097
+UniRef50_B1ZMR3: DNA ligase 2	40.2286
+UniRef50_B1ZMR3: DNA ligase 2|unclassified	40.2286
+UniRef50_UPI00046312F8: hypothetical protein, partial	40.1542
+UniRef50_UPI00046312F8: hypothetical protein, partial|unclassified	40.1542
+UniRef50_Q9T1Q3: Probable DNA polymerase	40.1015
+UniRef50_Q9T1Q3: Probable DNA polymerase|unclassified	40.1015
+UniRef50_UPI0003B3F2FE: DNA ligase	39.447
+UniRef50_UPI0003B3F2FE: DNA ligase|unclassified	39.447
+UniRef50_C0GF57: DNA polymerase LigD, polymerase domain protein	39.4024
+UniRef50_C0GF57: DNA polymerase LigD, polymerase domain protein|unclassified	39.4024
+UniRef50_UPI0004097254: hypothetical protein	39.2599
+UniRef50_UPI0004097254: hypothetical protein|unclassified	39.2599
+UniRef50_UPI0003648840: hypothetical protein	39.0673
+UniRef50_UPI0003648840: hypothetical protein|unclassified	39.0673
+UniRef50_W5XGN1: Transaldolase	38.8817
+UniRef50_W5XGN1: Transaldolase|unclassified	38.8817
+UniRef50_A0L6S1	38.8724
+UniRef50_A0L6S1|unclassified	38.8724
+UniRef50_V0SV41	38.7246
+UniRef50_V0SV41|unclassified	38.7246
+UniRef50_UPI0001B46638: hypothetical protein, partial	38.713
+UniRef50_UPI0001B46638: hypothetical protein, partial|unclassified	38.713
+UniRef50_UPI00046649EE: hypothetical protein	38.5771
+UniRef50_UPI00046649EE: hypothetical protein|unclassified	38.5771
+UniRef50_UPI00035FF8E9: hypothetical protein	38.4128
+UniRef50_UPI00035FF8E9: hypothetical protein|unclassified	38.4128
+UniRef50_Q3ICC5: Flap endonuclease Xni	38.0332
+UniRef50_Q3ICC5: Flap endonuclease Xni|unclassified	38.0332
+UniRef50_UPI0003640B55: hypothetical protein	38.012
+UniRef50_UPI0003640B55: hypothetical protein|unclassified	38.012
+UniRef50_UPI0003B42D49: 5-hydroxymethyluracil DNA glycosylase	37.8459
+UniRef50_UPI0003B42D49: 5-hydroxymethyluracil DNA glycosylase|unclassified	37.8459
+UniRef50_X5UKK0	37.6622
+UniRef50_X5UKK0|unclassified	37.6622
+UniRef50_X1F329: Marine sediment metagenome DNA, contig: S03H2_L08650	37.3576
+UniRef50_X1F329: Marine sediment metagenome DNA, contig: S03H2_L08650|unclassified	37.3576
+UniRef50_UPI0004695587: hypothetical protein	37.2809
+UniRef50_UPI0004695587: hypothetical protein|unclassified	37.2809
+UniRef50_UPI000464B685: hypothetical protein	37.2012
+UniRef50_UPI000464B685: hypothetical protein|unclassified	37.2012
+UniRef50_UPI000469C878: hypothetical protein	36.8237
+UniRef50_UPI000469C878: hypothetical protein|unclassified	36.8237
+UniRef50_X1EAE5: Marine sediment metagenome DNA, contig: S01H4_S16654 (Fragment)	36.7467
+UniRef50_X1EAE5: Marine sediment metagenome DNA, contig: S01H4_S16654 (Fragment)|unclassified	36.7467
+UniRef50_UPI000249109E: DNA repair protein	36.6606
+UniRef50_UPI000249109E: DNA repair protein|unclassified	36.6606
+UniRef50_W5YV15	36.6034
+UniRef50_W5YV15|unclassified	36.6034
+UniRef50_K2EQW5	36.5172
+UniRef50_K2EQW5|unclassified	36.5172
+UniRef50_UPI00036F586F: hypothetical protein	36.3151
+UniRef50_UPI00036F586F: hypothetical protein|unclassified	36.3151
+UniRef50_UPI0003B3D519: DNA-3-methyladenine glycosylase	36.1952
+UniRef50_UPI0003B3D519: DNA-3-methyladenine glycosylase|unclassified	36.1952
+UniRef50_X6FLV7	36.0995
+UniRef50_X6FLV7|unclassified	36.0995
+UniRef50_UPI00037A4260: hypothetical protein, partial	35.6578
+UniRef50_UPI00037A4260: hypothetical protein, partial|unclassified	35.6578
+UniRef50_UPI0003B4FA5B: DNA polymerase I	35.6497
+UniRef50_UPI0003B4FA5B: DNA polymerase I|unclassified	35.6497
+UniRef50_B9XYL1	35.6462
+UniRef50_B9XYL1|unclassified	35.6462
+UniRef50_UPI000428E3B0: ATP-dependent DNA ligase	35.6186
+UniRef50_UPI000428E3B0: ATP-dependent DNA ligase|unclassified	35.6186
+UniRef50_UPI000382080D: hypothetical protein	35.1693
+UniRef50_UPI000382080D: hypothetical protein|unclassified	35.1693
+UniRef50_UPI00025561BB: DNA ligase, NAD-dependent, partial	34.8252
+UniRef50_UPI00025561BB: DNA ligase, NAD-dependent, partial|unclassified	34.8252
+UniRef50_K2BNR8	34.6098
+UniRef50_K2BNR8|unclassified	34.6098
+UniRef50_J9FQ06: Secreted protein	34.5698
+UniRef50_J9FQ06: Secreted protein|unclassified	34.5698
+UniRef50_UPI000376EDC9: hypothetical protein	34.5682
+UniRef50_UPI000376EDC9: hypothetical protein|unclassified	34.5682
+UniRef50_B1ZZL9: Probable DNA ligase	34.4943
+UniRef50_B1ZZL9: Probable DNA ligase|unclassified	34.4943
+UniRef50_UPI0003B3749D: 3-methyladenine DNA glycosylase	34.3278
+UniRef50_UPI0003B3749D: 3-methyladenine DNA glycosylase|unclassified	34.3278
+UniRef50_W4TKE9: DNA polymerase I	34.2954
+UniRef50_W4TKE9: DNA polymerase I|unclassified	34.2954
+UniRef50_UPI0003B4CEF5: exodeoxyribonuclease I	34.1637
+UniRef50_UPI0003B4CEF5: exodeoxyribonuclease I|unclassified	34.1637
+UniRef50_X0RL20	34.1583
+UniRef50_X0RL20|unclassified	34.1583
+UniRef50_W7X488	33.7595
+UniRef50_W7X488|unclassified	33.7595
+UniRef50_UPI000237B781: ATP-dependent DNA ligase	33.6603
+UniRef50_UPI000237B781: ATP-dependent DNA ligase|unclassified	33.6603
+UniRef50_X1PC63: Marine sediment metagenome DNA, contig: S06H3_S21912 (Fragment)	33.6376
+UniRef50_X1PC63: Marine sediment metagenome DNA, contig: S06H3_S21912 (Fragment)|unclassified	33.6376
+UniRef50_UPI0003604BA7: hypothetical protein	33.5968
+UniRef50_UPI0003604BA7: hypothetical protein|unclassified	33.5968
+UniRef50_X1LWX9: Marine sediment metagenome DNA, contig: S06H3_L02952	33.4346
+UniRef50_X1LWX9: Marine sediment metagenome DNA, contig: S06H3_L02952|unclassified	33.4346
+UniRef50_X1QJV1: Marine sediment metagenome DNA, contig: S06H3_S25629 (Fragment)	33.2996
+UniRef50_X1QJV1: Marine sediment metagenome DNA, contig: S06H3_S25629 (Fragment)|unclassified	33.2996
+UniRef50_UPI000380276C: hypothetical protein	33.2951
+UniRef50_UPI000380276C: hypothetical protein|unclassified	33.2951
+UniRef50_UPI00035ED1A4: hypothetical protein	33.2402
+UniRef50_UPI00035ED1A4: hypothetical protein|unclassified	33.2402
+UniRef50_T0RSD7	33.0759
+UniRef50_T0RSD7|unclassified	33.0759
+UniRef50_UPI00037CD576: hypothetical protein	32.8309
+UniRef50_UPI00037CD576: hypothetical protein|unclassified	32.8309
+UniRef50_C7UBL2	32.744
+UniRef50_C7UBL2|unclassified	32.744
+UniRef50_UPI0003B5FFEE: ATP-dependent DNA ligase	32.6389
+UniRef50_UPI0003B5FFEE: ATP-dependent DNA ligase|unclassified	32.6389
+UniRef50_UPI000380A9D3: hypothetical protein, partial	31.8827
+UniRef50_UPI000380A9D3: hypothetical protein, partial|unclassified	31.8827
+UniRef50_H1KQM8	31.8414
+UniRef50_H1KQM8|unclassified	31.8414
+UniRef50_UPI000376064F: hypothetical protein	31.4787
+UniRef50_UPI000376064F: hypothetical protein|unclassified	31.4787
+UniRef50_UPI0003FCAA3D: hypothetical protein	31.4498
+UniRef50_UPI0003FCAA3D: hypothetical protein|unclassified	31.4498
+UniRef50_UPI000379B222: hypothetical protein	31.346
+UniRef50_UPI000379B222: hypothetical protein|unclassified	31.346
+UniRef50_UPI000255C054: ATP dependent DNA ligase	31.318
+UniRef50_UPI000255C054: ATP dependent DNA ligase|unclassified	31.318
+UniRef50_UPI0002193D92: DNA ligase, NAD-dependent, partial	31.2248
+UniRef50_UPI0002193D92: DNA ligase, NAD-dependent, partial|unclassified	31.2248
+UniRef50_Q6L195: DNA ligase	31.0559
+UniRef50_Q6L195: DNA ligase|unclassified	31.0559
+UniRef50_UPI00047D68E1: ATP-dependent DNA ligase	30.9755
+UniRef50_UPI00047D68E1: ATP-dependent DNA ligase|unclassified	30.9755
+UniRef50_F5SBN0: DNA polymerase LigD, polymerase domain protein	30.9385
+UniRef50_F5SBN0: DNA polymerase LigD, polymerase domain protein|unclassified	30.9385
+UniRef50_N1U3B1	30.8614
+UniRef50_N1U3B1|unclassified	30.8614
+UniRef50_D3EG05: DNA polymerase LigD, polymerase domain protein	30.8174
+UniRef50_D3EG05: DNA polymerase LigD, polymerase domain protein|unclassified	30.8174
+UniRef50_X1ARM6: Marine sediment metagenome DNA, contig: S01H4_S03274 (Fragment)	30.7793
+UniRef50_X1ARM6: Marine sediment metagenome DNA, contig: S01H4_S03274 (Fragment)|unclassified	30.7793
+UniRef50_I6TG67: DNA polymerase (Fragment)	30.3584
+UniRef50_I6TG67: DNA polymerase (Fragment)|unclassified	30.3584
+UniRef50_X6EDF1	30.3524
+UniRef50_X6EDF1|unclassified	30.3524
+UniRef50_A3DP49: DNA ligase	30.3288
+UniRef50_A3DP49: DNA ligase|unclassified	30.3288
+UniRef50_A0A028F607	30.3076
+UniRef50_A0A028F607|unclassified	30.3076
+UniRef50_Q7TYI9: Ribose-5-phosphate isomerase B	30.2932
+UniRef50_Q7TYI9: Ribose-5-phosphate isomerase B|unclassified	30.2932
+UniRef50_UPI00047C4EC8: hypothetical protein, partial	30.06
+UniRef50_UPI00047C4EC8: hypothetical protein, partial|unclassified	30.06
+UniRef50_J9CVW5	29.9136
+UniRef50_J9CVW5|unclassified	29.9136
+UniRef50_UPI0003B42E9D: 5''''-3'''' exonuclease	29.5969
+UniRef50_UPI0003B42E9D: 5''''-3'''' exonuclease|unclassified	29.5969
+UniRef50_UPI00047B3638: DNA ligase	29.4781
+UniRef50_UPI00047B3638: DNA ligase|unclassified	29.4781
+UniRef50_W8I393	28.8081
+UniRef50_W8I393|unclassified	28.8081
+UniRef50_UPI0003744B83: hypothetical protein	28.57
+UniRef50_UPI0003744B83: hypothetical protein|unclassified	28.57
+UniRef50_UPI000468C04E: hypothetical protein	28.2404
+UniRef50_UPI000468C04E: hypothetical protein|unclassified	28.2404
+UniRef50_R6A0D0	28.1567
+UniRef50_R6A0D0|unclassified	28.1567
+UniRef50_F0PHH8	28.1294
+UniRef50_F0PHH8|unclassified	28.1294
+UniRef50_UPI0003B6EBEC: 5''''-3'''' exonuclease	28.119
+UniRef50_UPI0003B6EBEC: 5''''-3'''' exonuclease|unclassified	28.119
+UniRef50_Q18H83: DUF123 domain-containing protein HQ_2548A	28.1043
+UniRef50_Q18H83: DUF123 domain-containing protein HQ_2548A|unclassified	28.1043
+UniRef50_A0A011PXE4: DNA-3-methyladenine glycosylase 2	28.0613
+UniRef50_A0A011PXE4: DNA-3-methyladenine glycosylase 2|unclassified	28.0613
+UniRef50_I3UTX7	27.7001
+UniRef50_I3UTX7|unclassified	27.7001
+UniRef50_UPI0003B37B1E: DNA-3-methyladenine glycosylase	27.5281
+UniRef50_UPI0003B37B1E: DNA-3-methyladenine glycosylase|unclassified	27.5281
+UniRef50_UPI0003782116: hypothetical protein	27.3817
+UniRef50_UPI0003782116: hypothetical protein|unclassified	27.3817
+UniRef50_UPI00031A175D: hypothetical protein	27.3421
+UniRef50_UPI00031A175D: hypothetical protein|unclassified	27.3421
+UniRef50_D1ASJ0	27.2316
+UniRef50_D1ASJ0|unclassified	27.2316
+UniRef50_UPI000237703C: single-stranded-DNA-specific exonuclease RecJ, partial	27.1775
+UniRef50_UPI000237703C: single-stranded-DNA-specific exonuclease RecJ, partial|unclassified	27.1775
+UniRef50_UPI0004759620: hypothetical protein	27.1615
+UniRef50_UPI0004759620: hypothetical protein|unclassified	27.1615
+UniRef50_UPI0003DE78CB: PREDICTED: DNA-3-methyladenine glycosylase-like isoform X2	27.0643
+UniRef50_UPI0003DE78CB: PREDICTED: DNA-3-methyladenine glycosylase-like isoform X2|unclassified	27.0643
+UniRef50_H1QFM2: ADA-like regulatory protein (Fragment)	26.8296
+UniRef50_H1QFM2: ADA-like regulatory protein (Fragment)|unclassified	26.8296
+UniRef50_A3CRI6	26.6761
+UniRef50_A3CRI6|unclassified	26.6761
+UniRef50_Q2J252	26.5524
+UniRef50_Q2J252|unclassified	26.5524
+UniRef50_UPI00041CEDB6: hypothetical protein	26.4372
+UniRef50_UPI00041CEDB6: hypothetical protein|unclassified	26.4372
+UniRef50_UPI00036B870C: hypothetical protein	26.1892
+UniRef50_UPI00036B870C: hypothetical protein|unclassified	26.1892
+UniRef50_Q8XD89: DNA ligase B	25.9053
+UniRef50_Q8XD89: DNA ligase B|unclassified	25.9053
+UniRef50_UPI00026C58D3: HhH-GPD family protein	25.6901
+UniRef50_UPI00026C58D3: HhH-GPD family protein|unclassified	25.6901
+UniRef50_UPI000378CB65: hypothetical protein	25.6077
+UniRef50_UPI000378CB65: hypothetical protein|unclassified	25.6077
+UniRef50_UPI0003A751D5: hypothetical protein	25.5137
+UniRef50_UPI0003A751D5: hypothetical protein|unclassified	25.5137
+UniRef50_G1VEX8	25.4825
+UniRef50_G1VEX8|unclassified	25.4825
+UniRef50_UPI000379F3A3: hypothetical protein	25.4546
+UniRef50_UPI000379F3A3: hypothetical protein|unclassified	25.4546
+UniRef50_UPI000473DE21: hypothetical protein, partial	25.2877
+UniRef50_UPI000473DE21: hypothetical protein, partial|unclassified	25.2877
+UniRef50_A8ARN4: DNA ligase B	25.2511
+UniRef50_A8ARN4: DNA ligase B|unclassified	25.2511
+UniRef50_K2BT30: Ku protein	25.0594
+UniRef50_K2BT30: Ku protein|unclassified	25.0594
+UniRef50_UPI000472020D: hypothetical protein, partial	24.9782
+UniRef50_UPI000472020D: hypothetical protein, partial|unclassified	24.9782
+UniRef50_UPI00037D4BC7: hypothetical protein	24.9228
+UniRef50_UPI00037D4BC7: hypothetical protein|unclassified	24.9228
+UniRef50_UPI00047C46A3: hypothetical protein	24.8597
+UniRef50_UPI00047C46A3: hypothetical protein|unclassified	24.8597
+UniRef50_UPI00036B96BE: hypothetical protein	24.4569
+UniRef50_UPI00036B96BE: hypothetical protein|unclassified	24.4569
+UniRef50_UPI000381D2CA: hypothetical protein	24.3618
+UniRef50_UPI000381D2CA: hypothetical protein|unclassified	24.3618
+UniRef50_UPI0004707483: DNA polymerase, partial	24.3403
+UniRef50_UPI0004707483: DNA polymerase, partial|unclassified	24.3403
+UniRef50_UPI00035CB793: hypothetical protein	24.1396
+UniRef50_UPI00035CB793: hypothetical protein|unclassified	24.1396
+UniRef50_X1DZH7: Marine sediment metagenome DNA, contig: S01H4_S07746 (Fragment)	24.0915
+UniRef50_X1DZH7: Marine sediment metagenome DNA, contig: S01H4_S07746 (Fragment)|unclassified	24.0915
+UniRef50_UPI000474281F: hypothetical protein	24.0068
+UniRef50_UPI000474281F: hypothetical protein|unclassified	24.0068
+UniRef50_UPI000365CDB1: hypothetical protein	23.952
+UniRef50_UPI000365CDB1: hypothetical protein|unclassified	23.952
+UniRef50_UPI00035F35FD: hypothetical protein	23.8741
+UniRef50_UPI00035F35FD: hypothetical protein|unclassified	23.8741
+UniRef50_C3Q0G6	23.7966
+UniRef50_C3Q0G6|unclassified	23.7966
+UniRef50_UPI00036909B7: hypothetical protein	23.6947
+UniRef50_UPI00036909B7: hypothetical protein|unclassified	23.6947
+UniRef50_X1RWA1: Marine sediment metagenome DNA, contig: S06H3_S29853 (Fragment)	23.398
+UniRef50_X1RWA1: Marine sediment metagenome DNA, contig: S06H3_S29853 (Fragment)|unclassified	23.398
+UniRef50_UPI00037C7368: hypothetical protein	23.2686
+UniRef50_UPI00037C7368: hypothetical protein|unclassified	23.2686
+UniRef50_D3CYU8	23.1081
+UniRef50_D3CYU8|unclassified	23.1081
+UniRef50_UPI000225FE6D: single-stranded-DNA-specific exonuclease RecJ	22.7779
+UniRef50_UPI000225FE6D: single-stranded-DNA-specific exonuclease RecJ|unclassified	22.7779
+UniRef50_UPI0002626B8A: DNA polymerase I, partial	22.7077
+UniRef50_UPI0002626B8A: DNA polymerase I, partial|unclassified	22.7077
+UniRef50_X5QDL1	22.6242
+UniRef50_X5QDL1|unclassified	22.6242
+UniRef50_F7XLN6	22.55
+UniRef50_F7XLN6|unclassified	22.55
+UniRef50_UPI0004727F25: DNA-3-methyladenine glycosidase	22.0823
+UniRef50_UPI0004727F25: DNA-3-methyladenine glycosidase|unclassified	22.0823
+UniRef50_UPI0004792672: hypothetical protein	21.9843
+UniRef50_UPI0004792672: hypothetical protein|unclassified	21.9843
+UniRef50_A1AT66: Ribonuclease H	21.9753
+UniRef50_A1AT66: Ribonuclease H|unclassified	21.9753
+UniRef50_UPI00047533BD: hypothetical protein	21.8243
+UniRef50_UPI00047533BD: hypothetical protein|unclassified	21.8243
+UniRef50_UPI000262ABB5: bifunctional 3''''-5'''' exonuclease/DNA polymerase, partial	21.7033
+UniRef50_UPI000262ABB5: bifunctional 3''''-5'''' exonuclease/DNA polymerase, partial|unclassified	21.7033
+UniRef50_UPI000471EB7F: hypothetical protein, partial	21.6715
+UniRef50_UPI000471EB7F: hypothetical protein, partial|unclassified	21.6715
+UniRef50_V0API9	21.607
+UniRef50_V0API9|unclassified	21.607
+UniRef50_B9TMV3	21.6061
+UniRef50_B9TMV3|unclassified	21.6061
+UniRef50_X7YQ84	21.5928
+UniRef50_X7YQ84|unclassified	21.5928
+UniRef50_A4WH24: DNA ligase	21.4833
+UniRef50_A4WH24: DNA ligase|unclassified	21.4833
+UniRef50_W7L1G5: Phage-related DNA polymerase (Fragment)	21.3769
+UniRef50_W7L1G5: Phage-related DNA polymerase (Fragment)|unclassified	21.3769
+UniRef50_H5UAD3	21.1789
+UniRef50_H5UAD3|unclassified	21.1789
+UniRef50_UPI0003A1349D: deoxyribonuclease I	21.0766
+UniRef50_UPI0003A1349D: deoxyribonuclease I|unclassified	21.0766
+UniRef50_UPI0003B65215: hypothetical protein	21.0692
+UniRef50_UPI0003B65215: hypothetical protein|unclassified	21.0692
+UniRef50_UPI00036A1C6C: hypothetical protein	20.8357
+UniRef50_UPI00036A1C6C: hypothetical protein|unclassified	20.8357
+UniRef50_V7ESN1	20.6498
+UniRef50_V7ESN1|unclassified	20.6498
+UniRef50_UPI000376AADB: hypothetical protein, partial	20.4723
+UniRef50_UPI000376AADB: hypothetical protein, partial|unclassified	20.4723
+UniRef50_UPI0003B40B7B: hypothetical protein, partial	20.407
+UniRef50_UPI0003B40B7B: hypothetical protein, partial|unclassified	20.407
+UniRef50_UPI0002895C76: hypothetical protein	20.3463
+UniRef50_UPI0002895C76: hypothetical protein|unclassified	20.3463
+UniRef50_UPI000479A9B6: hypothetical protein	20.3242
+UniRef50_UPI000479A9B6: hypothetical protein|unclassified	20.3242
+UniRef50_UPI00037BA4A1: hypothetical protein	20.1902
+UniRef50_UPI00037BA4A1: hypothetical protein|unclassified	20.1902
+UniRef50_UPI00047044C5: hypothetical protein	20.069
+UniRef50_UPI00047044C5: hypothetical protein|unclassified	20.069
+UniRef50_UPI00047EB35C: hypothetical protein	20.0685
+UniRef50_UPI00047EB35C: hypothetical protein|unclassified	20.0685
+UniRef50_M1ZFT7	19.885
+UniRef50_M1ZFT7|unclassified	19.885
+UniRef50_Q46FG3: DUF0123 domain-containing protein	19.8718
+UniRef50_Q46FG3: DUF0123 domain-containing protein|unclassified	19.8718
+UniRef50_B0U3G9: Phage-related DNA polymerase	19.869
+UniRef50_B0U3G9: Phage-related DNA polymerase|unclassified	19.869
+UniRef50_UPI00041D52FA: hypothetical protein	19.8502
+UniRef50_UPI00041D52FA: hypothetical protein|unclassified	19.8502
+UniRef50_UPI00031E1C1B: hypothetical protein	19.7898
+UniRef50_UPI00031E1C1B: hypothetical protein|unclassified	19.7898
+UniRef50_UPI000367018C: hypothetical protein	19.5603
+UniRef50_UPI000367018C: hypothetical protein|unclassified	19.5603
+UniRef50_UPI000479E689: hypothetical protein	19.5045
+UniRef50_UPI000479E689: hypothetical protein|unclassified	19.5045
+UniRef50_UPI0003683201: hypothetical protein	19.465
+UniRef50_UPI0003683201: hypothetical protein|unclassified	19.465
+UniRef50_UPI0003B6374E: isochorismatase	19.4218
+UniRef50_UPI0003B6374E: isochorismatase|unclassified	19.4218
+UniRef50_UPI0003C7E95D: hypothetical protein	19.3777
+UniRef50_UPI0003C7E95D: hypothetical protein|unclassified	19.3777
+UniRef50_UPI00029AAA5A: 3-methyladenine DNA glycosylase	19.2506
+UniRef50_UPI00029AAA5A: 3-methyladenine DNA glycosylase|unclassified	19.2506
+UniRef50_UPI00035DB4C7: hypothetical protein	19.2491
+UniRef50_UPI00035DB4C7: hypothetical protein|unclassified	19.2491
+UniRef50_A3MS62: DNA ligase	19.2009
+UniRef50_A3MS62: DNA ligase|unclassified	19.2009
+UniRef50_UPI00047D199C: hypothetical protein, partial	19.1569
+UniRef50_UPI00047D199C: hypothetical protein, partial|unclassified	19.1569
+UniRef50_X1EK80: Marine sediment metagenome DNA, contig: S01H4_S15819 (Fragment)	18.9342
+UniRef50_X1EK80: Marine sediment metagenome DNA, contig: S01H4_S15819 (Fragment)|unclassified	18.9342
+UniRef50_UPI00047D05FB: DNA polymerase	18.8972
+UniRef50_UPI00047D05FB: DNA polymerase|unclassified	18.8972
+UniRef50_B0MSE9	18.546
+UniRef50_B0MSE9|unclassified	18.546
+UniRef50_R6C744: DNA polymerase	18.4961
+UniRef50_R6C744: DNA polymerase|unclassified	18.4961
+UniRef50_UPI000475C0DE: hypothetical protein, partial	18.4713
+UniRef50_UPI000475C0DE: hypothetical protein, partial|unclassified	18.4713
+UniRef50_UPI0003718955: hypothetical protein	18.4234
+UniRef50_UPI0003718955: hypothetical protein|unclassified	18.4234
+UniRef50_UPI00041B73A4: hypothetical protein	18.4133
+UniRef50_UPI00041B73A4: hypothetical protein|unclassified	18.4133
+UniRef50_UPI00016930F3: ATP-dependent DNA ligase-like protein	18.3447
+UniRef50_UPI00016930F3: ATP-dependent DNA ligase-like protein|unclassified	18.3447
+UniRef50_G4KT11	18.2426
+UniRef50_G4KT11|unclassified	18.2426
+UniRef50_UPI00015FCC5C: hypothetical protein	18.233
+UniRef50_UPI00015FCC5C: hypothetical protein|unclassified	18.233
+UniRef50_UPI0003600429: hypothetical protein	18.2299
+UniRef50_UPI0003600429: hypothetical protein|unclassified	18.2299
+UniRef50_UPI00047574C9: hypothetical protein	18.0574
+UniRef50_UPI00047574C9: hypothetical protein|unclassified	18.0574
+UniRef50_R6PTP3	17.9636
+UniRef50_R6PTP3|unclassified	17.9636
+UniRef50_L7VPJ2: DNA polymerase LigD	17.9183
+UniRef50_L7VPJ2: DNA polymerase LigD|unclassified	17.9183
+UniRef50_UPI000311F039: hypothetical protein	17.8328
+UniRef50_UPI000311F039: hypothetical protein|unclassified	17.8328
+UniRef50_UPI00036FD45E: hypothetical protein	17.7099
+UniRef50_UPI00036FD45E: hypothetical protein|unclassified	17.7099
+UniRef50_X8A1T4: DNA polymerase LigD, polymerase domain protein	17.7035
+UniRef50_X8A1T4: DNA polymerase LigD, polymerase domain protein|unclassified	17.7035
+UniRef50_F8FPP1: DNA polymerase LigD, polymerase domain-containing protein	17.3507
+UniRef50_F8FPP1: DNA polymerase LigD, polymerase domain-containing protein|unclassified	17.3507
+UniRef50_UPI00036C1A0B: hypothetical protein	17.0345
+UniRef50_UPI00036C1A0B: hypothetical protein|unclassified	17.0345
+UniRef50_U2D0U9	16.659
+UniRef50_U2D0U9|unclassified	16.659
+UniRef50_U4V4L5	16.6569
+UniRef50_U4V4L5|unclassified	16.6569
+UniRef50_UPI0004756EA4: 5''-3'' exonuclease	16.4601
+UniRef50_UPI0004756EA4: 5''-3'' exonuclease|unclassified	16.4601
+UniRef50_UPI00046389EA: hypothetical protein	16.3065
+UniRef50_UPI00046389EA: hypothetical protein|unclassified	16.3065
+UniRef50_UPI0001745A8A: DNA ligase I, ATP-dependent (dnl1)	16.2299
+UniRef50_UPI0001745A8A: DNA ligase I, ATP-dependent (dnl1)|unclassified	16.2299
+UniRef50_X1N6K6: Marine sediment metagenome DNA, contig: S06H3_S11765 (Fragment)	16.1843
+UniRef50_X1N6K6: Marine sediment metagenome DNA, contig: S06H3_S11765 (Fragment)|unclassified	16.1843
+UniRef50_UPI00037CC475: RNaseH ribonuclease	16.1352
+UniRef50_UPI00037CC475: RNaseH ribonuclease|unclassified	16.1352
+UniRef50_F2NSN3	16.0078
+UniRef50_F2NSN3|unclassified	16.0078
+UniRef50_UPI00037C7272: hypothetical protein	15.9409
+UniRef50_UPI00037C7272: hypothetical protein|unclassified	15.9409
+UniRef50_Q5X5I2: Ribonuclease H	15.8809
+UniRef50_Q5X5I2: Ribonuclease H|unclassified	15.8809
+UniRef50_UPI00035D5093: hypothetical protein	15.6832
+UniRef50_UPI00035D5093: hypothetical protein|unclassified	15.6832
+UniRef50_Q3ABL6: Dephospho-CoA kinase	15.6708
+UniRef50_Q3ABL6: Dephospho-CoA kinase|unclassified	15.6708
+UniRef50_C9YMF5	15.6435
+UniRef50_C9YMF5|unclassified	15.6435
+UniRef50_UPI00037CA0AD: hypothetical protein	15.6001
+UniRef50_UPI00037CA0AD: hypothetical protein|unclassified	15.6001
+UniRef50_X1P3W6: Marine sediment metagenome DNA, contig: S06H3_S26939	15.5978
+UniRef50_X1P3W6: Marine sediment metagenome DNA, contig: S06H3_S26939|unclassified	15.5978
+UniRef50_UPI00031EB8E8: DNA polymerase	15.5086
+UniRef50_UPI00031EB8E8: DNA polymerase|unclassified	15.5086
+UniRef50_UPI0003778881: hypothetical protein	15.3598
+UniRef50_UPI0003778881: hypothetical protein|unclassified	15.3598
+UniRef50_X1DLH1: Marine sediment metagenome DNA, contig: S01H4_S23809 (Fragment)	15.0022
+UniRef50_X1DLH1: Marine sediment metagenome DNA, contig: S01H4_S23809 (Fragment)|unclassified	15.0022
+UniRef50_UPI000465E9D9: hypothetical protein	14.9837
+UniRef50_UPI000465E9D9: hypothetical protein|unclassified	14.9837
+UniRef50_UPI0001B46828: hypothetical protein	14.8257
+UniRef50_UPI0001B46828: hypothetical protein|unclassified	14.8257
+UniRef50_UPI000413E5D3: acetyltransferase	14.7207
+UniRef50_UPI000413E5D3: acetyltransferase|unclassified	14.7207
+UniRef50_R3HEY6	14.6826
+UniRef50_R3HEY6|unclassified	14.6826
+UniRef50_D2RGY0	14.6754
+UniRef50_D2RGY0|unclassified	14.6754
+UniRef50_UPI000474ABEE: hypothetical protein, partial	14.6336
+UniRef50_UPI000474ABEE: hypothetical protein, partial|unclassified	14.6336
+UniRef50_UPI00036A6D1E: hypothetical protein	14.5168
+UniRef50_UPI00036A6D1E: hypothetical protein|unclassified	14.5168
+UniRef50_P39583: GTP pyrophosphokinase YwaC	14.4184
+UniRef50_P39583: GTP pyrophosphokinase YwaC|unclassified	14.4184
+UniRef50_B0U542: Phage-related DNA polymerase	14.4175
+UniRef50_B0U542: Phage-related DNA polymerase|unclassified	14.4175
+UniRef50_K2FBL9	14.4059
+UniRef50_K2FBL9|unclassified	14.4059
+UniRef50_UPI0003F0A59C: PREDICTED: DNA polymerase theta-like, partial	14.341
+UniRef50_UPI0003F0A59C: PREDICTED: DNA polymerase theta-like, partial|unclassified	14.341
+UniRef50_Q73VG0: LigA	14.3136
+UniRef50_Q73VG0: LigA|unclassified	14.3136
+UniRef50_UPI00037AA352: hypothetical protein	13.9629
+UniRef50_UPI00037AA352: hypothetical protein|unclassified	13.9629
+UniRef50_UPI0003744D86: hypothetical protein	13.4342
+UniRef50_UPI0003744D86: hypothetical protein|unclassified	13.4342
+UniRef50_S1QZ75	13.291
+UniRef50_S1QZ75|unclassified	13.291
+UniRef50_UPI00046A4B7D: endonuclease III	13.0932
+UniRef50_UPI00046A4B7D: endonuclease III|unclassified	13.0932
+UniRef50_UPI000308BF07: hypothetical protein	12.8671
+UniRef50_UPI000308BF07: hypothetical protein|unclassified	12.8671
+UniRef50_UPI0003A2B885: hypothetical protein	12.3343
+UniRef50_UPI0003A2B885: hypothetical protein|unclassified	12.3343
+UniRef50_W9DRP6	12.253
+UniRef50_W9DRP6|unclassified	12.253
+UniRef50_Z0D1L6	12.24
+UniRef50_Z0D1L6|unclassified	12.24
+UniRef50_UPI0003B63C2F: HhH-GPD	12.1398
+UniRef50_UPI0003B63C2F: HhH-GPD|unclassified	12.1398
+UniRef50_UPI000376ADE1: hypothetical protein	12.1147
+UniRef50_UPI000376ADE1: hypothetical protein|unclassified	12.1147
+UniRef50_UPI000288ACD6: GCN5 family acetyltransferase	12.0709
+UniRef50_UPI000288ACD6: GCN5 family acetyltransferase|unclassified	12.0709
+UniRef50_X0V9A0: Marine sediment metagenome DNA, contig: S01H1_L08950 (Fragment)	12.0704
+UniRef50_X0V9A0: Marine sediment metagenome DNA, contig: S01H1_L08950 (Fragment)|unclassified	12.0704
+UniRef50_D2AR25	12.0243
+UniRef50_D2AR25|unclassified	12.0243
+UniRef50_UPI00035E5B9E: hypothetical protein	11.8325
+UniRef50_UPI00035E5B9E: hypothetical protein|unclassified	11.8325
+UniRef50_C2CSH6	11.8287
+UniRef50_C2CSH6|unclassified	11.8287
+UniRef50_L0H921	11.6738
+UniRef50_L0H921|unclassified	11.6738
+UniRef50_Q9T1Q2: P46	11.1411
+UniRef50_Q9T1Q2: P46|unclassified	11.1411
+UniRef50_L8EG38: ADA-like regulatory protein (Fragment)	11.0991
+UniRef50_L8EG38: ADA-like regulatory protein (Fragment)|unclassified	11.0991
+UniRef50_UPI00046E79A7: hypothetical protein	11.0729
+UniRef50_UPI00046E79A7: hypothetical protein|unclassified	11.0729
+UniRef50_UPI0004121027: acetyltransferase	11.0262
+UniRef50_UPI0004121027: acetyltransferase|unclassified	11.0262
+UniRef50_T0Z3T4: BRCT domain protein (Fragment)	11.0081
+UniRef50_T0Z3T4: BRCT domain protein (Fragment)|unclassified	11.0081
+UniRef50_UPI0002490746: DNA-3-methyladenine glycosylase I	10.8444
+UniRef50_UPI0002490746: DNA-3-methyladenine glycosylase I|unclassified	10.8444
+UniRef50_E4QIC5	10.7117
+UniRef50_E4QIC5|unclassified	10.7117
+UniRef50_L9UXH0	10.658
+UniRef50_L9UXH0|unclassified	10.658
+UniRef50_UPI00046FD606: hypothetical protein	10.6528
+UniRef50_UPI00046FD606: hypothetical protein|unclassified	10.6528
+UniRef50_UPI0003788486: hypothetical protein	10.5816
+UniRef50_UPI0003788486: hypothetical protein|unclassified	10.5816
+UniRef50_Q5P2T5	10.5163
+UniRef50_Q5P2T5|unclassified	10.5163
+UniRef50_A0A010NQ17	10.5008
+UniRef50_A0A010NQ17|unclassified	10.5008
+UniRef50_UPI00037349C8: hypothetical protein	10.3686
+UniRef50_UPI00037349C8: hypothetical protein|unclassified	10.3686
+UniRef50_UPI000455DCB5: DNA glycosylase, partial	10.163
+UniRef50_UPI000455DCB5: DNA glycosylase, partial|unclassified	10.163
+UniRef50_UPI000262B24F: AraC family transcriptional regulator, partial	10.0978
+UniRef50_UPI000262B24F: AraC family transcriptional regulator, partial|unclassified	10.0978
+UniRef50_D3RWC9	9.96045
+UniRef50_D3RWC9|unclassified	9.96045
+UniRef50_A0RWD6: DNA ligase	9.89625
+UniRef50_A0RWD6: DNA ligase|unclassified	9.89625
+UniRef50_H1XR33	9.8511
+UniRef50_H1XR33|unclassified	9.8511
+UniRef50_K2E7E7	9.7324
+UniRef50_K2E7E7|unclassified	9.7324
+UniRef50_UPI000378AA03: hypothetical protein, partial	9.40713
+UniRef50_UPI000378AA03: hypothetical protein, partial|unclassified	9.40713
+UniRef50_M4SBX9	9.37187
+UniRef50_M4SBX9|unclassified	9.37187
+UniRef50_D4H046: DUF123 domain protein	9.32659
+UniRef50_D4H046: DUF123 domain protein|unclassified	9.32659
+UniRef50_E5WM66	9.10112
+UniRef50_E5WM66|unclassified	9.10112
+UniRef50_B1L3V2: DNA ligase 2	9.04853
+UniRef50_B1L3V2: DNA ligase 2|unclassified	9.04853
+UniRef50_UPI0003B65964: hypothetical protein	9.03506
+UniRef50_UPI0003B65964: hypothetical protein|unclassified	9.03506
+UniRef50_R5L7N3	9.00022
+UniRef50_R5L7N3|unclassified	9.00022
+UniRef50_D0YQS4	8.75912
+UniRef50_D0YQS4|unclassified	8.75912
+UniRef50_M7N8Z2: Putative oxidoreductase	8.44735
+UniRef50_M7N8Z2: Putative oxidoreductase|unclassified	8.44735
+UniRef50_U1PCS6	8.32384
+UniRef50_U1PCS6|unclassified	8.32384
+UniRef50_K2F927	8.16701
+UniRef50_K2F927|unclassified	8.16701
+UniRef50_D3RZW5	8.11589
+UniRef50_D3RZW5|unclassified	8.11589
+UniRef50_UPI0002626050: DNA-3-methyladenine glycosidase	8.05697
+UniRef50_UPI0002626050: DNA-3-methyladenine glycosidase|unclassified	8.05697
+UniRef50_E2X5G5: DNA polymerase domain protein	7.9001
+UniRef50_E2X5G5: DNA polymerase domain protein|unclassified	7.9001
+UniRef50_UPI0003473940: hypothetical protein	7.86187
+UniRef50_UPI0003473940: hypothetical protein|unclassified	7.86187
+UniRef50_UPI00036550FB: hypothetical protein	7.817
+UniRef50_UPI00036550FB: hypothetical protein|unclassified	7.817
+UniRef50_H6NLV9: DNA polymerase LigD, polymerase domain-containing protein	7.74507
+UniRef50_H6NLV9: DNA polymerase LigD, polymerase domain-containing protein|unclassified	7.74507
+UniRef50_UPI0003C74495: hypothetical protein	7.74451
+UniRef50_UPI0003C74495: hypothetical protein|unclassified	7.74451
+UniRef50_B2N2D7: DNA polymerase	7.68099
+UniRef50_B2N2D7: DNA polymerase|unclassified	7.68099
+UniRef50_W0EEN1: DNA polymerase LigD, polymerase domain-containing protein	7.62082
+UniRef50_W0EEN1: DNA polymerase LigD, polymerase domain-containing protein|unclassified	7.62082
+UniRef50_Z9JFD3: DNA polymerase (Fragment)	7.36248
+UniRef50_Z9JFD3: DNA polymerase (Fragment)|unclassified	7.36248
+UniRef50_M0PEZ7	7.35615
+UniRef50_M0PEZ7|unclassified	7.35615
+UniRef50_K6WT66	7.30412
+UniRef50_K6WT66|unclassified	7.30412
+UniRef50_F4BRN0	7.27151
+UniRef50_F4BRN0|unclassified	7.27151
+UniRef50_K0J4C6: DNA polymerase I	7.12107
+UniRef50_K0J4C6: DNA polymerase I|unclassified	7.12107
+UniRef50_X0Y8K3: Marine sediment metagenome DNA, contig: S01H1_S37436 (Fragment)	7.01255
+UniRef50_X0Y8K3: Marine sediment metagenome DNA, contig: S01H1_S37436 (Fragment)|unclassified	7.01255
+UniRef50_T0CK18	6.89656
+UniRef50_T0CK18|unclassified	6.89656
+UniRef50_U4T9F8: Putative lysine decarboxylase family protein	6.88101
+UniRef50_U4T9F8: Putative lysine decarboxylase family protein|unclassified	6.88101
+UniRef50_UPI0003AA35A7: MULTISPECIES: hypothetical protein	6.68909
+UniRef50_UPI0003AA35A7: MULTISPECIES: hypothetical protein|unclassified	6.68909
+UniRef50_K0PRY7	6.6868
+UniRef50_K0PRY7|unclassified	6.6868
+UniRef50_L0JXY9	6.62333
+UniRef50_L0JXY9|unclassified	6.62333
+UniRef50_R0E9E7	6.60129
+UniRef50_R0E9E7|unclassified	6.60129
+UniRef50_Q98P82: Msl9575 protein	6.50106
+UniRef50_Q98P82: Msl9575 protein|unclassified	6.50106
+UniRef50_UPI00040801A8: hypothetical protein	6.48878
+UniRef50_UPI00040801A8: hypothetical protein|unclassified	6.48878
+UniRef50_D8HRA2	6.31539
+UniRef50_D8HRA2|unclassified	6.31539
+UniRef50_UPI0001850E44: endonuclease III	6.07406
+UniRef50_UPI0001850E44: endonuclease III|unclassified	6.07406
+UniRef50_X0Y0Z3: Marine sediment metagenome DNA, contig: S01H1_S34442	5.93549
+UniRef50_X0Y0Z3: Marine sediment metagenome DNA, contig: S01H1_S34442|unclassified	5.93549
+UniRef50_UPI0003B3E90E: hypothetical protein	5.88494
+UniRef50_UPI0003B3E90E: hypothetical protein|unclassified	5.88494
+UniRef50_UPI0004667F3A: hypothetical protein	5.82641
+UniRef50_UPI0004667F3A: hypothetical protein|unclassified	5.82641
+UniRef50_M6RNU1	5.81073
+UniRef50_M6RNU1|unclassified	5.81073
+UniRef50_UPI000380068D: hypothetical protein	5.78434
+UniRef50_UPI000380068D: hypothetical protein|unclassified	5.78434
+UniRef50_UPI00037F08DD: hypothetical protein	5.76215
+UniRef50_UPI00037F08DD: hypothetical protein|unclassified	5.76215
+UniRef50_UPI00047D7F76: hypothetical protein, partial	5.63164
+UniRef50_UPI00047D7F76: hypothetical protein, partial|unclassified	5.63164
+UniRef50_F8E8Z5: DNA polymerase LigD, polymerase domain protein	5.5202
+UniRef50_F8E8Z5: DNA polymerase LigD, polymerase domain protein|unclassified	5.5202
+UniRef50_K2A191	5.3274
+UniRef50_K2A191|unclassified	5.3274
+UniRef50_UPI00047799AD: hypothetical protein	5.27464
+UniRef50_UPI00047799AD: hypothetical protein|unclassified	5.27464
+UniRef50_Q92J60: UPF0369 protein RC0209	5.23573
+UniRef50_Q92J60: UPF0369 protein RC0209|unclassified	5.23573
+UniRef50_K1Z7T2	5.02593
+UniRef50_K1Z7T2|unclassified	5.02593
+UniRef50_X6G1N3	4.97881
+UniRef50_X6G1N3|unclassified	4.97881
+UniRef50_UPI0002E5A0AA: hypothetical protein	4.94974
+UniRef50_UPI0002E5A0AA: hypothetical protein|unclassified	4.94974
+UniRef50_Q3SAA6	4.86624
+UniRef50_Q3SAA6|unclassified	4.86624
+UniRef50_C6X7X8	4.7633
+UniRef50_C6X7X8|unclassified	4.7633
+UniRef50_D2W4S6: Predicted protein	4.72049
+UniRef50_D2W4S6: Predicted protein|unclassified	4.72049
+UniRef50_E4LA74	4.71307
+UniRef50_E4LA74|unclassified	4.71307
+UniRef50_W5WH29	4.47243
+UniRef50_W5WH29|unclassified	4.47243
+UniRef50_Q6FUF3: GMP synthase [glutamine-hydrolyzing]	4.46133
+UniRef50_Q6FUF3: GMP synthase [glutamine-hydrolyzing]|unclassified	4.46133
+UniRef50_K1YG34	4.40998
+UniRef50_K1YG34|unclassified	4.40998
+UniRef50_UPI0003B3DD30: hypothetical protein	4.39468
+UniRef50_UPI0003B3DD30: hypothetical protein|unclassified	4.39468
+UniRef50_D9QU60	4.37051
+UniRef50_D9QU60|unclassified	4.37051
+UniRef50_D3EQV0	4.36841
+UniRef50_D3EQV0|unclassified	4.36841
+UniRef50_UPI0003635B2B: hypothetical protein, partial	4.31841
+UniRef50_UPI0003635B2B: hypothetical protein, partial|unclassified	4.31841
+UniRef50_UPI00036AE8E5: hypothetical protein	4.20861
+UniRef50_UPI00036AE8E5: hypothetical protein|unclassified	4.20861
+UniRef50_Q5FPL0: GMP synthase [glutamine-hydrolyzing]	4.17253
+UniRef50_Q5FPL0: GMP synthase [glutamine-hydrolyzing]|unclassified	4.17253
+UniRef50_Q7UFS3: GMP synthase [glutamine-hydrolyzing]	4.16875
+UniRef50_Q7UFS3: GMP synthase [glutamine-hydrolyzing]|unclassified	4.16875
+UniRef50_UPI0003772519: hypothetical protein	4.11151
+UniRef50_UPI0003772519: hypothetical protein|unclassified	4.11151
+UniRef50_G0QAB8: RNA-metabolising metallo-beta-lactamase (Fragment)	4.10225
+UniRef50_G0QAB8: RNA-metabolising metallo-beta-lactamase (Fragment)|unclassified	4.10225
+UniRef50_U7JJ09	3.9971
+UniRef50_U7JJ09|unclassified	3.9971
+UniRef50_UPI0003A6B873: hypothetical protein	3.88322
+UniRef50_UPI0003A6B873: hypothetical protein|unclassified	3.88322
+UniRef50_UPI0004709E47: hypothetical protein	3.87971
+UniRef50_UPI0004709E47: hypothetical protein|unclassified	3.87971
+UniRef50_D2VMK6: Predicted protein	3.83556
+UniRef50_D2VMK6: Predicted protein|unclassified	3.83556
+UniRef50_X1JQD4: Marine sediment metagenome DNA, contig: S03H2_S29321 (Fragment)	3.81889
+UniRef50_X1JQD4: Marine sediment metagenome DNA, contig: S03H2_S29321 (Fragment)|unclassified	3.81889
+UniRef50_Q9Z913: Putative GMP synthase [glutamine-hydrolyzing]	3.63198
+UniRef50_Q9Z913: Putative GMP synthase [glutamine-hydrolyzing]|unclassified	3.63198
+UniRef50_R9LI56	3.61199
+UniRef50_R9LI56|unclassified	3.61199
+UniRef50_D2W0W9: Predicted protein	3.47877
+UniRef50_D2W0W9: Predicted protein|unclassified	3.47877
+UniRef50_W6WAS5	3.45657
+UniRef50_W6WAS5|unclassified	3.45657
+UniRef50_A2SPW8	3.42772
+UniRef50_A2SPW8|unclassified	3.42772
+UniRef50_B6BV32	3.40448
+UniRef50_B6BV32|unclassified	3.40448
+UniRef50_UPI0001B46639: hypothetical protein, partial	3.40302
+UniRef50_UPI0001B46639: hypothetical protein, partial|unclassified	3.40302
+UniRef50_E4U4W4	3.36441
+UniRef50_E4U4W4|unclassified	3.36441
+UniRef50_G7W5H0	3.32328
+UniRef50_G7W5H0|unclassified	3.32328
+UniRef50_H6MWC0	3.06968
+UniRef50_H6MWC0|unclassified	3.06968
+UniRef50_X1LEE4: Marine sediment metagenome DNA, contig: S06H3_L05388 (Fragment)	3.05724
+UniRef50_X1LEE4: Marine sediment metagenome DNA, contig: S06H3_L05388 (Fragment)|unclassified	3.05724
+UniRef50_Q5P9L5: GMP synthase [glutamine-hydrolyzing]	2.93562
+UniRef50_Q5P9L5: GMP synthase [glutamine-hydrolyzing]|unclassified	2.93562
+UniRef50_D8F6S5	2.84479
+UniRef50_D8F6S5|unclassified	2.84479
+UniRef50_K0J5X0	2.76183
+UniRef50_K0J5X0|unclassified	2.76183
+UniRef50_T2JGR0	2.73835
+UniRef50_T2JGR0|unclassified	2.73835
+UniRef50_Q4FMW8: GMP synthase [glutamine-hydrolyzing]	2.72871
+UniRef50_Q4FMW8: GMP synthase [glutamine-hydrolyzing]|unclassified	2.72871
+UniRef50_Q822V6: GMP synthase [glutamine-hydrolyzing]	2.69012
+UniRef50_Q822V6: GMP synthase [glutamine-hydrolyzing]|unclassified	2.69012
+UniRef50_R7L2V0	2.68995
+UniRef50_R7L2V0|unclassified	2.68995
+UniRef50_L1IUE9	2.6375
+UniRef50_L1IUE9|unclassified	2.6375
+UniRef50_X1Q4E2: Marine sediment metagenome DNA, contig: S06H3_S15630 (Fragment)	2.49606
+UniRef50_X1Q4E2: Marine sediment metagenome DNA, contig: S06H3_S15630 (Fragment)|unclassified	2.49606
+UniRef50_K0NIK2	2.47369
+UniRef50_K0NIK2|unclassified	2.47369
+UniRef50_UPI0004758E9D: hypothetical protein, partial	2.36147
+UniRef50_UPI0004758E9D: hypothetical protein, partial|unclassified	2.36147
+UniRef50_UPI000374C457: decarboxylase, partial	2.33923
+UniRef50_UPI000374C457: decarboxylase, partial|unclassified	2.33923
+UniRef50_Q6ASN4: GMP synthase [glutamine-hydrolyzing]	2.22438
+UniRef50_Q6ASN4: GMP synthase [glutamine-hydrolyzing]|unclassified	2.22438
+UniRef50_R6AWD0	2.1684
+UniRef50_R6AWD0|unclassified	2.1684
+UniRef50_A5V0I9	2.11522
+UniRef50_A5V0I9|unclassified	2.11522
+UniRef50_UPI00037060F2: hypothetical protein	2.08045
+UniRef50_UPI00037060F2: hypothetical protein|unclassified	2.08045
+UniRef50_W5RV68	2.02427
+UniRef50_W5RV68|unclassified	2.02427
+UniRef50_R7PQ72: GMP synthase [glutamine-hydrolyzing]	1.59528
+UniRef50_R7PQ72: GMP synthase [glutamine-hydrolyzing]|unclassified	1.59528
+UniRef50_A0A024HX64	1.47384
+UniRef50_A0A024HX64|unclassified	1.47384
+UniRef50_S2E7R7: GMP synthase (Glutamine-hydrolyzing), N-terminal domain protein (Fragment)	1.28461
+UniRef50_S2E7R7: GMP synthase (Glutamine-hydrolyzing), N-terminal domain protein (Fragment)|unclassified	1.28461
+UniRef50_Q7MS94	1.24107
+UniRef50_Q7MS94|unclassified	1.24107
+UniRef50_X1BCJ9: Marine sediment metagenome DNA, contig: S01H4_L07849	1.08896
+UniRef50_X1BCJ9: Marine sediment metagenome DNA, contig: S01H4_L07849|unclassified	1.08896
+UniRef50_D8K429	1.02925
+UniRef50_D8K429|unclassified	1.02925
+UniRef50_W4TWJ0: GMP synthase	1.02827
+UniRef50_W4TWJ0: GMP synthase|unclassified	1.02827
