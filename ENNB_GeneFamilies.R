@@ -1,29 +1,73 @@
 library(tidyverse)
 library(stringr)
 library(tictoc)
-require(glmnet)
 
+setwd("/work/04734/dhbrand/stampede2/GitHub/drought_metagen/")
 source("TwoStage_Package_Code.R")
+
+# MASS select masks dplyr select
 select <- dplyr::select
-#x <- spec_tsv("DELIVER/GeneFamilies.merged.tsv");cols_condense(x)
+
 GF <- read_tsv("DELIVER/GeneFamilies.merged.tsv", col_types = ("cddddddddddddddddddddd"))
 factors <- read_csv("phyllo_factors.csv")
-factors <- rbind(factors, c("PHYLLO30", "HF", "drought"),c("PHYLLO31", "HF", "drought"), c("PHYLLO32", "HF", "watered"), c("PHYLLO33", "HF", "drought"), c("PHYLLO34", "HF", "watered"))
-factors <- factors[c(1:8,13:22),]
-# str_length(names(GF[,-1]))
-# str_length(names(factors[,1]))
-# str_view(names(GF[,-1]), "_")
+factors <- factors[c(1:8,13:21),]
+# The imputed classes needed to run cv.glmnet
+factors <- rbind(factors, c("PHYLLO30", "HF", "drought"),c("PHYLLO31", "HF", "drought"), c("PHYLLO32", "HF", "watered"), c("PHYLLO33", "HF", "drought"), c("PHYLLO34", "HF", "watered"),c("PHYLLO35", "CA", "drought"), c("PHYLLO36", "CA", "watered"), c("PHYLLO37", "CA", "drought"), c("PHYLLO38", "CA", "watered"),c("PHYLLO39", "DE", "drought"), c("PHYLLO40", "DE", "watered"), c("PHYLLO41", "DE", "drought"), c("PHYLLO42", "DE", "watered"))
+
+
 
 subjects <- str_split(names(GF[,-1]), "_", simplify = TRUE)[,1]
 names(GF) <- c("ID", subjects)
+
+# Sites without maize removed
 GF <- GF[-1,c(1:9,14:22)]
 
 # impute 3rd drought location for HF
 GF <- GF %>% mutate(PHYLLO30 = map2_dbl(.$PHYLLO28,.$PHYLLO29, ~ (.x + .y)/2))
 
 # impute 4th and 5th watered and drought for HF
-GFm <- GF %>% mutate(PHYLLO31 = pmap_dbl(list(.$PHYLLO28, .$PHYLLO29, .$PHYLLO30), ~ (..1 + ..2 + ..3)/3), PHYLLO32 = pmap_dbl(list(.$PHYLLO09, .$PHYLLO26, .$PHYLLO27), ~ (..1 + ..2 + ..3)/3)) %>% 
+GF <- GF %>% mutate(PHYLLO31 = pmap_dbl(list(.$PHYLLO28, .$PHYLLO29, .$PHYLLO30), ~ (..1 + ..2 + ..3)/3), PHYLLO32 = pmap_dbl(list(.$PHYLLO09, .$PHYLLO26, .$PHYLLO27), ~ (..1 + ..2 + ..3)/3)) %>% 
   mutate(PHYLLO33 = pmap_dbl(list(.$PHYLLO28, .$PHYLLO29, .$PHYLLO30, .$PHYLLO31), ~ (..1 + ..2 + ..3 + ..4)/4), PHYLLO34 = pmap_dbl(list(.$PHYLLO09, .$PHYLLO26, .$PHYLLO27, .$PHYLLO31), ~ (..1 + ..2 + ..3 + ..4)/4))
+
+# impute 4th and 5th watered and drought for CA
+GF <- GF %>% mutate(PHYLLO35 = pmap_dbl(list(.$PHYLLO12, .$PHYLLO14, .$PHYLLO22), ~ (..1 + ..2 + ..3)/3), PHYLLO36 = pmap_dbl(list(.$PHYLLO11, .$PHYLLO13, .$PHYLLO21), ~ (..1 + ..2 + ..3)/3)) %>% 
+  mutate(PHYLLO37 = pmap_dbl(list(.$PHYLLO12, .$PHYLLO14, .$PHYLLO22, .$PHYLLO35), ~ (..1 + ..2 + ..3 + ..4)/4), PHYLLO38 = pmap_dbl(list(.$PHYLLO11, .$PHYLLO13, .$PHYLLO21, .$PHYLLO36), ~ (..1 + ..2 + ..3 + ..4)/4))
+
+# impute 4th and 5th watered and drought for DE
+GF <- GF %>% mutate(PHYLLO39 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25), ~ (..1 + ..2 + ..3)/3), PHYLLO40 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23), ~ (..1 + ..2 + ..3)/3)) %>% 
+  mutate(PHYLLO41 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25, .$PHYLLO39), ~ (..1 + ..2 + ..3 + ..4)/4), PHYLLO42 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23, .$PHYLLO40), ~ (..1 + ..2 + ..3 + ..4)/4))
+
+setwd("output/")
+
+city <- c("HF", "CA", "DE")
+tic()
+for (i in city) {
+  Y <- factors %>% filter(city == i) %>% select(Sample_ID, treatment) %>% as.data.frame
+  X <- GF %>% select(ID,pull(Y, Sample_ID)) %>% as.data.frame
+  try({
+    TwoStage_Package(X,Y,paste("sigtest_", city, "_tmm1.csv", sep = ""), 1)
+    TwoStage_Package(X,Y,paste("sigtest_", city, "_tmm2.csv", sep = ""), 2)
+  })
+}
+print(toc())
+# Y.hf <- factors %>% filter(city == "HF") %>% select(Sample_ID, treatment) %>% as.data.frame
+# X.hf <- GF %>% select(ID,pull(Y.hf, Sample_ID)) %>% as.data.frame
+# 
+# TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm1.csv",1)
+# TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm2.csv",2)
+# 
+# Y.ca <- factors %>% filter(city == "CA") %>% select(Sample_ID, treatment) %>% as.data.frame
+# X.ca <- GF %>% select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
+# 
+# TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm1.csv",1)
+# TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm2.csv",2)
+# 
+# Y.de <- factors %>% filter(city == "DE") %>% select(Sample_ID, treatment) %>% as.data.frame
+# X.de <- GF %>% select(ID,pull(Y.de, Sample_ID)) %>% as.data.frame
+# 
+# TwoStage_Package(X.de,Y.de,"sigtest_de_tmm1.csv",1)
+# TwoStage_Package(X.de,Y.de,"sigtest_de_tmm2.csv",2)
+
 
 
 # Find rows with 1 or 2 observations; do not need as ENNB transposes X
@@ -38,11 +82,9 @@ GFm <- GF %>% mutate(PHYLLO31 = pmap_dbl(list(.$PHYLLO28, .$PHYLLO29, .$PHYLLO30
 #   magrittr::extract(GF, .)
 
 
-Y.hf <- factors %>% filter(city == "HF") %>% select(Sample_ID, treatment) %>% as.data.frame
-X.hf <- GFm %>% select(ID,pull(Y, Sample_ID)) %>% as.data.frame
 
-TwoStage_Package(X.hf,Y.hf,"sigtest_example.csv",1)
-# 
+ 
+# Repexp for stackoverflow help
 # set.seed(123)
 # library(Matrix)
 # M1 <- as.matrix(rsparsematrix(100, 20, .1, rand.x = runif))
@@ -58,12 +100,12 @@ TwoStage_Package(X.hf,Y.hf,"sigtest_example.csv",1)
 # 
 # M2 <- M1 %>% as_tibble %>% mutate_all(funs(.==0)) %>% reduce(`+`) %>% cbind(M1, Count = .)
 
-
-x <- read.csv("abundance.csv.csv")
+# Example data from developers website
+x <- read.csv("example_data/abundance.csv")
 z <- read.csv("phenotype.csv")
 TwoStage_Package(as.data.frame(GF),as.data.frame(Y),"sigtest_example.csv",2)
 
-
+# Checking sparsity in rows
 g <- vector("integer")
 for(i in 1:20){
   l <- (length(which(x[i,2:21] == 0)))
@@ -83,23 +125,3 @@ x <- data.frame(map_at(x,2:11,as.numeric))
 y <- data.frame(cbind(subj[-1],sample(1:2,10, replace = T)))
 TwoStage_Package(x,y,"sigtest_example.csv",1)
 
-# Find a way to determine lambda without CV
-x <- matrix(rnorm(100), nrow = 9)
-y <- sample(1:2,9, replace = T)
-fit <- glmnet(x,y,family = "binomial")
-plot(fit)
-# confirm 6 observations 2 small for cv.glmnet
-cv = cv.glmnet(x, y, family = "binomial", nfolds = 3)
-tLL <- fit$nulldev - deviance(fit)
-k <- fit$df
-n <- fit$nobs
-AICc <- -tLL+2*k+2*k*(k+1)/(n-k-1)
-which(AICc == min(AICc))
-BIC<-log(n)*k - tLL
-which(BIC == min(BIC))
-lambda <- c(AICc[which(AICc == min(AICc))], BIC[which(BIC == min(BIC))])
-
-require(HDeconometrics)
-fit1 <- ic.glmnet(x, y)
-plot(fit1)
-lambda.ic <- fit1$lambda
