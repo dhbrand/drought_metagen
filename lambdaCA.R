@@ -4,11 +4,9 @@ library(tictoc)
 library(glmnet)
 library(edgeR)
 
-setwd("/work/04734/dhbrand/stampede2/GitHub/drought_metagen/"
+setwd("/work/04734/dhbrand/stampede2/GitHub/drought_metagen/")
 
 
-# MASS select masks dplyr select
-select <- dplyr::select
 
 GF <- read_tsv("DELIVER/GeneFamilies.merged.tsv", col_types = ("cddddddddddddddddddddd"))
 factors <- read_csv("phyllo_factors.csv")
@@ -40,8 +38,8 @@ GF <- GF %>% mutate(PHYLLO35 = pmap_dbl(list(.$PHYLLO12, .$PHYLLO14, .$PHYLLO22)
 GF <- GF %>% mutate(PHYLLO39 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25), ~ (..1 + ..2 + ..3)/3), PHYLLO40 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23), ~ (..1 + ..2 + ..3)/3)) %>%
   mutate(PHYLLO41 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25, .$PHYLLO39), ~ (..1 + ..2 + ..3 + ..4)/4), PHYLLO42 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23, .$PHYLLO40), ~ (..1 + ..2 + ..3 + ..4)/4))
 
-Y.ca <- factors %>% filter(city == "CA") %>% select(Sample_ID, treatment) %>% as.data.frame
-X.ca <- GF %>% select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
+Y.ca <- factors %>% filter(city == "CA") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame
+X.ca <- GF %>% dplyr::select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
 X <- X.ca;Y <- Y.ca
 
 
