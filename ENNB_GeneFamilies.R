@@ -21,6 +21,7 @@ names(GF) <- c("ID", subjects)
 
 # Sites without maize removed
 GF <- GF[-1,c(1:9,14:22)]
+#GF <- GF[-1,]
 
 # impute 3rd drought location for HF
 GF <- GF %>% mutate(PHYLLO30 = map2_dbl(.$PHYLLO28,.$PHYLLO29, ~ (.x + .y)/2))
@@ -48,26 +49,34 @@ for (i in city) {
   TwoStage_Package(X,Y,paste("sigtest_", i, "_tmm2.csv", sep = ""), 2)
 }
 print(toc())
-# Y.hf <- factors %>% filter(city == "HF") %>% select(Sample_ID, treatment) %>% as.data.frame
-# X.hf <- GF %>% select(ID,pull(Y.hf, Sample_ID)) %>% as.data.frame
-# 
-# TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm1.csv",1)
-# TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm2.csv",2)
-# 
-# Y.ca <- factors %>% filter(city == "CA") %>% select(Sample_ID, treatment) %>% as.data.frame
-# X.ca <- GF %>% select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
-# 
-# TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm1.csv",1)
-# TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm2.csv",2)
-# 
-# Y.de <- factors %>% filter(city == "DE") %>% select(Sample_ID, treatment) %>% as.data.frame
-# X.de <- GF %>% select(ID,pull(Y.de, Sample_ID)) %>% as.data.frame
-# 
-# TwoStage_Package(X.de,Y.de,"sigtest_de_tmm1.csv",1)
-# TwoStage_Package(X.de,Y.de,"sigtest_de_tmm2.csv",2)
+Y.hf <- factors %>% filter(city == "HF") %>% select(Sample_ID, treatment) %>% as.data.frame
+X.hf <- GF %>% select(ID,pull(Y.hf, Sample_ID)) %>% as.data.frame
+X <- X.hf;Y <- Y.hf
+TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm1.csv",1)
+TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm2.csv",2)
 
+Y.ca <- factors %>% filter(city == "CA") %>% select(Sample_ID, treatment) %>% as.data.frame
+X.ca <- GF %>% select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
+X <- X.ca;Y <- Y.ca
+TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm1.csv",1)
+TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm2.csv",2)
 
+Y.de <- factors %>% filter(city == "DE") %>% select(Sample_ID, treatment) %>% as.data.frame
+X.de <- GF %>% select(ID,pull(Y.de, Sample_ID)) %>% as.data.frame
 
+TwoStage_Package(X.de,Y.de,"sigtest_de_tmm1.csv",1)
+TwoStage_Package(X.de,Y.de,"sigtest_de_tmm2.csv",2)
+
+ca <- colSums(X.ca == 0)/dim(X.ca)[1];ca
+hf <- colSums(X.hf == 0)/dim(X.hf)[1];hf
+de <- colSums(X.de == 0)/dim(X.de)[1];de
+mean(ca[-1])
+mean(hf[-1])
+mean(de[-1])
+
+fit0 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 0)
+fit.5 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 0.5)
+fit1 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 1)
 # Find rows with 1 or 2 observations; do not need as ENNB transposes X
 # GF1 <- GF %>% as_tibble %>% mutate_all(funs(.==0)) %>% reduce(`+`) %>% cbind(GF, Count = .)
 # GF1 <- GF1 %>% filter(!(Count %in% 18:19)) %>% select(1:19)
@@ -99,8 +108,8 @@ print(toc())
 # M2 <- M1 %>% as_tibble %>% mutate_all(funs(.==0)) %>% reduce(`+`) %>% cbind(M1, Count = .)
 
 # Example data from developers website
-x <- read.csv("example_data/abundance.csv")
-z <- read.csv("phenotype.csv")
+X <- read.csv("example_data/abundance.csv")
+Y <- read.csv("example_data/phenotype.csv")
 TwoStage_Package(as.data.frame(GF),as.data.frame(Y),"sigtest_example.csv",2)
 
 # Checking sparsity in rows

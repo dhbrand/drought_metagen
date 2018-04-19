@@ -75,12 +75,16 @@ cv.mat[,1] = alpha
 npop1 = table(Y)[1]
 npop2 = table(Y)[2]
 N = npop1 + npop2
- 
+if (N <= 15) nfold = 3
+if (N > 15  & N < 50) nfold = 5
+if (N >= 50) nfold = 10
 
 ### Fit a GLM with elastic net regularization
-#for (iter in 1:3){
-  #set.seed(iter)
-  set.seed(1234)
+lambda.opt <- NULL
+elast <- NULL
+for (iter in 1:3) { 
+  set.seed(iter)
+  # set.seed(100)
   #Select a random number of subjects
   newdata.ind = sample(1:nrow(X), floor(0.9*nrow(X)))
   
@@ -88,53 +92,55 @@ N = npop1 + npop2
   X.new = X[newdata.ind,]
   Y.new = Y[newdata.ind]
   
-
-  for (j in 1:length(alpha)){
-    reg.fit = glmnet(X, Y, family = "binomial", alpha = alpha[j])
-    coef.beta = rbind(reg.fit$a0, as.matrix(reg.fit$beta))
-    dev = deviance.glmnet(reg.fit)
-    reg.df = reg.fit$df
-    n = nrow(X)
-    gamma.ebic = 0.5
-    obj = -2 * dev + log(n) + 4 * gamma.ebic * log(dim(X)[2])
-    lambda.ind = which.min(obj)
-    coef.beta = coef.beta[, lambda.ind]
-    lambda = reg.fit$lambda[lambda.ind]
-    cv.mat[j,2] = lambda
-  }
+  # trying to find bic manually
+  # for (j in 1:length(alpha)){
+  #   reg.fit = glmnet(X, Y, family = "binomial", alpha = alpha[j])
+  #   coef.beta = rbind(reg.fit$a0, as.matrix(reg.fit$beta))
+  #   dev = deviance.glmnet(reg.fit)
+  #   reg.df = reg.fit$df
+  #   n = nrow(X)
+  #   gamma.ebic = 0.5
+  #   obj = -2 * dev + log(n) + 4 * gamma.ebic * log(dim(X)[2])
+  #   lambda.ind = which.min(obj)
+  #   coef.beta = coef.beta[, lambda.ind]
+  #   lambda = reg.fit$lambda[lambda.ind]
+  #   cv.mat[j,2] = lambda
+  # }
   
   # Cross-varidation to determine lambda
-  for (j in 1:length(alpha)){
-    cv = cv.glmnet(X, Y, family = "binomial", alpha = alpha[j], nfolds=nfold)
+  for (j in 1:length(alpha)) {
+    
+    cv = try(cv.glmnet(X, Y, family = "binomial", alpha = alpha[j], nfolds = nfold))
     ind = match(cv$lambda.min, cv$lambda)
     cv.mat[j,2] = cv$lambda[ind]
     cv.mat[j,3] = cv$cvm[ind]
   }
   
   alpha.opt = cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),1]
-  lambda.opt <- cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),2]
+  lambda.step <- cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),2]
+  lambda.opt <- c(lambda.opt, lambda.step)
   
   # Fit a GLM with elastic net regularization
-  fit = glmnet(X.new, Y.new, family = "binomial", alpha = alpha.opt, lambda = lambda.opt)
+  fit = glmnet(X.new, Y.new, family = "binomial", alpha = alpha.opt, lambda = lambda.step)
   
   # Get model coefficients for glmnet
   coef = coef(fit)  
-  
+  # elast = as.matrix(coef)
   if (iter == 1) {
     elast = as.matrix(coef)
   } else{
     elast = cbind(elast, as.matrix(coef))
   }
-#} #end (iter)
+} #end (iter)
 
 ### Get features for which coefficients are not 0
 elast = elast[-1, ] #get rid of intercept
 feature = rownames(elast)
 df = data.frame(elast, rowsum = rowSums(elast))
-ind.elast = which(df$rowsum !=0 ) #index of coefficients that are not zero 
+ind.elast = which(df$rowsum != 0 ) #index of coefficients that are not zero 
 allFeatSel = as.character(feature[ind.elast])
 
-if (length(allFeatSel) != 0){
+if (length(allFeatSel) != 0) {
   ind = which(colnames(X) %in% allFeatSel)
   X.elast = as.matrix(X[,ind])
   colnames(X.elast) = allFeatSel

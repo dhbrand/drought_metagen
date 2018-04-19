@@ -147,13 +147,13 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
     
     ### Fit a GLM with elastic net regularization
    
-    for (iter in c(1,3,1234)){
-      set.seed(iter)
-      
+    # for (iter in c(1,3,1234)){
+    #   set.seed(iter)
+      set.seed(1)
       #Select a random number of subjects
       newdata.ind = sample(1:nrow(X), floor(0.9*nrow(X)))
       
-      #Subset the data
+      #Subset the data 
       X.new = X[newdata.ind,]
       Y.new = Y[newdata.ind]
       
@@ -174,19 +174,19 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
       # Get model coefficients for glmnet
       coef = coef(fit)  
       
-      if (iter == 1) {
-        elast = as.matrix(coef)
-      } else{
-        elast = cbind(elast, as.matrix(coef))
-      }
-      
-    } #end (iter)
-    
+    #   if (iter == 1) {
+    #     elast = as.matrix(coef)
+    #   } else{
+    #     elast = cbind(elast, as.matrix(coef))
+    #   }
+    #   
+    # } #end (iter)
+    elast = as.matrix(coef)
     ### Get features for which coefficients are not 0
     elast = elast[-1, ] #get rid of intercept
-    feature = rownames(elast)
-    df = data.frame(elast, rowsum = rowSums(elast))
-    ind.elast = which(df$rowsum !=0 ) #index of coefficients that are not zero 
+    feature = names(elast)
+    df = data.frame(elast, sum = rowSums(elast))
+    ind.elast = which(elast !=0 ) #index of coefficients that are not zero 
     allFeatSel = as.character(feature[ind.elast])
     
     if (length(allFeatSel) != 0){
