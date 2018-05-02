@@ -5,8 +5,6 @@ library(tictoc)
 setwd("/work/04734/dhbrand/stampede2/GitHub/drought_metagen/")
 source("TwoStage_Package_Code.R")
 
-# MASS select masks dplyr select
-select <- dplyr::select
 
 GF <- read_tsv("DELIVER/GeneFamilies.merged.tsv", col_types = ("cddddddddddddddddddddd"))
 factors <- read_csv("phyllo_factors.csv")
@@ -38,31 +36,31 @@ GF <- GF %>% mutate(PHYLLO35 = pmap_dbl(list(.$PHYLLO12, .$PHYLLO14, .$PHYLLO22)
 GF <- GF %>% mutate(PHYLLO39 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25), ~ (..1 + ..2 + ..3)/3), PHYLLO40 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23), ~ (..1 + ..2 + ..3)/3)) %>% 
   mutate(PHYLLO41 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25, .$PHYLLO39), ~ (..1 + ..2 + ..3 + ..4)/4), PHYLLO42 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23, .$PHYLLO40), ~ (..1 + ..2 + ..3 + ..4)/4))
 
-setwd("output/")
+setwd("output")
 
-city <- c("HF", "CA", "DE")
-tic()
-for (i in city) {
-  Y <- factors %>% filter(city == i) %>% select(Sample_ID, treatment) %>% as.data.frame
-  X <- GF %>% select(ID,pull(Y, Sample_ID)) %>% as.data.frame
-  TwoStage_Package(X,Y,paste("sigtest_", i, "_tmm1.csv", sep = ""), 1)
-  TwoStage_Package(X,Y,paste("sigtest_", i, "_tmm2.csv", sep = ""), 2)
-}
-print(toc())
-Y.hf <- factors %>% filter(city == "HF") %>% select(Sample_ID, treatment) %>% as.data.frame
-X.hf <- GF %>% select(ID,pull(Y.hf, Sample_ID)) %>% as.data.frame
+Y.hf <- factors %>% filter(city == "HF") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame
+X.hf <- GF %>% dplyr::select(ID,pull(Y.hf, Sample_ID)) %>% as.data.frame
+X.hf <- X.hf[which(rowSums(X.hf[,2:7]) != 0),]
 X <- X.hf;Y <- Y.hf
 TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm1.csv",1)
 TwoStage_Package(X.hf,Y.hf,"sigtest_hf_tmm2.csv",2)
 
-Y.ca <- factors %>% filter(city == "CA") %>% select(Sample_ID, treatment) %>% as.data.frame
-X.ca <- GF %>% select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
+Y.ca <- factors %>% filter(city == "CA") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame
+X.ca <- GF %>% dplyr::select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
 X <- X.ca;Y <- Y.ca
+X.ca <- X.ca[which(rowSums(X.ca[,2:7]) != 0),]
+lambda.opt <- mean(read_rds("../lambdas/lambdaCA.rds"), na.rm = T)
+alpha.opt <- mean(read_rds("../lambdas/alphaCA.rds"), na.rm = T)
+
 TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm1.csv",1)
 TwoStage_Package(X.ca,Y.ca,"sigtest_ca_tmm2.csv",2)
 
-Y.de <- factors %>% filter(city == "DE") %>% select(Sample_ID, treatment) %>% as.data.frame
-X.de <- GF %>% select(ID,pull(Y.de, Sample_ID)) %>% as.data.frame
+Y.de <- factors %>% filter(city == "DE") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame
+X.de <- GF %>% dplyr::select(ID,pull(Y.de, Sample_ID)) %>% as.data.frame
+X.de <- X.de[which(rowSums(X.de[,2:7]) != 0),]
+X <- X.de;Y <- Y.de
+lambda.opt <- mean(read_rds("../lambdas/lambdaDE.rds"), na.rm = T)
+alpha.opt <- mean(read_rds("../lambdas/alphaDE.rds"), na.rm = T)
 
 TwoStage_Package(X.de,Y.de,"sigtest_de_tmm1.csv",1)
 TwoStage_Package(X.de,Y.de,"sigtest_de_tmm2.csv",2)
@@ -77,6 +75,7 @@ mean(de[-1])
 fit0 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 0)
 fit.5 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 0.5)
 fit1 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 1)
+
 # Find rows with 1 or 2 observations; do not need as ENNB transposes X
 # GF1 <- GF %>% as_tibble %>% mutate_all(funs(.==0)) %>% reduce(`+`) %>% cbind(GF, Count = .)
 # GF1 <- GF1 %>% filter(!(Count %in% 18:19)) %>% select(1:19)
@@ -87,7 +86,6 @@ fit1 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 1)
 #   reduce(`+`) %>% 
 #   {!(. %in% c(18, 19))} %>%
 #   magrittr::extract(GF, .)
-
 
 
  
@@ -108,8 +106,8 @@ fit1 <- glmnet(t(X.de[,-1]),Y.de[,2], family = "binomial", alpha = 1)
 # M2 <- M1 %>% as_tibble %>% mutate_all(funs(.==0)) %>% reduce(`+`) %>% cbind(M1, Count = .)
 
 # Example data from developers website
-X <- read.csv("example_data/abundance.csv")
-Y <- read.csv("example_data/phenotype.csv")
+X <- read.csv("../example_data/abundance.csv")
+Y <- read.csv("../example_data/phenotype.csv")
 TwoStage_Package(as.data.frame(GF),as.data.frame(Y),"sigtest_example.csv",2)
 
 # Checking sparsity in rows

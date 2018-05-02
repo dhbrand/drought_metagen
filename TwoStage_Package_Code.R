@@ -35,7 +35,7 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
     for (i in 1:ncol(count)) {
       dat = data.frame(testing=count[,i], groups=as.factor(category))
       if (sum(dat$testing) != 0) { #in case that all counts are zero
-        fit = glm.nb(testing ~ groups, data=dat)
+        fit = glm.nb(testing ~ groups, data=dat) # control = glm.control(maxit = 10)
         p.val[i] = summary(fit)$coefficients[2,4] 
       }
     }
@@ -217,8 +217,6 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
     rownames(sig.df) = NULL
     sigsort.df = sig.df[order(sig.df$p.adj),] 
     write.csv(sigsort.df, file = fileoutput, row.names=F)
-    return(alpha.final)
-    return(lambda.final)
   }
   
   ######################################

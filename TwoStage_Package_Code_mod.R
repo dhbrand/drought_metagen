@@ -1,25 +1,9 @@
-library(SIS)
-library(bootnet)
+#################################
+###   Two group comparison   ####
+#################################
 require(glmnet)   # Elastic-net
 require(MASS)     # GLMs-NB
 require(edgeR)    # TMM normalization
-  
-threshold = 0.05  # FDR to control the type I error at significance level of 0.05
-alpha = seq(0.01,0.1,by=0.01)
-
-### TMM Normalization ###
-rownames(X) = X[,1]
-X = X[,-1]
-X = as.matrix(X)
-Y = factor(Y[,2])
-X.tmm = TMMNorm(X,Y,1)  # TMM normalization (edgeR)
-X = t(X.tmm)
-
-ngroups = nlevels(Y)
-
-#####################################################
-###   Trimmed Mean (TMM) (Based on edgeR Paper)   ###
-#####################################################
 TMMNorm = function(X, Y, TMM.option){
   factors = calcNormFactors(X,method="TMM") #Calculate normaization factors
   if(TMM.option==1){
@@ -37,34 +21,37 @@ TMMNorm = function(X, Y, TMM.option){
   }
   return(X.output);
 }
-
-############################################################################
-#### Negative binomial generalized linear model for two group comparison ###
-############################################################################
 get.glmNB <- function(count,category){
   p.val = rep(NA,ncol(count))  #Declare initial pvalue
   
   for (i in 1:ncol(count)) {
     dat = data.frame(testing=count[,i], groups=as.factor(category))
     if (sum(dat$testing) != 0) { #in case that all counts are zero
-      fit = glm.nb(testing ~ groups, data=dat)
+      fit = glm.nb(testing ~ groups, data=dat, control = glm.control(maxit = 10))
       p.val[i] = summary(fit)$coefficients[2,4] 
     }
   }
+  
   p.val[is.na(p.val)] = 1
   p.adj = p.adjust(p.val, method="fdr") #Adjusted p-value 
   res = cbind(p.val,p.adj)
   rownames(res) = colnames(count)
   return(res)  
 }
+threshold = 0.05  # FDR to control the type I error at significance level of 0.05
+alpha = seq(0.01,0.1,by=0.01)
+
+### TMM Normalization ###
+rownames(X) = X[,1]
+X = X[,-1]
+X = as.matrix(X)
+Y = factor(Y[,2])
+X.tmm = TMMNorm(X,Y,2)  # TMM normalization (edgeR)
+X = t(X.tmm)
+
+ngroups = nlevels(Y)
 
 
-##############################################################################
-###                           Two-Stage Procedure                          ###
-##############################################################################
-#################################
-###   Two group comparison   ####
-#################################
 
 ### A matrix contains cvm error information
 cv.mat = matrix(NA, nrow = length(alpha), ncol = 3)
@@ -80,11 +67,8 @@ if (N > 15  & N < 50) nfold = 5
 if (N >= 50) nfold = 10
 
 ### Fit a GLM with elastic net regularization
-lambda.opt <- NULL
-elast <- NULL
 for (iter in 1:3) { 
   set.seed(iter)
-  # set.seed(100)
   #Select a random number of subjects
   newdata.ind = sample(1:nrow(X), floor(0.9*nrow(X)))
   
@@ -92,36 +76,22 @@ for (iter in 1:3) {
   X.new = X[newdata.ind,]
   Y.new = Y[newdata.ind]
   
-  # trying to find bic manually
-  # for (j in 1:length(alpha)){
-  #   reg.fit = glmnet(X, Y, family = "binomial", alpha = alpha[j])
-  #   coef.beta = rbind(reg.fit$a0, as.matrix(reg.fit$beta))
-  #   dev = deviance.glmnet(reg.fit)
-  #   reg.df = reg.fit$df
-  #   n = nrow(X)
-  #   gamma.ebic = 0.5
-  #   obj = -2 * dev + log(n) + 4 * gamma.ebic * log(dim(X)[2])
-  #   lambda.ind = which.min(obj)
-  #   coef.beta = coef.beta[, lambda.ind]
-  #   lambda = reg.fit$lambda[lambda.ind]
-  #   cv.mat[j,2] = lambda
-  # }
   
-  # Cross-varidation to determine lambda
-  for (j in 1:length(alpha)) {
-    
-    cv = try(cv.glmnet(X, Y, family = "binomial", alpha = alpha[j], nfolds = nfold))
-    ind = match(cv$lambda.min, cv$lambda)
-    cv.mat[j,2] = cv$lambda[ind]
-    cv.mat[j,3] = cv$cvm[ind]
-  }
-  
-  alpha.opt = cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),1]
-  lambda.step <- cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),2]
-  lambda.opt <- c(lambda.opt, lambda.step)
+    # Cross-varidation to determine lambda
+    # for (j in 1:length(alpha)) {
+    # 
+    #   cv = try(cv.glmnet(X, Y, family = "binomial", alpha = alpha[j], nfolds = nfold))
+    #   ind = match(cv$lambda.min, cv$lambda)
+    #   cv.mat[j,2] = cv$lambda[ind]
+    #   cv.mat[j,3] = cv$cvm[ind]
+    # }
+    # 
+    # alpha.opt = cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),1]
+    # lambda.opt <- cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),2]
+    # lambda.step <- c(lambda.step, lambda.opt)
   
   # Fit a GLM with elastic net regularization
-  fit = glmnet(X.new, Y.new, family = "binomial", alpha = alpha.opt, lambda = lambda.step)
+  fit = glmnet(X.new, Y.new, family = "binomial", alpha = alpha.opt, lambda = lambda.opt)
   
   # Get model coefficients for glmnet
   coef = coef(fit)  
@@ -150,8 +120,9 @@ if (length(allFeatSel) != 0) {
   print("No significantly differentially abundant features!!!")
 }
 
-### Summary of significantly differentially abundant features
-sig.mat = pvalue.mat[pvalue.mat[,"p.adj"] < threshold,] # Significantly differentially abundant features 
+# Summary of significantly differentially abundant features
+sig.mat = pvalue.mat[pvalue.mat[,"p.adj"] < threshold,] 
+# Significantly differentially abundant features 
 sig = rownames(sig.mat)
 ind.sig = which(colnames(X) %in% sig)
 X.sig = t(as.matrix(X[,ind.sig]))
@@ -167,4 +138,6 @@ sig.df = data.frame(Annotation=as.character(rownames(X.sig)),
                     p.val=sig.mat[,"p.val"], p.adj=sig.mat[,"p.adj"], stringsAsFactors=F)
 rownames(sig.df) = NULL
 sigsort.df = sig.df[order(sig.df$p.adj),] 
+
+fileoutput <- "sigtest_de_tmm2.csv"
 write.csv(sigsort.df, file = fileoutput, row.names=F)
