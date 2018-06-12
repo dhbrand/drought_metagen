@@ -1,9 +1,9 @@
-TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
+TwoStage_Package <- function(X,Y,fileoutput, TMM.option, threshold){
   require(glmnet)   # Elastic-net
   require(MASS)     # GLMs-NB
   require(edgeR)    # TMM normalization
   
-  threshold = 0.05  # FDR to control the type I error at significance level of 0.05
+  threshold <- threshold  # FDR to control the type I error at significance level of 0.05
   
   #####################################################
   ###   Trimmed Mean (TMM) (Based on edgeR Paper)   ###
@@ -146,7 +146,7 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
     if (N >= 50) nfold = 10  
     
     ### Fit a GLM with elastic net regularization
-   
+    
     for (iter in c(1,3,1234)){
       set.seed(iter)
       
@@ -164,7 +164,7 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
         cv.mat[j,2] = cv$lambda[ind]
         cv.mat[j,3] = cv$cvm[ind]
       }
-
+      
       alpha.opt = cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),1]
       lambda.opt <- cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),2]
       
