@@ -38,7 +38,7 @@ get.glmNB <- function(count,category){
   rownames(res) = colnames(count)
   return(res)  
 }
-threshold = 0.05  # FDR to control the type I error at significance level of 0.05
+threshold = 0.001  # FDR to control the type I error at significance level of 0.05
 alpha = seq(0.01,0.1,by=0.01)
 
 ### TMM Normalization ###
@@ -46,7 +46,7 @@ rownames(X) = X[,1]
 X = X[,-1]
 X = as.matrix(X)
 Y = factor(Y[,2])
-X.tmm = TMMNorm(X,Y,2)  # TMM normalization (edgeR)
+X.tmm = TMMNorm(X,Y,1)  # TMM normalization (edgeR)
 X = t(X.tmm)
 
 ngroups = nlevels(Y)
@@ -88,8 +88,7 @@ for (iter in 1:3) {
     # 
     # alpha.opt = cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),1]
     # lambda.opt <- cv.mat[cv.mat[,"CVM"] == min(cv.mat[,"CVM"]),2]
-    # lambda.step <- c(lambda.step, lambda.opt)
-  
+
   # Fit a GLM with elastic net regularization
   fit = glmnet(X.new, Y.new, family = "binomial", alpha = alpha.opt, lambda = lambda.opt)
   
@@ -139,5 +138,30 @@ sig.df = data.frame(Annotation=as.character(rownames(X.sig)),
 rownames(sig.df) = NULL
 sigsort.df = sig.df[order(sig.df$p.adj),] 
 
-fileoutput <- "sigtest_de_tmm2.csv"
+fileoutput <- "fulltest_ca_tmm1.csv.csv"
+write.csv(sigsort.df, file = fileoutput, row.names=F)
+
+
+
+# Full p-value matrix
+# Summary of significantly differentially abundant features
+sig.mat = pvalue.mat[pvalue.mat[,"p.adj"] < threshold,] 
+# Significantly differentially abundant features 
+sig = rownames(pvalue.mat)
+ind.sig = which(colnames(X) %in% sig)
+X.sig = t(as.matrix(X[,ind.sig]))
+X.sig.pop1 = X.sig[,1:npop1]
+X.sig.pop2 = X.sig[,(npop1+1):(npop1+npop2)]
+mean.pop1 = apply(X.sig.pop1, 1, function(x) mean(x))
+mean.pop2 = apply(X.sig.pop2, 1, function(x) mean(x))
+sd.pop1 = apply(X.sig.pop1, 1, function(x) sd(x))
+sd.pop2 = apply(X.sig.pop2, 1, function(x) sd(x))
+sig.df = data.frame(Annotation=as.character(rownames(X.sig)), 
+                    mean_group1=mean.pop1, sd_group1=sd.pop1,
+                    mean_group2=mean.pop2, sd_group2=sd.pop2,
+                    p.val=pvalue.mat[,"p.val"], p.adj=pvalue.mat[,"p.adj"], stringsAsFactors=F)
+rownames(sig.df) = NULL
+sigsort.df = sig.df[order(sig.df$p.adj),] 
+
+fileoutput <- "fulltest_de_tmm2.csv"
 write.csv(sigsort.df, file = fileoutput, row.names=F)

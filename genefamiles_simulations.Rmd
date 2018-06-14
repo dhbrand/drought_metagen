@@ -1,8 +1,6 @@
 ---
 title: "ENNB on Simulated Data"
-output:
-  html_document:
-    df_print: paged
+output: html_notebook
 ---
 
 
@@ -21,13 +19,13 @@ source("TwoStage_Package_Code.R")
 Importing the data created by the simulations and replacing any EC values with unknown for counts later in the analysis.
 
 Also create a dataframe for the factor labels for each of the 3 groups.
-```{r}
+```{r, message=FALSE}
 dat_calls <- read_tsv("DNApolymAIII/Calls_genefamilies-cpm.tsv")[-1,] %>% dplyr::select(1, Annotation = "EstID", label = "EstEC", 4:34) %>% replace_na(list(label = "unknown")) %>% as.data.frame 
 
 factors <- cbind(names(dat_calls)[4:33], c(rep("A", 10), rep("B", 10), rep("C", 10))) %>% as.data.frame
 ```
 
-ENNB can run multiple group analysis or two group.  For this comparison we subset the groups into the 3 combinations possible for two group analysis.
+ENNB can run multiple group analysis or two group.  For this comparison we subset the groups into the 3 combinations possible for two group analyses.
 ```{r}
 gf_a_b <- dat_calls %>% filter(Call %in% c("A", "B")) %>% dplyr::select(1:23)
 factors_a_b <- factors %>% filter(V2 %in% c("A", "B"))
@@ -39,7 +37,9 @@ gf_b_c <- dat_calls %>% filter(Call %in% c("B", "C")) %>% dplyr::select(1:3, 13:
 factors_b_c <- factors %>% filter(V2 %in% c("B", "C"))
 ```
 
-The following function builds a confusion matrix and calculates the false discovery rate.  The user supplies the name of a dataframe for the two group comparison for example: *calc_confusion_mat( **gf_a_b** )*
+The following function builds a confusion matrix and calculates the false discovery rate.  The user supplies the name of a dataframe for the two group comparison.  
+
+Example: *calc_confusion_mat( **gf_a_b** )*
 ```{r}
 calc_confusion_mat <- function(df){
   new_df <- enquo(df)
@@ -55,25 +55,25 @@ calc_confusion_mat <- function(df){
   tn <- nrow(df) - sum(tp, fp, fn)
   confusion_matrix <- cbind("positive" = c(tp, fp), "negative" = c(tn, fn)) 
   rownames(confusion_matrix) <- (c("true", "false"))
-  fdr <-  tn / (tn + fn)
+  fdr <-  fp / (tp + fp)
   cat(paste("output for", groups[2],"&", groups[3], sep = " "), "\n")
   print(confusion_matrix)
   cat(paste("FDR = ",fdr), "\n\n")
 }
 ```
 
-Run the ENNB to find the significant different features between groups.  Only TMM option **1** works for this data.  I added an adjustment for threshold.  Notice the naming conventions are the same as the two group dataframes.  This is essential for the confusion matrix function to work.
+Run the ENNB workflow to find the significantly different features between groups.  Only TMM option **1** works for this data.  I added an adjustment for threshold.  Notice the naming conventions are the same as the two group dataframes.  This is essential for the confusion matrix function to work.
 ```{r}
-TwoStage_Package(gf_a_b[,-c(1,3)], factors_a_b, "gf_a_b_tmm1.csv", TMM.option = 1, threshold = .05)
-TwoStage_Package(gf_a_c[,-c(1,3)], factors_a_b, "gf_a_c_tmm1.csv", TMM.option = 1, threshold = .05)
-TwoStage_Package(gf_b_c[,-c(1,3)], factors_b_c, "gf_b_c_tmm1.csv", TMM.option = 1, threshold = .05)
+TwoStage_Package(gf_a_b[,-c(1,3)], factors_a_b, "gf_a_b_tmm1.csv", TMM.option = 1, threshold = .001)
+TwoStage_Package(gf_a_c[,-c(1,3)], factors_a_b, "gf_a_c_tmm1.csv", TMM.option = 1, threshold = .001)
+TwoStage_Package(gf_b_c[,-c(1,3)], factors_b_c, "gf_b_c_tmm1.csv", TMM.option = 1, threshold = .001)
 ```
 
-Using the output from the ENNB workflow we can now caculate the false discovery rate for each for each of the two group comparisons.
+Using the output from the ENNB workflow we can now caculate the false discovery rate for each of the two group comparisons.
 ```{r, message=FALSE}
 calc_confusion_mat(gf_a_b)
 calc_confusion_mat(gf_a_c)
 calc_confusion_mat(gf_b_c)
 ```
 
-All off the fdr's are outside and acceptable range currently.
+The output from group a & c is clearly our best as we have a low number of false positives.

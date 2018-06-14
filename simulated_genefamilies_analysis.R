@@ -1,5 +1,6 @@
 library(tidyverse)
 library(magrittr)
+library(rlang)
 
 source("TwoStage_Package_Code.R")
 
@@ -15,7 +16,7 @@ TwoStage_Package(dat_id, factors, "gf_sim_id_tmm1.csv", 1)
 # Group A vs B
 gf_a_b <- dat_calls %>% filter(Call %in% c("A", "B")) %>% dplyr::select(1:23)
 factors_a_b <- factors %>% filter(V2 %in% c("A", "B"))
-TwoStage_Package(gf_a_b[,-c(1,3)], factors_a_b, "gf_a_b_tmm1.csv", 1)
+TwoStage_Package(gf_a_b[,-c(1,3)], factors_a_b, "gf_a_b_tmm1.csv", 1, .001)
 
 # sig_a_b <- read_csv("gf_a_b_tmm1.csv")
 # a_b <- left_join(sig_a_b, dat_calls, by = "Annotation") %>% dplyr::select(1:9)
@@ -35,7 +36,7 @@ TwoStage_Package(gf_a_b[,-c(1,3)], factors_a_b, "gf_a_b_tmm1.csv", 1)
 # Group A vs C
 gf_a_c <- dat_calls %>% filter(Call %in% c("A", "C")) %>% dplyr::select(1:12, 23:33)
 factors_a_c <- factors %>% filter(V2 %in% c("A", "C"))
-TwoStage_Package(gf_a_c[,-c(1,3)], factors_a_c, "gf_a_c_tmm1.csv", 1)
+TwoStage_Package(gf_a_c[,-c(1,3)], factors_a_c, "gf_a_c_tmm1.csv", 1, .001)
 
 # sig_a_c <- read_csv("gf_a_c_tmm1.csv")
 # a_c <- left_join(sig_a_c, dat_calls, by = "Annotation") %>% dplyr::select(1:9)
@@ -55,7 +56,7 @@ TwoStage_Package(gf_a_c[,-c(1,3)], factors_a_c, "gf_a_c_tmm1.csv", 1)
 # Group B vs C
 gf_b_c <- dat_calls %>% filter(Call %in% c("B", "C")) %>% dplyr::select(1:3, 13:32)
 factors_b_c <- factors %>% filter(V2 %in% c("B", "C"))
-TwoStage_Package(gf_b_c[,-c(1,3)], factors_b_c, "gf_b_c_tmm1.csv", 1)
+TwoStage_Package(gf_b_c[,-c(1,3)], factors_b_c, "gf_b_c_tmm1.csv", 1, .001)
 
 # sig_b_c <- read_csv("gf_b_c_tmm1.csv")
 # b_c <- left_join(sig_b_c, dat_calls, by = "Annotation") %>% dplyr::select(1:9)
@@ -85,7 +86,7 @@ calc_confusion_mat <- function(df){
   tn <- nrow(df) - sum(tp, fp, fn)
   confusion_matrix <- cbind("positive" = c(tp, fp), "negative" = c(tn, fn)) 
   rownames(confusion_matrix) <- (c("true", "false"))
-  fdr <-  tn / (tn + fn)
+  fdr <-  fp / (tp + fp)
   cat(paste("output for", groups[2],"&", groups[3], sep = " "), "\n")
   print(confusion_matrix)
   cat(paste("FDR = ",fdr), "\n\n")

@@ -1,0 +1,114 @@
+---
+title: "ENNB on Real Data"
+output: html_notebook
+---
+
+
+```{r, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(magrittr)
+library(knitr)
+library(kableExtra)
+```
+<br />
+
+The original code is sourced from a different script to access the main ENNB function.
+```{r}
+source("TwoStage_Package_Code.R")
+source("ennb_no_glm_cv.R")
+```
+<br />
+
+Importing the real data and factors.  Only selecting the classes relevant to drought or watered.
+```{r, message=FALSE, warning=FALSE}
+GF <- read_tsv("DELIVER/GeneFamilies.merged.tsv", col_types = ("cddddddddddddddddddddd"))
+
+factors <- read_csv("phyllo_factors.csv")
+factors <- factors[c(1:8, 13:21), ]
+# The imputed classes needed to run cv.glmnet
+factors <- rbind(factors, c("PHYLLO30", "HF", "drought"), c("PHYLLO31", "HF", "drought"), c("PHYLLO32", "HF", "watered"), c("PHYLLO33", "HF", "drought"), c("PHYLLO34", "HF", "watered"), c("PHYLLO35", "CA", "drought"), c("PHYLLO36", "CA", "watered"), c("PHYLLO37", "CA", "drought"), c("PHYLLO38", "CA", "watered"), c("PHYLLO39", "DE", "drought"), c("PHYLLO40", "DE", "watered"), c("PHYLLO41", "DE", "drought"), c("PHYLLO42", "DE", "watered"))
+```
+<br />
+
+Need the X dataframe to match the locations in the Y dataframe
+```{r}
+subjects <- str_split(names(GF[, -1]), "_", simplify = TRUE)[, 1]
+names(GF) <- c("ID", subjects)
+```
+<br />
+
+Sites without maize removed
+```{r}
+GF <- GF[-c(1:2), c(1:9, 14:22)]
+```
+<br />
+
+Need to impute the 3rd, 4th, & 5th drought location for HF location and 4th & 5th for the other two locations.
+```{r}
+GF <- GF %>% mutate(PHYLLO30 = map2_dbl(.$PHYLLO28, .$PHYLLO29, ~ (.x + .y) / 2))
+
+GF <- GF %>%
+  mutate(PHYLLO31 = pmap_dbl(list(.$PHYLLO28, .$PHYLLO29, .$PHYLLO30), ~ (..1 + ..2 + ..3) / 3), PHYLLO32 = pmap_dbl(list(.$PHYLLO09, .$PHYLLO26, .$PHYLLO27), ~ (..1 + ..2 + ..3) / 3)) %>%
+  mutate(PHYLLO33 = pmap_dbl(list(.$PHYLLO28, .$PHYLLO29, .$PHYLLO30, .$PHYLLO31), ~ (..1 + ..2 + ..3 + ..4) / 4), PHYLLO34 = pmap_dbl(list(.$PHYLLO09, .$PHYLLO26, .$PHYLLO27, .$PHYLLO31), ~ (..1 + ..2 + ..3 + ..4) / 4))
+
+GF <- GF %>%
+  mutate(PHYLLO35 = pmap_dbl(list(.$PHYLLO12, .$PHYLLO14, .$PHYLLO22), ~ (..1 + ..2 + ..3) / 3), PHYLLO36 = pmap_dbl(list(.$PHYLLO11, .$PHYLLO13, .$PHYLLO21), ~ (..1 + ..2 + ..3) / 3)) %>%
+  mutate(PHYLLO37 = pmap_dbl(list(.$PHYLLO12, .$PHYLLO14, .$PHYLLO22, .$PHYLLO35), ~ (..1 + ..2 + ..3 + ..4) / 4), PHYLLO38 = pmap_dbl(list(.$PHYLLO11, .$PHYLLO13, .$PHYLLO21, .$PHYLLO36), ~ (..1 + ..2 + ..3 + ..4) / 4))
+
+GF <- GF %>%
+  mutate(PHYLLO39 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25), ~ (..1 + ..2 + ..3) / 3), PHYLLO40 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23), ~ (..1 + ..2 + ..3) / 3)) %>%
+  mutate(PHYLLO41 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25, .$PHYLLO39), ~ (..1 + ..2 + ..3 + ..4) / 4), PHYLLO42 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23, .$PHYLLO40), ~ (..1 + ..2 + ..3 + ..4) / 4))
+```
+<br />
+
+Building datasets for each of the 3 separate locations and removing rows filled with zero information.  For the CA and DE data a separate script was run to extract lambda and alpha given 100 different seeds int he glmnet function.
+```{r}
+Y.hf <- factors %>% filter(city == "HF") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame()
+X.hf <- GF %>% dplyr::select(ID, pull(Y.hf, Sample_ID)) %>% as.data.frame()
+X.hf <- X.hf[which(rowSums(X.hf[, 2:7]) != 0), ]
+
+Y.ca <- factors %>% filter(city == "CA") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame()
+X.ca <- GF %>% dplyr::select(ID, pull(Y.ca, Sample_ID)) %>% as.data.frame()
+X.ca <- X.ca[which(rowSums(X.ca[, 2:7]) != 0), ]
+lambda_ca <- mean(read_rds("../lambdas/lambdaCA.rds"), na.rm = T)
+alpha_ca <- mean(read_rds("../lambdas/alphaCA.rds"), na.rm = T)
+
+Y.de <- factors %>% filter(city == "DE") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame()
+X.de <- GF %>% dplyr::select(ID, pull(Y.de, Sample_ID)) %>% as.data.frame()
+X.de <- X.de[which(rowSums(X.de[, 2:7]) != 0), ]
+lambda_de <- mean(read_rds("../lambdas/lambdaDE.rds"), na.rm = T)
+alpha_de <- mean(read_rds("../lambdas/alphaDE.rds"), na.rm = T)
+```
+<br />
+
+The HF location runs through the standard ENNB code but the other locations use a modified script to allow the import of the average lambda and alpha values and remove cross validation from the glmnet function.
+```{r, message=FALSE}
+TwoStage_Package(X.hf, Y.hf, "sigtest_hf_tmm1.csv", 1, .001)
+TwoStage_Package(X.hf, Y.hf, "sigtest_hf_tmm2.csv", 2, .001)
+
+ennb_no_glm_cv(X = X.ca,Y = Y.ca, fileoutput =  "sigtest_ca_tmm1.csv", TMM_option = 1,threshold =  .001,lambda.opt = lambda_ca,alpha.opt = alpha_ca)
+ennb_no_glm_cv(X = X.ca,Y = Y.ca, fileoutput =  "sigtest_ca_tmm2.csv", TMM_option = 2,threshold =  .001,lambda.opt = lambda_ca,alpha.opt = alpha_ca)
+
+ennb_no_glm_cv(X = X.de, Y = Y.de, fileoutput =  "sigtest_de_tmm1.csv", TMM_option = 1,threshold =  .001,lambda.opt = lambda_de, alpha.opt = alpha_de)
+ennb_no_glm_cv(X = X.de, Y = Y.de, fileoutput =  "sigtest_de_tmm2.csv", TMM_option = 2,threshold =  .001,lambda.opt = lambda_de, alpha.opt = alpha_de)
+```
+<br />
+
+Reading the results back in for quick comparison.
+```{r, message=FALSE}
+sig_hg_1 <- read_csv("output/sigtest_hf_tmm1.csv")
+sig_hg_2 <- read_csv("output/sigtest_hf_tmm2.csv")
+
+sig_ca_1 <- read_csv("output/sigtest_ca_tmm1.csv")
+sig_ca_2 <- read_csv("output/sigtest_ca_tmm2.csv")
+
+sig_de_1 <- read_csv("output/sigtest_de_tmm1.csv")
+sig_de_2 <- read_csv("output/sigtest_de_tmm2.csv")
+```
+<br />
+
+Comparison of the number of original features from the input versus the significant features found in the output.
+```{r}
+kable(cbind(Location = c("HG", "CA", "DE"), Input = c(nrow(X.hf), nrow(X.ca), nrow(X.de)), "TMM 1 Output" = c(nrow(sig_hg_1), nrow(sig_ca_1), nrow(sig_de_1)), "TMM 2 Output" = c(nrow(sig_hg_2), nrow(sig_ca_2), nrow(sig_de_2)))) %>% kable_styling()
+```
+

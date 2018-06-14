@@ -332,7 +332,7 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option){
   X = X[,-1]
   X = as.matrix(X)
   Y = factor(Y[,2])
-  X.tmm = TMMNorm(X,Y,TMM.option)  # TMM normalization (edgeR)
+  X.tmm = TMMNorm(X,Y,TMM.option = 1)  # TMM normalization (edgeR)
   X = t(X.tmm)
   
   ngroups = nlevels(Y)

@@ -19,9 +19,18 @@ X <- GF
 Y <- labels
 count <-  X.elast
 category <-  Y
-
-p.val = rep(NA,ncol(count))  #Declare initial pvalue
-
+par(mfrow=c(2,2))
+hist(GF$SampleA_1)
+hist(GF$SampleA_2)
+hist(GF$SampleB_1)
+hist(GF$SampleB_2)
+dev.off()
+ngbinom <- rnbinom(n = 10000000, mu = 3, size = 50)
+hist(ngbinom)
+pois <- rpois(n = 100000, lambda = 1)
+hist(pois)
+mean(GF$SampleA_1)  #Declare initial pvalue
+sd(GF$SampleA_1)
 for (i in 1:ncol(count)) {
   dat = data.frame(testing=count[,1], groups=as.factor(category))
   if (sum(dat$testing) != 0) { #in case that all counts are zero
