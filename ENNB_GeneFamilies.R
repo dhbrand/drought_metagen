@@ -1,17 +1,14 @@
 library(tidyverse)
-library(tictoc)
 
-setwd("/work/04734/dhbrand/stampede2/GitHub/drought_metagen/")
 source("TwoStage_Package_Code.R")
-
+source("ennb_no_glm_cv.R")
+source("ennb_no_threshold_all_features.R")
 
 GF <- read_tsv("DELIVER/GeneFamilies.merged.tsv", col_types = ("cddddddddddddddddddddd"))
 factors <- read_csv("phyllo_factors.csv")
 factors <- factors[c(1:8, 13:21), ]
 # The imputed classes needed to run cv.glmnet
-factors <- rbind(factors, c("PHYLLO30", "HF", "drought"))
-                 
-                 , c("PHYLLO31", "HF", "drought"), c("PHYLLO32", "HF", "watered"), c("PHYLLO33", "HF", "drought"), c("PHYLLO34", "HF", "watered"), c("PHYLLO35", "CA", "drought"), c("PHYLLO36", "CA", "watered"), c("PHYLLO37", "CA", "drought"), c("PHYLLO38", "CA", "watered"), c("PHYLLO39", "DE", "drought"), c("PHYLLO40", "DE", "watered"), c("PHYLLO41", "DE", "drought"), c("PHYLLO42", "DE", "watered"))
+factors <- rbind(factors, c("PHYLLO30", "HF", "drought"), c("PHYLLO31", "HF", "drought"), c("PHYLLO32", "HF", "watered"), c("PHYLLO33", "HF", "drought"), c("PHYLLO34", "HF", "watered"), c("PHYLLO35", "CA", "drought"), c("PHYLLO36", "CA", "watered"), c("PHYLLO37", "CA", "drought"), c("PHYLLO38", "CA", "watered"), c("PHYLLO39", "DE", "drought"), c("PHYLLO40", "DE", "watered"), c("PHYLLO41", "DE", "drought"), c("PHYLLO42", "DE", "watered"))
 
 
 
@@ -40,15 +37,16 @@ GF <- GF %>%
   mutate(PHYLLO39 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25), ~ (..1 + ..2 + ..3) / 3), PHYLLO40 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23), ~ (..1 + ..2 + ..3) / 3)) %>%
   mutate(PHYLLO41 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25, .$PHYLLO39), ~ (..1 + ..2 + ..3 + ..4) / 4), PHYLLO42 = pmap_dbl(list(.$PHYLLO10, .$PHYLLO15, .$PHYLLO23, .$PHYLLO40), ~ (..1 + ..2 + ..3 + ..4) / 4))
 
-setwd("output")
+setwd("output2")
 
 Y.hf <- factors %>% filter(city == "HF") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame()
 X.hf <- GF %>% dplyr::select(ID, pull(Y.hf, Sample_ID)) %>% as.data.frame()
 X.hf <- X.hf[which(rowSums(X.hf[, 2:7]) != 0), ]
 X <- X.hf
 Y <- Y.hf
-TwoStage_Package(X.hf, Y.hf, "sigtest_hf_tmm1.csv", 1)
-TwoStage_Package(X.hf, Y.hf, "sigtest_hf_tmm2.csv", 2, .001)
+ennb(X = X.hf, Y = Y.hf, fileoutput =  "sigtest_hf_tmm1_alpha001.csv", TMM.option = 1,threshold =  .001)
+ennb(X = X.hf, Y = Y.hf, fileoutput =  "sigtest_hf_tmm2_alpha001.csv", TMM.option = 2,threshold =  .001)
+ennb_no_threshold_all_features(X = X.hf,Y = Y.hf,fileoutput = "fulltest_hf_tmm1.csv",TMM.option = 1)
 
 Y.ca <- factors %>% filter(city == "CA") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame()
 X.ca <- GF %>% dplyr::select(ID, pull(Y.ca, Sample_ID)) %>% as.data.frame()
@@ -58,8 +56,10 @@ Y <- Y.ca
 lambda_ca <- mean(read_rds("../lambdas/lambdaCA.rds"), na.rm = T)
 alpha_ca <- mean(read_rds("../lambdas/alphaCA.rds"), na.rm = T)
 
-ennb_no_glm_cv(X = X.ca,Y = Y.ca, fileoutput =  "sigtest_ca_tmm1.csv", TMM_option = 1,threshold =  .001,lambda.opt =lambda_ca,alpha.opt = alpha_ca)
-ennb_no_glm_cv(X = X.ca,Y = Y.ca, fileoutput =  "sigtest_ca_tmm2.csv", TMM_option = 2,threshold =  .001,lambda.opt =lambda_ca,alpha.opt = alpha_ca)
+ennb_no_glm_cv(X = X.ca,Y = Y.ca, fileoutput =  "sigtest_ca_tmm1_alpha05.csv", TMM_option = 1,threshold =  .05,lambda.opt =lambda_ca,alpha.opt = alpha_ca)
+ennb_no_glm_cv(X = X.ca,Y = Y.ca, fileoutput =  "sigtest_ca_tmm2_alpha05.csv", TMM_option = 2,threshold =  .05,lambda.opt =lambda_ca,alpha.opt = alpha_ca)
+ennb_no_glm_cv_no_threshold(X = X.ca,Y = Y.ca, fileoutput =  "fulltest_ca_tmm1.csv", TMM_option = 1, lambda.opt =lambda_ca,alpha.opt = alpha_ca)
+ennb_no_glm_cv_no_threshold(X = X.ca,Y = Y.ca, fileoutput =  "fulltest_ca_tmm2.csv", TMM_option = 2, lambda.opt =lambda_ca,alpha.opt = alpha_ca)
 
 Y.de <- factors %>% filter(city == "DE") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame()
 X.de <- GF %>% dplyr::select(ID, pull(Y.de, Sample_ID)) %>% as.data.frame()
@@ -69,8 +69,11 @@ Y <- Y.de
 lambda_de <- mean(read_rds("../lambdas/lambdaDE.rds"), na.rm = T)
 alpha_de <- mean(read_rds("../lambdas/alphaDE.rds"), na.rm = T)
 
-ennb_no_glm_cv(X = X.de, Y = Y.de, fileoutput =  "sigtest_de_tmm1.csv", TMM_option = 1,threshold =  .001,lambda.opt = lambda_de, alpha.opt = alpha_de)
-ennb_no_glm_cv(X = X.de, Y = Y.de, fileoutput =  "sigtest_de_tmm2.csv", TMM_option = 2,threshold =  .001,lambda.opt = lambda_de, alpha.opt = alpha_de)
+ennb_no_glm_cv(X = X.de, Y = Y.de, fileoutput =  "sigtest_de_tmm1_alpha05.csv", TMM_option = 1,threshold =  .05,lambda.opt = lambda_de, alpha.opt = alpha_de)
+ennb_no_glm_cv(X = X.de, Y = Y.de, fileoutput =  "sigtest_de_tmm2_alpha05.csv", TMM_option = 2,threshold =  .05,lambda.opt = lambda_de, alpha.opt = alpha_de)
+ennb_no_glm_cv_no_threshold(X = X.de,Y = Y.de, fileoutput =  "fulltest_de_tmm1.csv", TMM_option = 1, lambda.opt =lambda_de, alpha.opt = alpha_de)
+ennb_no_glm_cv_no_threshold(X = X.de,Y = Y.de, fileoutput =  "fulltest_de_tmm2.csv", TMM_option = 2, lambda.opt =lambda_de, alpha.opt = alpha_de)
+
 
 ca <- colSums(X.ca == 0) / dim(X.ca)[1]
 ca

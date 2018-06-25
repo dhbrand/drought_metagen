@@ -210,10 +210,8 @@ TwoStage_Package <- function(X,Y,fileoutput, TMM.option, threshold){
     mean.pop2 = apply(X.sig.pop2, 1, function(x) mean(x))
     sd.pop1 = apply(X.sig.pop1, 1, function(x) sd(x))
     sd.pop2 = apply(X.sig.pop2, 1, function(x) sd(x))
-    sig.df = data.frame(Annotation=as.character(rownames(X.sig)), 
-                        mean_group1=mean.pop1, sd_group1=sd.pop1,
-                        mean_group2=mean.pop2, sd_group2=sd.pop2,
-                        p.val=sig.mat[,"p.val"], p.adj=sig.mat[,"p.adj"], stringsAsFactors=F)
+    sig.df = data.frame(as.character(rownames(X.sig)), mean.pop1, sd.pop1, mean.pop2, sd.pop2, pvalue.mat[,"p.val"], pvalue.mat[,"p.adj"], stringsAsFactors=F)
+    colnames(sig.df) <- c("Annotation", paste0("mean_",names(npop1)),paste0("sd_",names(npop1)),paste0("mean_",names(npop2)),paste0("sd_",names(npop2)), "p.val", "p.adj")
     rownames(sig.df) = NULL
     sigsort.df = sig.df[order(sig.df$p.adj),] 
     write.csv(sigsort.df, file = fileoutput, row.names=F)

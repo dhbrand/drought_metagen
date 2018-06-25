@@ -1,7 +1,7 @@
 #################################
 ###   Two group comparison   ####
 #################################
-ennb_no_glm_cv <- function(X, Y, fileoutput, TMM_option, threshold, lambda.opt, alpha.opt){
+ennb_no_glm_cv_no_threshold <- function(X, Y, fileoutput, TMM_option,  lambda.opt, alpha.opt){
   require(glmnet)   # Elastic-net
   require(MASS)     # GLMs-NB
   require(edgeR)    # TMM normalization
@@ -39,7 +39,6 @@ ennb_no_glm_cv <- function(X, Y, fileoutput, TMM_option, threshold, lambda.opt, 
     rownames(res) = colnames(count)
     return(res)  
   }
-  threshold = threshold  # FDR to control the type I error at significance level
   alpha = seq(0.01,0.1,by=0.01)
   
   ### TMM Normalization ###
@@ -121,9 +120,7 @@ ennb_no_glm_cv <- function(X, Y, fileoutput, TMM_option, threshold, lambda.opt, 
   }
   
   # Full p-value matrix
-  # Summary of significantly differentially abundant features
-  sig.mat = pvalue.mat[pvalue.mat[,"p.adj"] < threshold,] 
-  # Significantly differentially abundant features 
+  sig.mat = pvalue.mat[,"p.adj"] 
   sig = rownames(pvalue.mat)
   ind.sig = which(colnames(X) %in% sig)
   X.sig = t(as.matrix(X[,ind.sig]))
