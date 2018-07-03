@@ -40,7 +40,7 @@ GF <- GF %>% mutate(PHYLLO39 = pmap_dbl(list(.$PHYLLO16, .$PHYLLO24, .$PHYLLO25)
 
 Y.ca <- factors %>% filter(city == "HF") %>% dplyr::select(Sample_ID, treatment) %>% as.data.frame
 X.ca <- GF %>% dplyr::select(ID,pull(Y.ca, Sample_ID)) %>% as.data.frame
-X <- X.ca;Y <- Y.ca
+X <- X.hf;Y <- Y.hf
 
 
 TMMNorm = function(X, Y, TMM.option){
@@ -85,8 +85,8 @@ if (N >= 50) nfold = 10
 
 alpha.step <- NULL
 lambda.step <- NULL
-
-for (i in 1:100) {
+tic()
+for (i in 1:50) {
     for (j in 1:length(alpha)) {
       try({
       cv = cv.glmnet(X, Y, family = "binomial", alpha = alpha[j], nfolds = nfold)
@@ -100,6 +100,8 @@ for (i in 1:100) {
   alpha.step <- c(alpha.step, alpha.opt)
   lambda.step <- c(lambda.step, lambda.opt)
 }
-
-write_rds(alpha.step, "alphaCA.rds")
-write_rds(lambda.step, "lambdaCA.rds")
+toc()
+write_rds(alpha.step, "../lambdas/alphaHF.rds")
+write_rds(lambda.step, "../lambdas/lambdaHF.rds")
+mean(alpha.step, na.rm = TRUE)
+mean(lambda.step, na.rm = TRUE)
